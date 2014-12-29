@@ -1,0 +1,604 @@
+/* FONTS */
+@font-face {
+  font-family: Ostrich-reg;
+  src: url("../font/ostrich-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Ostrich-bold;
+  src: url("../font/ostrich-bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Ostrich-black;
+  src: url("../font/ostrich-black.ttf") format("truetype");
+  font-weight: black;
+}
+
+@font-face {
+  font-family: Roboto-Lt;
+  src: url("../font/Roboto-Light.ttf") format("truetype");
+  font-weight: regular;
+}
+
+/****** COLORS  ******/
+/****** GENERAL ******/
+/* line 36, ../scss/src/partials/_base.scss */
+body {
+  position: relative;
+}
+
+/* line 37, ../scss/src/partials/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Ostrich-black;
+}
+
+/* line 38, ../scss/src/partials/_base.scss */
+p, input, label, textarea, li {
+  font-family: Roboto-Lt;
+}
+
+/* line 40, ../scss/src/partials/_base.scss */
+h1 {
+  font: 50px Ostrich-bold;
+  color: #273487;
+}
+
+/* line 45, ../scss/src/partials/_base.scss */
+.clear {
+  clear: both;
+}
+
+/* line 48, ../scss/src/partials/_base.scss */
+.full-width, .normal-width, .small-width, .smallest-width {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 53, ../scss/src/partials/_base.scss */
+.full-width {
+  width: 100%;
+}
+
+/* line 54, ../scss/src/partials/_base.scss */
+.normal-width {
+  width: 980px;
+}
+
+/* line 55, ../scss/src/partials/_base.scss */
+.small-width {
+  width: 800px;
+}
+
+/* line 56, ../scss/src/partials/_base.scss */
+.smallest-width {
+  width: 600px;
+}
+
+/* line 58, ../scss/src/partials/_base.scss */
+.opaque {
+  z-index: 0;
+  position: absolute;
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  width: 100%;
+  height: 100%;
+}
+
+/* line 68, ../scss/src/partials/_base.scss */
+.opaque-text {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+}
+
+/* line 75, ../scss/src/partials/_base.scss */
+.content-container {
+  padding: 50px 0px;
+}
+
+/****** NAVIGARION BAR ******/
+/* line 80, ../scss/src/partials/_base.scss */
+section {
+  position: relative;
+  background: url(../img/pattern/light.png);
+  background-size: 100px 60px;
+  background-repeat: repeat;
+  height: 200px;
+  padding-top: 10px;
+}
+/* line 88, ../scss/src/partials/_base.scss */
+section img#logo {
+  margin-top: 1%;
+  width: auto;
+  height: 100px;
+}
+/* line 94, ../scss/src/partials/_base.scss */
+section .navibar {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  background: white;
+  border-top: 5px solid #273487;
+  border-bottom: 5px solid #273487;
+  margin-bottom: 0px;
+}
+/* line 104, ../scss/src/partials/_base.scss */
+section .navibar li {
+  display: inline-block;
+  font-family: Ostrich-black;
+  height: 100px;
+  vertical-align: middle;
+  margin: 0px 40px;
+  font-size: 20px;
+  line-height: 45px;
+}
+/* line 113, ../scss/src/partials/_base.scss */
+section .navibar li a:hover {
+  color: #337AB7;
+  text-decoration: none;
+  border-bottom: 5px solid #808080;
+}
+/* line 118, ../scss/src/partials/_base.scss */
+section .navibar li a.active {
+  border-bottom: 5px solid #808080;
+}
+/* line 122, ../scss/src/partials/_base.scss */
+section .navibar li.round {
+  margin: 0px 10px;
+}
+/* line 124, ../scss/src/partials/_base.scss */
+section .navibar li.round a:hover {
+  border-bottom: none;
+}
+/* line 125, ../scss/src/partials/_base.scss */
+section .navibar li.round span {
+  color: #676767;
+}
+/* line 126, ../scss/src/partials/_base.scss */
+section .navibar li.round span:hover {
+  color: black;
+}
+/* line 130, ../scss/src/partials/_base.scss */
+section .nextPage {
+  position: absolute;
+  bottom: 130px;
+  left: calc(50% - 10px);
+  font-size: 70px;
+}
+
+/* line 138, ../scss/src/partials/_base.scss */
+.subnavbar {
+  z-index: -100;
+}
+/* line 142, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry {
+  top: 200px;
+  position: absolute;
+  height: 200px;
+  z-index: 1000;
+  width: 100%;
+}
+/* line 148, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry .opaque {
+  background: white;
+  opacity: 0.9;
+}
+/* line 152, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry .opaque-text {
+  padding: 0px 25px;
+}
+/* line 153, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry a {
+  z-index: 2000;
+  display: inline-block;
+}
+/* line 156, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry a .submenu {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  background: grey;
+  margin: 10px;
+}
+
+/****** FOOTER ******/
+/* line 170, ../scss/src/partials/_base.scss */
+.footer {
+  padding: 20px;
+  background: #263586;
+  color: white;
+}
+/* line 174, ../scss/src/partials/_base.scss */
+.footer h3 {
+  margin: 0px;
+}
+/* line 175, ../scss/src/partials/_base.scss */
+.footer .social {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+/* line 181, ../scss/src/partials/_base.scss */
+.footer .social a {
+  float: left;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  text-align: center;
+  margin: 5px;
+  border-radius: 30px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+/* line 195, ../scss/src/partials/_base.scss */
+.footer #fb-icon:hover {
+  color: white;
+  border: 2px solid #425E9C;
+  background: #425E9C;
+}
+/* line 201, ../scss/src/partials/_base.scss */
+.footer #instagram-icon:hover {
+  color: white;
+  border: 2px solid #2D6991;
+  background: #2D6991;
+}
+/* line 207, ../scss/src/partials/_base.scss */
+.footer #youtube-icon:hover {
+  color: white;
+  border: 2px solid #CC181E;
+  background: #CC181E;
+}
+/* line 213, ../scss/src/partials/_base.scss */
+.footer #mc_embed_signup {
+  background: none !important;
+}
+/* line 216, ../scss/src/partials/_base.scss */
+.footer #mc_embed_signup form {
+  padding: 0px;
+}
+
+/* line 224, ../scss/src/partials/_base.scss */
+.one_half {
+  width: 48%;
+}
+
+/* line 225, ../scss/src/partials/_base.scss */
+.one_third {
+  width: 30.5%;
+}
+
+/* line 226, ../scss/src/partials/_base.scss */
+.one_fourth {
+  width: 22%;
+}
+
+/* line 227, ../scss/src/partials/_base.scss */
+.one_fifth {
+  width: 16.8%;
+}
+
+/* line 228, ../scss/src/partials/_base.scss */
+.one_sixth {
+  width: 13.33%;
+}
+
+/* line 229, ../scss/src/partials/_base.scss */
+.two_fifth {
+  width: 37.6%;
+}
+
+/* line 230, ../scss/src/partials/_base.scss */
+.two_third {
+  width: 65.33%;
+}
+
+/* line 231, ../scss/src/partials/_base.scss */
+.three_fifth {
+  width: 58.4%;
+}
+
+/* line 232, ../scss/src/partials/_base.scss */
+.three_fourth {
+  width: 74%;
+}
+
+/* line 233, ../scss/src/partials/_base.scss */
+.four_fifth {
+  width: 67.2%;
+}
+
+/* line 234, ../scss/src/partials/_base.scss */
+.five_sixth {
+  width: 82.67%;
+}
+
+/* line 235, ../scss/src/partials/_base.scss */
+.one_eighth {
+  width: 11.8%;
+}
+
+/* line 248, ../scss/src/partials/_base.scss */
+.one_half,
+.one_third,
+.two_third,
+.three_fourth,
+.one_fourth,
+.one_fifth,
+.two_fifth,
+.three_fifth,
+.four_fifth,
+.one_sixth,
+.one_eighth,
+.five_sixth {
+  position: relative;
+  margin-right: 4%;
+  margin-bottom: 10px;
+  float: left;
+}
+
+/* line 254, ../scss/src/partials/_base.scss */
+.column-last {
+  margin-right: 0 !important;
+  clear: right;
+}
+
+/****** COLUMNS ******/
+/* line 261, ../scss/src/partials/_base.scss */
+.one_half-margin-20 {
+  width: calc((100% - 10px)/2);
+}
+
+/* line 262, ../scss/src/partials/_base.scss */
+.one_third-margin-20 {
+  width: calc((100% - 20px)/3);
+}
+
+/* line 263, ../scss/src/partials/_base.scss */
+.one_fourth-margin-20 {
+  width: calc((100% - 30px)/4);
+}
+
+/* line 264, ../scss/src/partials/_base.scss */
+.one_fifth-margin-20 {
+  width: calc((100% - 40px)/5);
+}
+
+/* line 265, ../scss/src/partials/_base.scss */
+.one_sixth-margin-20 {
+  width: calc((100% - 50px)/6);
+}
+
+/* line 266, ../scss/src/partials/_base.scss */
+.two_third-margin-20 {
+  width: calc((((100% - 20px)/3) * 2) + 10px);
+}
+
+/* line 267, ../scss/src/partials/_base.scss */
+.three_fourth-margin-20 {
+  width: calc((((100% - 30px)/4) * 3) + 20px);
+}
+
+/* line 268, ../scss/src/partials/_base.scss */
+.two_fifth-margin-20 {
+  width: calc((((100% - 40px)/5) * 2) + 10px);
+}
+
+/* line 269, ../scss/src/partials/_base.scss */
+.three_fifth-margin-20 {
+  width: calc((((100% - 40px)/5) * 3) + 20px);
+}
+
+/* line 270, ../scss/src/partials/_base.scss */
+.four_fifth-margin-20 {
+  width: calc((((100% - 40px)/5) * 4) + 30px);
+}
+
+/* line 281, ../scss/src/partials/_base.scss */
+.one_half-margin-20,
+.one_third-margin-20,
+.one_fourth-margin-20,
+.one_sixth-margin-20,
+.one_fifth-margin-20,
+.three_fourth-margin-20,
+.two_third-margin-20,
+.two_fifth-margin-20,
+.three_fifth-margin-20,
+.four_fifth-margin-20 {
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+/* line 288, ../scss/src/partials/_base.scss */
+.one_half-margin-10 {
+  width: calc((100% - 5px)/2);
+}
+
+/* line 289, ../scss/src/partials/_base.scss */
+.one_fifth-margin-10 {
+  width: calc((100% - 20px)/5);
+}
+
+/* line 292, ../scss/src/partials/_base.scss */
+.one_half-margin-10,
+.one_fifth-margin-10 {
+  position: relative;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+/* line 298, ../scss/src/partials/_base.scss */
+.one_half-no-margin {
+  width: calc(100%/2);
+}
+
+/* line 299, ../scss/src/partials/_base.scss */
+.one_fifth-no-margin {
+  width: calc(100%/5);
+}
+
+/* line 302, ../scss/src/partials/_base.scss */
+.one_half-no-margin,
+.one_fifth-no-margin {
+  position: relative;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+/****** FORMS ******/
+/* line 311, ../scss/src/partials/_base.scss */
+input, textarea {
+  padding: 10px;
+  color: black;
+  background: #dcdcdc;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+/* line 3, ../scss/src/committee.scss */
+.committee-content {
+  padding: 50px 0px;
+}
+
+/* line 7, ../scss/src/committee.scss */
+.committee-content h1 {
+  font: 50px Ostrich-bold;
+  color: #273487;
+}
+
+/* line 13, ../scss/src/committee.scss */
+ul.div-selector {
+  list-style-type: none;
+  padding: 0px;
+  border-bottom: 3px solid #b9e5f9;
+  margin-bottom: 70px;
+}
+/* line 19, ../scss/src/committee.scss */
+ul.div-selector li {
+  margin: 0px 20px;
+  display: inline-block;
+}
+/* line 24, ../scss/src/committee.scss */
+ul.div-selector a {
+  font: 20px Ostrich-black;
+  display: block;
+  cursor: pointer;
+}
+/* line 29, ../scss/src/committee.scss */
+ul.div-selector a.active, ul.div-selector a:hover {
+  border-bottom: 3px solid #273487;
+}
+
+/* line 34, ../scss/src/committee.scss */
+.team-container .one_fifth-margin-20,
+.team-container .one_fifth-no-margin {
+  height: 188px;
+}
+/* line 37, ../scss/src/committee.scss */
+.team-container .one_fifth-margin-20 img,
+.team-container .one_fifth-no-margin img {
+  width: 100%;
+  height: 100%;
+}
+/* line 42, ../scss/src/committee.scss */
+.team-container .one_fifth-margin-20 .back,
+.team-container .one_fifth-no-margin .back {
+  text-align: left;
+  background: #b9e5f9;
+  padding: 10px;
+}
+/* line 46, ../scss/src/committee.scss */
+.team-container .one_fifth-margin-20 .back h4,
+.team-container .one_fifth-no-margin .back h4 {
+  font-size: 25px;
+}
+/* line 47, ../scss/src/committee.scss */
+.team-container .one_fifth-margin-20 .back p,
+.team-container .one_fifth-no-margin .back p {
+  margin: 0px;
+}
+
+/* FLIPPING ANIMATION */
+/* line 54, ../scss/src/committee.scss */
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+}
+
+/* line 61, ../scss/src/committee.scss */
+.flipper, .front, .back {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 66, ../scss/src/committee.scss */
+.flipper {
+  -moz-transform: perspective(1000px);
+  -moz-transform-style: preserve-3d;
+  position: relative;
+}
+
+/* line 73, ../scss/src/committee.scss */
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: 0.3s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 0.3s;
+  -moz-transform-style: preserve-3d;
+  -o-transition: 0.3s;
+  -o-transform-style: preserve-3d;
+  -ms-transition: 0.3s;
+  -ms-transform-style: preserve-3d;
+  transition: 0.3s;
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 100, ../scss/src/committee.scss */
+.back {
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+/* line 108, ../scss/src/committee.scss */
+.flip-container:hover .back, .flip-container.hover .back {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
+/* line 116, ../scss/src/committee.scss */
+.flip-container:hover .front, .flip-container.hover .front {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+/* line 124, ../scss/src/committee.scss */
+.front {
+  z-index: 2;
+}

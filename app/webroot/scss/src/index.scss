@@ -1,0 +1,38 @@
+@import "partials/base";
+
+
+section.uncomp {
+	padding-top: 5%;
+	height: 700px;
+}
+.navibar.uncomp { height: 100px; }
+.navibar li.uncomp {
+	margin: 0px 20px;
+	font-size: 40px;
+	line-height: 100px;
+}
+img#logo.uncomp  {
+	width: 600px;
+	height: auto;
+}
+#featured {
+	height: 500px;
+	z-index: 0;
+	overflow: hidden;
+}
+
+
+.when-where {
+	height: 250px;
+	padding: 20px;
+	background: url(../img/pattern/light.png);
+	background-size: 100px 60px;
+	background-repeat: repeat;
+	color: #5c5c5c;
+
+	.ion-ios-location { font-size: 210px; color: #263586; }
+}
+
+.sponsors {
+	//height: 300px;
+}

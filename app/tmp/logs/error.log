@@ -1,0 +1,2285 @@
+2014-12-27 05:21:51 Error: [MissingControllerException] Controller class MemosController could not be found.
+Exception Attributes: array (
+  'class' => 'MemosController',
+  'plugin' => NULL,
+)
+Request URL: /memos
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:26:04 Error: [MissingViewException] View file "Pages/home/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/home/index.ctp',
+)
+Request URL: /index
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('home/index')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('home/index', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('home/index')
+#3 [internal function]: PagesController->display('home', 'index')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 05:26:51 Error: [MissingViewException] View file "Pages/home/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/home/index.ctp',
+)
+Request URL: /index
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('home/index')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('home/index', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('home/index')
+#3 [internal function]: PagesController->display('home', 'index')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 05:26:52 Error: [MissingViewException] View file "Pages/home/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/home/index.ctp',
+)
+Request URL: /index
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('home/index')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('home/index', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('home/index')
+#3 [internal function]: PagesController->display('home', 'index')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 05:27:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:27:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:27:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:29:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:29:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:30:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:30:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:30:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:30:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:34:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:34:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:34:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pattern-light.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:34:07 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/ostrich-black.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:34:07 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/Roboto-Light.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:34:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:34:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pattern-light.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:34:53 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/Roboto-Light.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:34:53 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/ostrich-black.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:34:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:34:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pattern-light.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:34:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/Roboto-Light.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:34:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/fonts/ostrich-black.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:35:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:35:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pattern-light.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:35:01 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/ostrich-black.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:35:01 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/Roboto-Light.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:35:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:35:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:35:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pattern-light.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:35:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/ostrich-black.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:35:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/Roboto-Light.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:35:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:35:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:35:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:36:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:36:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:38:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:38:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:38:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:39:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pattern-light.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:39:40 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/ostrich-black.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:39:40 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/Roboto-Light.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:39:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pattern-light.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:39:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/img/pattern/light.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:39:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/Roboto-Light.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:39:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/ostrich-black.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:39:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pattern-light.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:39:48 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/Roboto-Light.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:39:48 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/ostrich-black.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:40:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pattern-light.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:40:13 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /font/Roboto-Light.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:40:13 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /font/ostrich-black.ttf
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:41:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pattern-light.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 05:49:04 Error: [MissingActionException] Action PagesController::committee() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'committee',
+)
+Request URL: /committee
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-27 06:59:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/committee.css
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 07:49:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 10:11:23 Error: [MissingActionException] Action PagesController::classes() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'classes',
+)
+Request URL: /classes
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-27 10:11:23 Error: [MissingActionException] Action PagesController::contactus() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'contactus',
+)
+Request URL: /contactus
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-27 10:14:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/logo.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 11:11:34 Error: [MissingViewException] View file "Pages/committee.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/committee.ctp',
+)
+Request URL: /committee
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-27 11:11:44 Error: [MissingViewException] View file "Pages/about.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about.ctp',
+)
+Request URL: /about
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-27 11:11:54 Error: [MissingControllerException] Controller class AboutController could not be found.
+Exception Attributes: array (
+  'class' => 'AboutController',
+  'plugin' => NULL,
+)
+Request URL: /about/committee/executive
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 11:11:54 Error: [MissingControllerException] Controller class AboutController could not be found.
+Exception Attributes: array (
+  'class' => 'AboutController',
+  'plugin' => NULL,
+)
+Request URL: /about/committee/img/logo/icare.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 11:12:48 Error: [MissingControllerException] Controller class AboutController could not be found.
+Exception Attributes: array (
+  'class' => 'AboutController',
+  'plugin' => NULL,
+)
+Request URL: /about/committee/executive
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 11:12:49 Error: [MissingControllerException] Controller class AboutController could not be found.
+Exception Attributes: array (
+  'class' => 'AboutController',
+  'plugin' => NULL,
+)
+Request URL: /about/committee/img/logo/icare.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 11:13:06 Error: [MissingActionException] Action PagesController::about() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'about',
+)
+Request URL: /about
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-27 11:14:02 Error: [MissingControllerException] Controller class AboutController could not be found.
+Exception Attributes: array (
+  'class' => 'AboutController',
+  'plugin' => NULL,
+)
+Request URL: /about/index
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 11:14:02 Error: [MissingControllerException] Controller class AboutController could not be found.
+Exception Attributes: array (
+  'class' => 'AboutController',
+  'plugin' => NULL,
+)
+Request URL: /about/img/logo/icare.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-27 11:14:45 Error: [MissingViewException] View file "Pages/about/img/logo/icare.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/img/logo/icare.png.ctp',
+)
+Request URL: /about/img/logo/icare.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/img/logo/...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/img/logo/...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/img/logo/...')
+#3 [internal function]: PagesController->display('about', 'img', 'logo', 'icare.png')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 11:15:30 Error: [MissingViewException] View file "Pages/committee.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/committee.ctp',
+)
+Request URL: /committee
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('committee')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('committee', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('committee')
+#3 [internal function]: PagesController->display('committee')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 11:15:53 Error: [MissingViewException] View file "Pages/committee.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/committee.ctp',
+)
+Request URL: /committee
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('committee')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('committee', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('committee')
+#3 [internal function]: PagesController->display('committee')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 11:28:09 Error: [MissingViewException] View file "Pages/img/team/exec/Cindy.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Cindy.jpg.ctp',
+)
+Request URL: /img/team/exec/Cindy.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/C...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/C...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/C...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Cindy.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 11:28:09 Error: [MissingViewException] View file "Pages/img/team/exec/Sally.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Sally.jpg.ctp',
+)
+Request URL: /img/team/exec/Sally.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/S...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/S...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/S...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Sally.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 11:28:09 Error: [MissingViewException] View file "Pages/img/team/exec/Icha.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Icha.jpg.ctp',
+)
+Request URL: /img/team/exec/Icha.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/I...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/I...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/I...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Icha.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 11:28:09 Error: [MissingViewException] View file "Pages/img/team/exec/Dea.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Dea.jpg.ctp',
+)
+Request URL: /img/team/exec/Dea.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/D...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/D...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/D...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Dea.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 11:28:09 Error: [MissingViewException] View file "Pages/img/team/exec/Pasha.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Pasha.jpg.ctp',
+)
+Request URL: /img/team/exec/Pasha.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/P...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/P...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/P...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Pasha.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:16:23 Error: [MissingViewException] View file "Pages/about/committee/sponsorship.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/committee/sponsorship.ctp',
+)
+Request URL: /about/committee/sponsorship
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/committee...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/committee...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/committee...')
+#3 [internal function]: PagesController->display('about', 'committee', 'sponsorship')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:26:31 Error: [MissingViewException] View file "Pages/about/committee/equipment.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/committee/equipment.ctp',
+)
+Request URL: /about/committee/equipment
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/committee...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/committee...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/committee...')
+#3 [internal function]: PagesController->display('about', 'committee', 'equipment')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:41:25 Error: [MissingViewException] View file "Pages/img/team/program/elbert.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/program/elbert.jpg.ctp',
+)
+Request URL: /img/team/program/elbert.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/progra...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/progra...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/progra...')
+#3 [internal function]: PagesController->display('img', 'team', 'program', 'elbert.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:41:25 Error: [MissingViewException] View file "Pages/img/team/program/adrian.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/program/adrian.jpg.ctp',
+)
+Request URL: /img/team/program/adrian.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/progra...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/progra...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/progra...')
+#3 [internal function]: PagesController->display('img', 'team', 'program', 'adrian.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:41:25 Error: [MissingViewException] View file "Pages/img/team/program/christina.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/program/christina.jpg.ctp',
+)
+Request URL: /img/team/program/christina.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/progra...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/progra...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/progra...')
+#3 [internal function]: PagesController->display('img', 'team', 'program', 'christina.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:41:25 Error: [MissingViewException] View file "Pages/img/team/program/maria.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/program/maria.jpg.ctp',
+)
+Request URL: /img/team/program/maria.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/progra...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/progra...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/progra...')
+#3 [internal function]: PagesController->display('img', 'team', 'program', 'maria.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:41:25 Error: [MissingViewException] View file "Pages/img/team/program/marisa.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/program/marisa.jpg.ctp',
+)
+Request URL: /img/team/program/marisa.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/progra...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/progra...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/progra...')
+#3 [internal function]: PagesController->display('img', 'team', 'program', 'marisa.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:41:25 Error: [MissingViewException] View file "Pages/img/team/program/felicia.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/program/felicia.jpg.ctp',
+)
+Request URL: /img/team/program/felicia.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/progra...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/progra...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/progra...')
+#3 [internal function]: PagesController->display('img', 'team', 'program', 'felicia.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:41:25 Error: [MissingViewException] View file "Pages/img/team/program/raissa.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/program/raissa.jpg.ctp',
+)
+Request URL: /img/team/program/raissa.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/progra...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/progra...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/progra...')
+#3 [internal function]: PagesController->display('img', 'team', 'program', 'raissa.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:41:25 Error: [MissingViewException] View file "Pages/img/team/program/regina.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/program/regina.jpg.ctp',
+)
+Request URL: /img/team/program/regina.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/progra...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/progra...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/progra...')
+#3 [internal function]: PagesController->display('img', 'team', 'program', 'regina.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:41:37 Error: [MissingViewException] View file "Pages/img/team/marketing/adrian.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/marketing/adrian.jpg.ctp',
+)
+Request URL: /img/team/marketing/adrian.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/market...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/market...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/market...')
+#3 [internal function]: PagesController->display('img', 'team', 'marketing', 'adrian.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:31 Error: [MissingViewException] View file "Pages/img/team/exec/Cindy H.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Cindy H.jpg.ctp',
+)
+Request URL: /img/team/exec/Cindy%20H.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/C...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/C...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/C...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Cindy H.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:31 Error: [MissingViewException] View file "Pages/img/team/exec/Claudia.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Claudia.jpg.ctp',
+)
+Request URL: /img/team/exec/Claudia.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/C...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/C...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/C...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Claudia.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:31 Error: [MissingViewException] View file "Pages/img/team/exec/Evelyn.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Evelyn.jpg.ctp',
+)
+Request URL: /img/team/exec/Evelyn.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/E...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/E...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/E...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Evelyn.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:31 Error: [MissingViewException] View file "Pages/img/team/exec/Emily.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Emily.jpg.ctp',
+)
+Request URL: /img/team/exec/Emily.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/E...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/E...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/E...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Emily.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:31 Error: [MissingViewException] View file "Pages/img/team/exec/Elisya.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Elisya.jpg.ctp',
+)
+Request URL: /img/team/exec/Elisya.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/E...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/E...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/E...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Elisya.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:31 Error: [MissingViewException] View file "Pages/img/team/exec/Ellen.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Ellen.jpg.ctp',
+)
+Request URL: /img/team/exec/Ellen.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/E...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/E...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/E...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Ellen.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:31 Error: [MissingViewException] View file "Pages/img/team/exec/Irene.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Irene.jpg.ctp',
+)
+Request URL: /img/team/exec/Irene.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/I...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/I...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/I...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Irene.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:31 Error: [MissingViewException] View file "Pages/img/team/exec/Jesslyn W.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Jesslyn W.jpg.ctp',
+)
+Request URL: /img/team/exec/Jesslyn%20W.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/J...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/J...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/J...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Jesslyn W.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:31 Error: [MissingViewException] View file "Pages/img/team/exec/Fredricia.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Fredricia.jpg.ctp',
+)
+Request URL: /img/team/exec/Fredricia.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/F...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/F...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/F...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Fredricia.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:31 Error: [MissingViewException] View file "Pages/img/team/exec/Krishna.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Krishna.jpg.ctp',
+)
+Request URL: /img/team/exec/Krishna.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/K...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/K...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/K...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Krishna.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:31 Error: [MissingViewException] View file "Pages/img/team/exec/Melissa.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Melissa.jpg.ctp',
+)
+Request URL: /img/team/exec/Melissa.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/M...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/M...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/M...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Melissa.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:31 Error: [MissingViewException] View file "Pages/img/team/exec/Meuthia.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Meuthia.jpg.ctp',
+)
+Request URL: /img/team/exec/Meuthia.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/M...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/M...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/M...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Meuthia.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:31 Error: [MissingViewException] View file "Pages/img/team/exec/Vega.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Vega.jpg.ctp',
+)
+Request URL: /img/team/exec/Vega.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/V...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/V...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/V...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Vega.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:31 Error: [MissingViewException] View file "Pages/img/team/exec/Kevin.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Kevin.jpg.ctp',
+)
+Request URL: /img/team/exec/Kevin.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/K...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/K...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/K...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Kevin.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:31 Error: [MissingViewException] View file "Pages/img/team/exec/Gaby.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Gaby.jpg.ctp',
+)
+Request URL: /img/team/exec/Gaby.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/G...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/G...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/G...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Gaby.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:31 Error: [MissingViewException] View file "Pages/img/team/exec/Meta.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Meta.jpg.ctp',
+)
+Request URL: /img/team/exec/Meta.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/M...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/M...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/M...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Meta.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:32 Error: [MissingViewException] View file "Pages/img/team/exec/Lia.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Lia.jpg.ctp',
+)
+Request URL: /img/team/exec/Lia.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/L...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/L...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/L...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Lia.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:32 Error: [MissingViewException] View file "Pages/img/team/exec/Victor.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Victor.jpg.ctp',
+)
+Request URL: /img/team/exec/Victor.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/V...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/V...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/V...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Victor.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:32 Error: [MissingViewException] View file "Pages/img/team/exec/Jesslyn G.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Jesslyn G.jpg.ctp',
+)
+Request URL: /img/team/exec/Jesslyn%20G.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/J...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/J...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/J...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Jesslyn G.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:50:32 Error: [MissingViewException] View file "Pages/img/team/exec/Stefanny.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Stefanny.jpg.ctp',
+)
+Request URL: /img/team/exec/Stefanny.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/S...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/S...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/S...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Stefanny.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:46 Error: [MissingViewException] View file "Pages/img/team/exec/Cindy H.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Cindy H.jpg.ctp',
+)
+Request URL: /img/team/exec/Cindy%20H.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/C...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/C...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/C...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Cindy H.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:46 Error: [MissingViewException] View file "Pages/img/team/exec/Elisya.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Elisya.jpg.ctp',
+)
+Request URL: /img/team/exec/Elisya.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/E...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/E...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/E...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Elisya.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:46 Error: [MissingViewException] View file "Pages/img/team/exec/Claudia.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Claudia.jpg.ctp',
+)
+Request URL: /img/team/exec/Claudia.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/C...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/C...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/C...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Claudia.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:46 Error: [MissingViewException] View file "Pages/img/team/exec/Evelyn.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Evelyn.jpg.ctp',
+)
+Request URL: /img/team/exec/Evelyn.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/E...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/E...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/E...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Evelyn.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:46 Error: [MissingViewException] View file "Pages/img/team/exec/Emily.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Emily.jpg.ctp',
+)
+Request URL: /img/team/exec/Emily.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/E...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/E...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/E...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Emily.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:46 Error: [MissingViewException] View file "Pages/img/team/exec/Ellen.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Ellen.jpg.ctp',
+)
+Request URL: /img/team/exec/Ellen.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/E...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/E...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/E...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Ellen.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:46 Error: [MissingViewException] View file "Pages/img/team/exec/Jesslyn W.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Jesslyn W.jpg.ctp',
+)
+Request URL: /img/team/exec/Jesslyn%20W.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/J...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/J...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/J...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Jesslyn W.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:46 Error: [MissingViewException] View file "Pages/img/team/exec/Irene.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Irene.jpg.ctp',
+)
+Request URL: /img/team/exec/Irene.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/I...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/I...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/I...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Irene.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:46 Error: [MissingViewException] View file "Pages/img/team/exec/Fredricia.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Fredricia.jpg.ctp',
+)
+Request URL: /img/team/exec/Fredricia.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/F...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/F...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/F...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Fredricia.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:46 Error: [MissingViewException] View file "Pages/img/team/exec/Krishna.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Krishna.jpg.ctp',
+)
+Request URL: /img/team/exec/Krishna.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/K...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/K...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/K...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Krishna.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:46 Error: [MissingViewException] View file "Pages/img/team/exec/Melissa.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Melissa.jpg.ctp',
+)
+Request URL: /img/team/exec/Melissa.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/M...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/M...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/M...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Melissa.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:46 Error: [MissingViewException] View file "Pages/img/team/exec/Meuthia.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Meuthia.jpg.ctp',
+)
+Request URL: /img/team/exec/Meuthia.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/M...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/M...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/M...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Meuthia.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:46 Error: [MissingViewException] View file "Pages/img/team/exec/Vega.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Vega.jpg.ctp',
+)
+Request URL: /img/team/exec/Vega.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/V...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/V...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/V...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Vega.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:46 Error: [MissingViewException] View file "Pages/img/team/exec/Jesslyn G.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Jesslyn G.jpg.ctp',
+)
+Request URL: /img/team/exec/Jesslyn%20G.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/J...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/J...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/J...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Jesslyn G.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:46 Error: [MissingViewException] View file "Pages/img/team/exec/Lia.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Lia.jpg.ctp',
+)
+Request URL: /img/team/exec/Lia.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/L...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/L...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/L...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Lia.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:46 Error: [MissingViewException] View file "Pages/img/team/exec/Stefanny.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Stefanny.jpg.ctp',
+)
+Request URL: /img/team/exec/Stefanny.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/S...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/S...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/S...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Stefanny.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:47 Error: [MissingViewException] View file "Pages/img/team/exec/Gaby.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Gaby.jpg.ctp',
+)
+Request URL: /img/team/exec/Gaby.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/G...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/G...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/G...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Gaby.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:47 Error: [MissingViewException] View file "Pages/img/team/exec/Kevin.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Kevin.jpg.ctp',
+)
+Request URL: /img/team/exec/Kevin.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/K...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/K...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/K...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Kevin.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:47 Error: [MissingViewException] View file "Pages/img/team/exec/Victor.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Victor.jpg.ctp',
+)
+Request URL: /img/team/exec/Victor.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/V...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/V...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/V...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Victor.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 14:51:47 Error: [MissingViewException] View file "Pages/img/team/exec/Meta.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/exec/Meta.jpg.ctp',
+)
+Request URL: /img/team/exec/Meta.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/exec/M...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/exec/M...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/exec/M...')
+#3 [internal function]: PagesController->display('img', 'team', 'exec', 'Meta.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:44:44 Error: [MissingViewException] View file "Pages/img/team/logistic/Jessica.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/logistic/Jessica.jpg.ctp',
+)
+Request URL: /img/team/logistic/Jessica.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/logist...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/logist...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/logist...')
+#3 [internal function]: PagesController->display('img', 'team', 'logistic', 'Jessica.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:44:44 Error: [MissingViewException] View file "Pages/img/team/logistic/Henry.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/logistic/Henry.jpg.ctp',
+)
+Request URL: /img/team/logistic/Henry.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/logist...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/logist...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/logist...')
+#3 [internal function]: PagesController->display('img', 'team', 'logistic', 'Henry.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:44:44 Error: [MissingViewException] View file "Pages/img/team/logistic/Yoseph.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/logistic/Yoseph.jpg.ctp',
+)
+Request URL: /img/team/logistic/Yoseph.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/logist...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/logist...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/logist...')
+#3 [internal function]: PagesController->display('img', 'team', 'logistic', 'Yoseph.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:44:44 Error: [MissingViewException] View file "Pages/img/team/logistic/Reissa.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/logistic/Reissa.jpg.ctp',
+)
+Request URL: /img/team/logistic/Reissa.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/logist...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/logist...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/logist...')
+#3 [internal function]: PagesController->display('img', 'team', 'logistic', 'Reissa.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:44:44 Error: [MissingViewException] View file "Pages/img/team/logistic/Filbert.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/logistic/Filbert.jpg.ctp',
+)
+Request URL: /img/team/logistic/Filbert.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/logist...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/logist...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/logist...')
+#3 [internal function]: PagesController->display('img', 'team', 'logistic', 'Filbert.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:46:44 Error: [MissingViewException] View file "Pages/img/team/logistic/Jessica.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/logistic/Jessica.jpg.ctp',
+)
+Request URL: /img/team/logistic/Jessica.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/logist...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/logist...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/logist...')
+#3 [internal function]: PagesController->display('img', 'team', 'logistic', 'Jessica.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:46:44 Error: [MissingViewException] View file "Pages/img/team/logistic/Filbert.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/logistic/Filbert.jpg.ctp',
+)
+Request URL: /img/team/logistic/Filbert.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/logist...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/logist...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/logist...')
+#3 [internal function]: PagesController->display('img', 'team', 'logistic', 'Filbert.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:46:44 Error: [MissingViewException] View file "Pages/img/team/logistic/Reissa.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/logistic/Reissa.jpg.ctp',
+)
+Request URL: /img/team/logistic/Reissa.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/logist...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/logist...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/logist...')
+#3 [internal function]: PagesController->display('img', 'team', 'logistic', 'Reissa.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:46:44 Error: [MissingViewException] View file "Pages/img/team/logistic/Henry.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/logistic/Henry.jpg.ctp',
+)
+Request URL: /img/team/logistic/Henry.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/logist...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/logist...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/logist...')
+#3 [internal function]: PagesController->display('img', 'team', 'logistic', 'Henry.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:46:44 Error: [MissingViewException] View file "Pages/img/team/logistic/Yoseph.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/logistic/Yoseph.jpg.ctp',
+)
+Request URL: /img/team/logistic/Yoseph.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/logist...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/logist...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/logist...')
+#3 [internal function]: PagesController->display('img', 'team', 'logistic', 'Yoseph.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:48:28 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Audy.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Audy.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Audy.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Audy.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:48:28 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Brigitta.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Brigitta.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Brigitta.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Brigitta.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:48:28 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Aditya.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Aditya.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Aditya.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Aditya.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:48:28 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Isabel.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Isabel.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Isabel.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Isabel.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:48:28 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Jansen.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Jansen.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Jansen.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Jansen.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:48:28 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Cheryl.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Cheryl.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Cheryl.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Cheryl.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:48:28 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Nadia.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Nadia.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Nadia.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Nadia.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:48:28 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Yonathan.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Yonathan.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Yonathan.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Yonathan.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:49:16 Error: [MissingViewException] View file "Pages/img/team/logistic/Jessica.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/logistic/Jessica.jpg.ctp',
+)
+Request URL: /img/team/logistic/Jessica.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/logist...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/logist...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/logist...')
+#3 [internal function]: PagesController->display('img', 'team', 'logistic', 'Jessica.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:49:16 Error: [MissingViewException] View file "Pages/img/team/logistic/Henry.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/logistic/Henry.jpg.ctp',
+)
+Request URL: /img/team/logistic/Henry.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/logist...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/logist...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/logist...')
+#3 [internal function]: PagesController->display('img', 'team', 'logistic', 'Henry.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:49:16 Error: [MissingViewException] View file "Pages/img/team/logistic/Reissa.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/logistic/Reissa.jpg.ctp',
+)
+Request URL: /img/team/logistic/Reissa.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/logist...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/logist...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/logist...')
+#3 [internal function]: PagesController->display('img', 'team', 'logistic', 'Reissa.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:49:16 Error: [MissingViewException] View file "Pages/img/team/logistic/Yoseph.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/logistic/Yoseph.jpg.ctp',
+)
+Request URL: /img/team/logistic/Yoseph.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/logist...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/logist...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/logist...')
+#3 [internal function]: PagesController->display('img', 'team', 'logistic', 'Yoseph.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:49:16 Error: [MissingViewException] View file "Pages/img/team/logistic/Filbert.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/logistic/Filbert.jpg.ctp',
+)
+Request URL: /img/team/logistic/Filbert.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/logist...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/logist...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/logist...')
+#3 [internal function]: PagesController->display('img', 'team', 'logistic', 'Filbert.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:49:21 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Audy.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Audy.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Audy.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Audy.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:49:21 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Aditya.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Aditya.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Aditya.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Aditya.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:49:21 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Isabel.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Isabel.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Isabel.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Isabel.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:49:21 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Brigitta.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Brigitta.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Brigitta.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Brigitta.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:49:21 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Jansen.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Jansen.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Jansen.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Jansen.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:49:21 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Cheryl.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Cheryl.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Cheryl.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Cheryl.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:49:21 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Nadia.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Nadia.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Nadia.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Nadia.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:49:21 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Yonathan.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Yonathan.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Yonathan.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Yonathan.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:56:40 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Aditya.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Aditya.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Aditya.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Aditya.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:56:40 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Cheryl.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Cheryl.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Cheryl.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Cheryl.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:56:40 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Audy.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Audy.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Audy.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Audy.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:56:40 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Brigitta.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Brigitta.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Brigitta.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Brigitta.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:56:40 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Isabel.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Isabel.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Isabel.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Isabel.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:56:40 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Jansen.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Jansen.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Jansen.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Jansen.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:56:40 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Nadia.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Nadia.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Nadia.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Nadia.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 15:56:40 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Yonathan.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Yonathan.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Yonathan.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Yonathan.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 16:20:36 Error: [MissingViewException] View file "Pages/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/media.ctp',
+)
+Request URL: /media
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('media')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('media', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('media')
+#3 [internal function]: PagesController->display('media')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-27 16:21:41 Error: [MissingViewException] View file "Pages/about/ppia.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/ppia.ctp',
+)
+Request URL: /about/ppia
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/ppia')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/ppia', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/ppia')
+#3 [internal function]: PagesController->display('about', 'ppia')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-28 03:36:20 Error: [MissingViewException] View file "Pages/img/team/sponsorship/Brigitta.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/team/sponsorship/Brigitta.jpg.ctp',
+)
+Request URL: /img/team/sponsorship/Brigitta.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('img/team/sponso...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('img/team/sponso...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('img/team/sponso...')
+#3 [internal function]: PagesController->display('img', 'team', 'sponsorship', 'Brigitta.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-29 02:54:30 Error: [MissingViewException] View file "Pages/about/img/pattern/light.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/img/pattern/light.ctp',
+)
+Request URL: /about/img/pattern/light
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/img/patte...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/img/patte...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/img/patte...')
+#3 [internal function]: PagesController->display('about', 'img', 'pattern', 'light')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-29 02:54:36 Error: [MissingViewException] View file "Pages/about/img/pattern/light.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/img/pattern/light.jpg.ctp',
+)
+Request URL: /about/img/pattern/light.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/img/patte...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/img/patte...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/img/patte...')
+#3 [internal function]: PagesController->display('about', 'img', 'pattern', 'light.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-29 02:54:47 Error: [MissingViewException] View file "Pages/about/img/pattern/light.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/img/pattern/light.jpg.ctp',
+)
+Request URL: /about/img/pattern/light.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/img/patte...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/img/patte...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/img/patte...')
+#3 [internal function]: PagesController->display('about', 'img', 'pattern', 'light.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-29 02:54:49 Error: [MissingViewException] View file "Pages/about/img/pattern/light.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/img/pattern/light.jpg.ctp',
+)
+Request URL: /about/img/pattern/light.jpg
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/img/patte...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/img/patte...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/img/patte...')
+#3 [internal function]: PagesController->display('about', 'img', 'pattern', 'light.jpg')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-29 02:54:55 Error: [MissingViewException] View file "Pages/about/img/pattern/light.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/img/pattern/light.png.ctp',
+)
+Request URL: /about/img/pattern/light.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/img/patte...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/img/patte...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/img/patte...')
+#3 [internal function]: PagesController->display('about', 'img', 'pattern', 'light.png')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-29 02:54:57 Error: [MissingViewException] View file "Pages/about/img/pattern/light.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/img/pattern/light.png.ctp',
+)
+Request URL: /about/img/pattern/light.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/img/patte...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/img/patte...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/img/patte...')
+#3 [internal function]: PagesController->display('about', 'img', 'pattern', 'light.png')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
