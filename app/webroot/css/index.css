@@ -496,8 +496,12 @@ img#logo.uncomp {
   z-index: 0;
   overflow: hidden;
 }
+/* line 23, ../scss/src/index.scss */
+#featured img {
+  width: 100%;
+}
 
-/* line 25, ../scss/src/index.scss */
+/* line 27, ../scss/src/index.scss */
 .when-where {
   height: 250px;
   padding: 20px;
@@ -506,7 +510,7 @@ img#logo.uncomp {
   background-repeat: repeat;
   color: #5c5c5c;
 }
-/* line 33, ../scss/src/index.scss */
+/* line 35, ../scss/src/index.scss */
 .when-where .ion-ios-location {
   font-size: 210px;
   color: #263586;
