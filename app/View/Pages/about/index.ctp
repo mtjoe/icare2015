@@ -21,8 +21,8 @@
 <div class="clear"></div>
 
 <div class="mission normal-width">
-	<div style="height: 400px; width: 100%; margin-bottom: 30px; background: url(/img/index-2.jpg); background-size: cover;"></div>
-	<div class="small-width" style="margin-top: -180px; background: white; padding: 30px;">
+	<div style="height: 500px; width: 100%; margin-bottom: 30px; background: url(/img/team/all.jpg); background-size: cover;"></div>
+	<div class="small-width" style="margin-top: -100px; background: white; padding: 30px;">
 		<h2 style="text-align: center;">Our Missions</h2>
 		<ol>
 			<li>To create awareness for Indonesian students of the importance of their role in the development of Indonesia.</li>
@@ -54,6 +54,15 @@
 			<p hidden>Emerge: Reaching for sustainability, as Indonesian students will contribute in a development of their country by pursuing a career in Indonesia.</p>
 		</div>
 	</div>
+</div>
+
+<div class="small-width" style="padding: 30px 0px;" align="center">
+	<h2>Find out more about us!</h2>
+	<br>
+	<a class="one_third" href="/about/ppia">Melbourne University Indonesian Student Association (MUISA) ></a>
+	<a class="one_third" href="/about/committee">The Committe ></a>
+	<a class="one_third column-last" href="/about/recap2014">Recap of Indonesian Career Expo 2014 ></a>
+	<div class="clear"></div>
 </div>
 
 

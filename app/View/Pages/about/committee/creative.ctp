@@ -25,7 +25,7 @@
 					<img src="/img/team/creative/Dea.jpg">
 				</div>
 				<div class="back">
-					<h4>Carissa Dea</h4>
+					<h4>Carissa Dea Chandra Putri</h4>
 					<p>Coordinator</p>
 					<p>Bachelor of Fine Arts</p>
 				</div>
@@ -39,7 +39,7 @@
 				</div>
 				<div class="back">
 					<h4>Venansia Frisca Natasya</h4>
-					<p>Vice Coordinator</p>
+					<p>Staff</p>
 					<p>Bachelor of Architecture</p>
 				</div>
 			</div>

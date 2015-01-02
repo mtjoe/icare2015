@@ -9,13 +9,29 @@
   	<ol class="carousel-indicators">
     	<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     	<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    	<li data-target="#carousel-example-generic" data-slide-to="2"></li>
   	</ol>
 
   	<!-- Wrapper for slides -->
   	<div class="carousel-inner" role="listbox">
-    	<div class="item active"><img src="/img/index-1.jpg" alt="Melbourne"></div>
-	    <div class="item"><img src="/img/index-2.jpg" alt="corp"></div>
+    	<div class="item active">
+    		<img src="/img/index-1.jpg" alt="Melbourne" style="margin-top: -130px;">
+    		<a class="carousel-caption" style="top: 0px; left: 600px; width: 500px; height: 100px; color: #273487 !important;" href="/about/recap2014">
+	    		<div class="opaque" style="background: white; opacity: 0.5;"></div>
+	    		<div class="opaque-text" style="padding: 10px;">
+	    			<h2 style="font-size: 50px;">Recap ICarE 2014</h2>
+		    	</div>
+			</a>
+    	</div>
+	    <div class="item">
+	    	<img src="/img/team/all.jpg" alt="corp" style="margin-top: -130px;" href="/about/committee">
+	    	<a class="carousel-caption" style="bottom: -100px; width: 400px; left: 200px; height: 300px; color: #273487 !important;" href="/about/committee" >
+	    		<div class="opaque" style="background: white; opacity: 0.6;"></div>
+	    		<div class="opaque-text" style="padding: 10px;">
+	    			<h2 style="border-bottom: 2px solid #273487; font-size: 30px;">Introducing</h2>
+	    			<h2 style="font-size: 50px;">The Team</h2>
+		    	</div>
+			</a>
+	    </div>
 	</div>
 
 	<!-- Controls -->
@@ -31,31 +47,42 @@
 
 <!-- WHEN & WHERE -->
 <div class="when-where">
-	<div class="normal-width">
-		<div class="two_fifth" style="margin-right: 0px; margin-left: auto;" align="center">
-			<h1>TIME</h1>
+	<div class="normal-width" align="center">
+		<div><img src="/img/logo/ppia.png" style="width: 100px;"></div>
+		<h2>presents</h2>
+		<div>
+			<img src="/img/logo/icare.png" style="width: 700px; margin-bottom: 50px;margin-top: -70px;">
+		</div>
+		<div class="two_fifth" style="margin-right: 0px; margin-left: auto;" align="right">
+			<h2 style="font-size: 60px; border-bottom: 2px solid grey;">16<sup>th</sup> MAY</h2>
+			<h2 style="font-size: 100px;">2015</h2>
 		</div>
 		<div class="one_fifth" style="margin-right: 0px; margin-left: auto;" align="center">
 			<span class="ionicons ion-ios-location"></span>
 		</div>
-		<div class="two_fifth column-last" style="margin-right: 0px; margin-left: auto;" align="center">
-			<h1>VENUE</h1>
+		<div class="two_fifth column-last" style="margin-right: 0px; margin-left: auto;" align="left">
+			<h2 style="font-size: 60px; border-bottom: 2px solid grey;">VENUE</h2>
+			<div class="venue">
+				<h2>Courtyard</h2>
+				<h2>State Library of Victoria</h2>
+			</div>
 		</div>
+		<div class="clear"></div>
 	</div>
 </div>
 
 <!-- SPONSORS -->
-<div class="sponsors" align="center">
+<!-- <div class="sponsors" align="center">
 	<div style="height: 200px; padding: 30px 0px;">
 		<h1>Platinum Sponsors</h1>	
 	</div>
 
 	<div style="height: 200px; background: #bbcef4; padding: 30px 0px;">
-		<h1>Premium Sponsors</h1>	
+		<h1>Gold Sponsors</h1>	
 	</div>
 
 	<div style="height: 200px; padding: 30px 0px;">
-		<h1>Premium Sponsors</h1>	
+		<h1>Silver Sponsors</h1>	
 	</div>
-</div>
+</div> -->
 <!-- END: INDEX CONTENT -->

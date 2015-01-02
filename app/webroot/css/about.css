@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 38, ../scss/src/partials/_base.scss */
 p, input, label, textarea, li {
-  font-family: Roboto-Lt;
+  font: 17px Roboto-Lt;
 }
 
 /* line 40, ../scss/src/partials/_base.scss */
@@ -197,34 +197,50 @@ section .nextPage {
   z-index: 2000;
   display: inline-block;
 }
-/* line 156, ../scss/src/partials/_base.scss */
+/* line 157, ../scss/src/partials/_base.scss */
 .subnavbar .subnavbar-entry a .submenu {
+  position: relative;
   height: 150px;
   width: 150px;
   border-radius: 75px;
-  background: grey;
+  background: #dedede;
   margin: 10px;
+  overflow: hidden;
+}
+/* line 165, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry a .submenu img {
+  position: absolute;
+  width: 100%;
 }
 
 /****** FOOTER ******/
-/* line 170, ../scss/src/partials/_base.scss */
+/* line 176, ../scss/src/partials/_base.scss */
 .footer {
   padding: 20px;
   background: #263586;
   color: white;
 }
-/* line 174, ../scss/src/partials/_base.scss */
+/* line 180, ../scss/src/partials/_base.scss */
 .footer h3 {
   margin: 0px;
 }
-/* line 175, ../scss/src/partials/_base.scss */
+/* line 181, ../scss/src/partials/_base.scss */
 .footer .social {
   position: absolute;
-  left: 40px;
   top: 40px;
 }
-/* line 181, ../scss/src/partials/_base.scss */
-.footer .social a {
+/* line 186, ../scss/src/partials/_base.scss */
+.footer #mc_embed_signup {
+  background: none !important;
+}
+/* line 189, ../scss/src/partials/_base.scss */
+.footer #mc_embed_signup form {
+  padding: 0px;
+}
+
+/* line 194, ../scss/src/partials/_base.scss */
+.social a,
+.social-ppia a {
   float: left;
   padding: 10px;
   width: 50px;
@@ -237,94 +253,103 @@ section .nextPage {
   color: white;
   cursor: pointer;
 }
-/* line 195, ../scss/src/partials/_base.scss */
-.footer #fb-icon:hover {
-  color: white;
+
+/* line 208, ../scss/src/partials/_base.scss */
+#web-icon:hover {
+  color: white !important;
+  border: 2px solid grey;
+  background: grey;
+}
+
+/* line 213, ../scss/src/partials/_base.scss */
+#fb-icon:hover {
+  color: white !important;
   border: 2px solid #425E9C;
   background: #425E9C;
 }
-/* line 201, ../scss/src/partials/_base.scss */
-.footer #instagram-icon:hover {
-  color: white;
+
+/* line 218, ../scss/src/partials/_base.scss */
+#instagram-icon:hover {
+  color: white !important;
   border: 2px solid #2D6991;
   background: #2D6991;
 }
-/* line 207, ../scss/src/partials/_base.scss */
-.footer #youtube-icon:hover {
-  color: white;
+
+/* line 223, ../scss/src/partials/_base.scss */
+#twitter-icon:hover {
+  color: white !important;
+  border: 2px solid #55ACEE;
+  background: #55ACEE;
+}
+
+/* line 229, ../scss/src/partials/_base.scss */
+#youtube-icon:hover {
+  color: white !important;
   border: 2px solid #CC181E;
   background: #CC181E;
 }
-/* line 213, ../scss/src/partials/_base.scss */
-.footer #mc_embed_signup {
-  background: none !important;
-}
-/* line 216, ../scss/src/partials/_base.scss */
-.footer #mc_embed_signup form {
-  padding: 0px;
-}
 
-/* line 224, ../scss/src/partials/_base.scss */
+/* line 237, ../scss/src/partials/_base.scss */
 .one_half {
   width: 48%;
 }
 
-/* line 225, ../scss/src/partials/_base.scss */
+/* line 238, ../scss/src/partials/_base.scss */
 .one_third {
   width: 30.5%;
 }
 
-/* line 226, ../scss/src/partials/_base.scss */
+/* line 239, ../scss/src/partials/_base.scss */
 .one_fourth {
   width: 22%;
 }
 
-/* line 227, ../scss/src/partials/_base.scss */
+/* line 240, ../scss/src/partials/_base.scss */
 .one_fifth {
   width: 16.8%;
 }
 
-/* line 228, ../scss/src/partials/_base.scss */
+/* line 241, ../scss/src/partials/_base.scss */
 .one_sixth {
   width: 13.33%;
 }
 
-/* line 229, ../scss/src/partials/_base.scss */
+/* line 242, ../scss/src/partials/_base.scss */
 .two_fifth {
   width: 37.6%;
 }
 
-/* line 230, ../scss/src/partials/_base.scss */
+/* line 243, ../scss/src/partials/_base.scss */
 .two_third {
   width: 65.33%;
 }
 
-/* line 231, ../scss/src/partials/_base.scss */
+/* line 244, ../scss/src/partials/_base.scss */
 .three_fifth {
   width: 58.4%;
 }
 
-/* line 232, ../scss/src/partials/_base.scss */
+/* line 245, ../scss/src/partials/_base.scss */
 .three_fourth {
   width: 74%;
 }
 
-/* line 233, ../scss/src/partials/_base.scss */
+/* line 246, ../scss/src/partials/_base.scss */
 .four_fifth {
   width: 67.2%;
 }
 
-/* line 234, ../scss/src/partials/_base.scss */
+/* line 247, ../scss/src/partials/_base.scss */
 .five_sixth {
   width: 82.67%;
 }
 
-/* line 235, ../scss/src/partials/_base.scss */
+/* line 248, ../scss/src/partials/_base.scss */
 .one_eighth {
   width: 11.8%;
 }
 
-/* line 248, ../scss/src/partials/_base.scss */
+/* line 261, ../scss/src/partials/_base.scss */
 .one_half,
 .one_third,
 .two_third,
@@ -343,64 +368,64 @@ section .nextPage {
   float: left;
 }
 
-/* line 254, ../scss/src/partials/_base.scss */
+/* line 267, ../scss/src/partials/_base.scss */
 .column-last {
   margin-right: 0 !important;
   clear: right;
 }
 
 /****** COLUMNS ******/
-/* line 261, ../scss/src/partials/_base.scss */
+/* line 274, ../scss/src/partials/_base.scss */
 .one_half-margin-20 {
   width: calc((100% - 10px)/2);
 }
 
-/* line 262, ../scss/src/partials/_base.scss */
+/* line 275, ../scss/src/partials/_base.scss */
 .one_third-margin-20 {
   width: calc((100% - 20px)/3);
 }
 
-/* line 263, ../scss/src/partials/_base.scss */
+/* line 276, ../scss/src/partials/_base.scss */
 .one_fourth-margin-20 {
   width: calc((100% - 30px)/4);
 }
 
-/* line 264, ../scss/src/partials/_base.scss */
+/* line 277, ../scss/src/partials/_base.scss */
 .one_fifth-margin-20 {
   width: calc((100% - 40px)/5);
 }
 
-/* line 265, ../scss/src/partials/_base.scss */
+/* line 278, ../scss/src/partials/_base.scss */
 .one_sixth-margin-20 {
   width: calc((100% - 50px)/6);
 }
 
-/* line 266, ../scss/src/partials/_base.scss */
+/* line 279, ../scss/src/partials/_base.scss */
 .two_third-margin-20 {
   width: calc((((100% - 20px)/3) * 2) + 10px);
 }
 
-/* line 267, ../scss/src/partials/_base.scss */
+/* line 280, ../scss/src/partials/_base.scss */
 .three_fourth-margin-20 {
   width: calc((((100% - 30px)/4) * 3) + 20px);
 }
 
-/* line 268, ../scss/src/partials/_base.scss */
+/* line 281, ../scss/src/partials/_base.scss */
 .two_fifth-margin-20 {
   width: calc((((100% - 40px)/5) * 2) + 10px);
 }
 
-/* line 269, ../scss/src/partials/_base.scss */
+/* line 282, ../scss/src/partials/_base.scss */
 .three_fifth-margin-20 {
   width: calc((((100% - 40px)/5) * 3) + 20px);
 }
 
-/* line 270, ../scss/src/partials/_base.scss */
+/* line 283, ../scss/src/partials/_base.scss */
 .four_fifth-margin-20 {
   width: calc((((100% - 40px)/5) * 4) + 30px);
 }
 
-/* line 281, ../scss/src/partials/_base.scss */
+/* line 294, ../scss/src/partials/_base.scss */
 .one_half-margin-20,
 .one_third-margin-20,
 .one_fourth-margin-20,
@@ -417,17 +442,17 @@ section .nextPage {
   float: left;
 }
 
-/* line 288, ../scss/src/partials/_base.scss */
+/* line 301, ../scss/src/partials/_base.scss */
 .one_half-margin-10 {
   width: calc((100% - 5px)/2);
 }
 
-/* line 289, ../scss/src/partials/_base.scss */
+/* line 302, ../scss/src/partials/_base.scss */
 .one_fifth-margin-10 {
   width: calc((100% - 20px)/5);
 }
 
-/* line 292, ../scss/src/partials/_base.scss */
+/* line 305, ../scss/src/partials/_base.scss */
 .one_half-margin-10,
 .one_fifth-margin-10 {
   position: relative;
@@ -436,27 +461,57 @@ section .nextPage {
   float: left;
 }
 
-/* line 298, ../scss/src/partials/_base.scss */
+/* line 311, ../scss/src/partials/_base.scss */
 .one_half-no-margin {
   width: calc(100%/2);
 }
 
-/* line 299, ../scss/src/partials/_base.scss */
+/* line 312, ../scss/src/partials/_base.scss */
+.one_third-no-margin {
+  width: calc(100%/3);
+}
+
+/* line 313, ../scss/src/partials/_base.scss */
+.two_third-no-margin {
+  width: calc((100%/3) * 2);
+}
+
+/* line 314, ../scss/src/partials/_base.scss */
+.one_fourth-no-margin {
+  width: calc(100%/4);
+}
+
+/* line 315, ../scss/src/partials/_base.scss */
 .one_fifth-no-margin {
   width: calc(100%/5);
 }
 
-/* line 302, ../scss/src/partials/_base.scss */
+/* line 316, ../scss/src/partials/_base.scss */
+.two_fifth-no-margin {
+  width: calc((100%/5) * 2);
+}
+
+/* line 317, ../scss/src/partials/_base.scss */
+.three_fifth-no-margin {
+  width: calc((100%/5) * 3);
+}
+
+/* line 326, ../scss/src/partials/_base.scss */
 .one_half-no-margin,
+.one_third-no-margin,
+.two_third-no-margin,
+.one_fourth-no-margin,
+.two_fifth-no-margin,
+.three_fifth-no-margin,
 .one_fifth-no-margin {
   position: relative;
   margin-right: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   float: left;
 }
 
 /****** FORMS ******/
-/* line 311, ../scss/src/partials/_base.scss */
+/* line 335, ../scss/src/partials/_base.scss */
 input, textarea {
   padding: 10px;
   color: black;
@@ -507,38 +562,37 @@ h1 {
 
 /* line 15, ../scss/src/about.scss */
 p, li {
-  font-size: 15px;
   line-height: 1.8;
 }
 
-/* line 19, ../scss/src/about.scss */
+/* line 18, ../scss/src/about.scss */
 h3 {
   margin: 0px 0px 10px 0px;
 }
 
-/* line 21, ../scss/src/about.scss */
+/* line 20, ../scss/src/about.scss */
 .able {
   margin: 30px 150px;
 }
 
-/* line 22, ../scss/src/about.scss */
+/* line 21, ../scss/src/about.scss */
 .able img {
   width: 175px;
   margin-left: -20px;
 }
 
-/* line 26, ../scss/src/about.scss */
+/* line 25, ../scss/src/about.scss */
 .able-desc p {
   font-size: 18px;
 }
 
-/* line 30, ../scss/src/about.scss */
+/* line 29, ../scss/src/about.scss */
 .mission {
   padding-bottom: 30px;
   margin: 30px auto;
 }
 
-/* line 35, ../scss/src/about.scss */
+/* line 34, ../scss/src/about.scss */
 .flicker {
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;

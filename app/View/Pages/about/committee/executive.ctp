@@ -4,6 +4,7 @@
 	echo $this->Html->css("committee");
 ?>
 
+
 <div class="committee-content normal-width" align="center">
 	<h1>MEET THE TEAM</h1><br>
 	
@@ -70,6 +71,38 @@
 				</div>
 			</div>
 		</div>
+		<div class="clear"></div>
+	
+		<h2>Advisors</h2>
+		<!-- DYAH -->
+		<div class="one_fifth-margin-20 flip-container" ontouchstart="this.classList.toggle('hover');">
+			<div class="flipper">
+				<div class="front">
+					<img src="/img/team/exec/Dyah.jpg">
+				</div>
+				<div class="back">
+					<h4>Dyah Trisnawaty</h4>
+					<p>Treasurer</p>
+					<p>Bachelor of Commerce</p>
+				</div>
+			</div>
+		</div>
+		<!-- STELLA -->
+		<div class="one_fifth-margin-20 flip-container" ontouchstart="this.classList.toggle('hover');">
+			<div class="flipper">
+				<div class="front">
+					<img src="/img/team/exec/Stella.jpg">
+				</div>
+				<div class="back">
+					<h4>Stella Hendra</h4>
+					<p>Secretary</p>
+					<p>Bachelor of Commerce</p>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+
+		<h2>Supervisors</h2>
 	</div>
 	<div class="clear"></div>
 </div>

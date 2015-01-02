@@ -16,23 +16,41 @@ img#logo.uncomp  {
 	height: auto;
 }
 #featured {
+	position: relative;
 	height: 500px;
 	z-index: 0;
 	overflow: hidden;
 
-	img { width: 100%; }
+	.carousel-inner, .item { height: 100%; }
+	.carousel-caption { padding: 0px; }
+	.item {
+		img { position: absolute; }
+		.carousel-caption {
+			position: absolute;
+		}
+	}
+	img {
+		width: 100%;
+		z-index: -10;
+	}
+
 }
 
 
 .when-where {
-	height: 250px;
-	padding: 20px;
+	
+	padding: 50px 0px;
 	background: url(../img/pattern/light.png);
 	background-size: 100px 60px;
 	background-repeat: repeat;
 	color: #5c5c5c;
 
-	.ion-ios-location { font-size: 210px; color: #263586; }
+	.ion-ios-location { font-size: 190px; color: #263586; }
+
+	.venue { margin-top: 30px; }
+	.venue h2 {
+		margin: 5px;
+	}
 }
 
 .sponsors {
