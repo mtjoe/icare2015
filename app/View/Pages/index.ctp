@@ -53,14 +53,14 @@
 		<div>
 			<img src="/img/logo/icare.png" style="width: 700px; margin-bottom: 50px;margin-top: -70px;">
 		</div>
-		<div class="two_fifth" style="margin-right: 0px; margin-left: auto;" align="right">
+		<div class="two_fifth-no-margin" style="margin-right: 0px; margin-left: auto;" align="right">
 			<h2 style="font-size: 60px; border-bottom: 2px solid grey;">16<sup>th</sup> MAY</h2>
 			<h2 style="font-size: 100px;">2015</h2>
 		</div>
-		<div class="one_fifth" style="margin-right: 0px; margin-left: auto;" align="center">
+		<div class="one_fifth-no-margin" style="margin-right: 0px; margin-left: auto;" align="center">
 			<span class="ionicons ion-ios-location"></span>
 		</div>
-		<div class="two_fifth column-last" style="margin-right: 0px; margin-left: auto;" align="left">
+		<div class="two_fifth-no-margin column-last" style="margin-right: 0px; margin-left: auto;" align="left">
 			<h2 style="font-size: 60px; border-bottom: 2px solid grey;">VENUE</h2>
 			<div class="venue">
 				<h2>Courtyard</h2>

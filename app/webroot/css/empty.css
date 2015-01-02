@@ -131,7 +131,6 @@ section .navibar {
 section .navibar li {
   display: inline-block;
   font-family: Ostrich-black;
-  height: 100px;
   vertical-align: middle;
   margin: 0px 40px;
   font-size: 20px;

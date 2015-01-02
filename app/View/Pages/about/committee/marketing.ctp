@@ -22,7 +22,7 @@
 		<div class="one_fifth-margin-20 flip-container" ontouchstart="this.classList.toggle('hover');">
 			<div class="flipper">
 				<div class="front">
-					<img src="/img/team/marketing/raissa.jpg">
+					<img src="/img/team/marketing/Raissa.jpg">
 				</div>
 				<div class="back">
 					<h4>Raissa Anasthasia Talehata</h4>
@@ -35,7 +35,7 @@
 		<div class="one_fifth-margin-20 flip-container" ontouchstart="this.classList.toggle('hover');">
 			<div class="flipper">
 				<div class="front">
-					<img src="/img/team/marketing/elbert.jpg">
+					<img src="/img/team/marketing/Elbert.jpg">
 				</div>
 				<div class="back">
 					<h4>Elbert Davis Angdika</h4>
@@ -48,7 +48,7 @@
 		<div class="one_fifth-margin-20 flip-container" ontouchstart="this.classList.toggle('hover');">
 			<div class="flipper">
 				<div class="front">
-					<img src="/img/team/marketing/darmali.jpg">
+					<img src="/img/team/marketing/Darmali.jpg">
 				</div>
 				<div class="back">
 					<h4>Adrian Darmali</h4>
@@ -61,7 +61,7 @@
 		<div class="one_fifth-margin-20 flip-container" ontouchstart="this.classList.toggle('hover');">
 			<div class="flipper">
 				<div class="front">
-					<img src="/img/team/marketing/christina.jpg">
+					<img src="/img/team/marketing/Christina.jpg">
 				</div>
 				<div class="back">
 					<h4>Christinna Mawar</h4>
@@ -74,7 +74,7 @@
 		<div class="one_fifth-margin-20 column-last flip-container" ontouchstart="this.classList.toggle('hover');">
 			<div class="flipper">
 				<div class="front">
-					<img src="/img/team/marketing/felicia.jpg">
+					<img src="/img/team/marketing/Felicia.jpg">
 				</div>
 				<div class="back">
 					<h4>Felicia Melina Lase</h4>
@@ -87,7 +87,7 @@
 		<div class="one_fifth-margin-20 flip-container" ontouchstart="this.classList.toggle('hover');">
 			<div class="flipper">
 				<div class="front">
-					<img src="/img/team/marketing/maria.jpg">
+					<img src="/img/team/marketing/Maria.jpg">
 				</div>
 				<div class="back">
 					<h4>Maria Priscila Komala</h4>
@@ -100,7 +100,7 @@
 		<div class="one_fifth-margin-20 flip-container" ontouchstart="this.classList.toggle('hover');">
 			<div class="flipper">
 				<div class="front">
-					<img src="/img/team/marketing/marisa.jpg">
+					<img src="/img/team/marketing/Marisa.jpg">
 				</div>
 				<div class="back">
 					<h4>Marisa Tjoe</h4>
@@ -113,7 +113,7 @@
 		<div class="one_fifth-margin-20 flip-container" ontouchstart="this.classList.toggle('hover');">
 			<div class="flipper">
 				<div class="front">
-					<img src="/img/team/marketing/regina.jpg">
+					<img src="/img/team/marketing/Regina.jpg">
 				</div>
 				<div class="back">
 					<h4>Regina Tunru</h4>
