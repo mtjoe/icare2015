@@ -51,7 +51,7 @@
 		<div><img src="/img/logo/ppia.png" style="width: 100px;"></div>
 		<h2>presents</h2>
 		<div>
-			<img src="/img/logo/icare.png" style="width: 700px; margin-bottom: 50px;margin-top: -70px;">
+			<img src="/img/logo/icare.png" style="width: 700px; margin-bottom: 50px;margin-top: -30px;">
 		</div>
 		<div class="two_fifth-no-margin" style="margin-right: 0px; margin-left: auto;" align="right">
 			<h2 style="font-size: 60px; border-bottom: 2px solid grey;">16<sup>th</sup> MAY</h2>
