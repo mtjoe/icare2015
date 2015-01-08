@@ -545,7 +545,7 @@ ul.div-selector {
 }
 /* line 23, ../scss/src/committee.scss */
 ul.div-selector li {
-  margin: 0px 20px;
+  margin: 0px 15px;
   display: inline-block;
 }
 /* line 28, ../scss/src/committee.scss */
@@ -559,37 +559,52 @@ ul.div-selector a.active, ul.div-selector a:hover {
   border-bottom: 3px solid #273487;
 }
 
-/* line 38, ../scss/src/committee.scss */
+/* line 37, ../scss/src/committee.scss */
+.team-container li, .team-container p {
+  font-size: 15px;
+  line-height: 1.3 !important;
+}
+/* line 42, ../scss/src/committee.scss */
 .team-container .one_fifth-margin-20,
 .team-container .one_fifth-no-margin {
   height: 188px;
 }
-/* line 41, ../scss/src/committee.scss */
+/* line 45, ../scss/src/committee.scss */
 .team-container .one_fifth-margin-20 img,
 .team-container .one_fifth-no-margin img {
   width: 100%;
   height: 100%;
 }
-/* line 46, ../scss/src/committee.scss */
+/* line 50, ../scss/src/committee.scss */
 .team-container .one_fifth-margin-20 .back,
 .team-container .one_fifth-no-margin .back {
   text-align: left;
   background: #b9e5f9;
   padding: 10px;
 }
-/* line 50, ../scss/src/committee.scss */
+/* line 54, ../scss/src/committee.scss */
 .team-container .one_fifth-margin-20 .back h4,
 .team-container .one_fifth-no-margin .back h4 {
   font-size: 25px;
 }
-/* line 51, ../scss/src/committee.scss */
+/* line 55, ../scss/src/committee.scss */
 .team-container .one_fifth-margin-20 .back p,
 .team-container .one_fifth-no-margin .back p {
   margin: 0px;
 }
 
+/* line 60, ../scss/src/committee.scss */
+.team-division.active {
+  display: inline;
+}
+
+/* line 63, ../scss/src/committee.scss */
+.team-division:not(.active) {
+  display: none;
+}
+
 /* FLIPPING ANIMATION */
-/* line 58, ../scss/src/committee.scss */
+/* line 69, ../scss/src/committee.scss */
 .flip-container {
   -webkit-perspective: 1000;
   -moz-perspective: 1000;
@@ -597,20 +612,20 @@ ul.div-selector a.active, ul.div-selector a:hover {
   perspective: 1000;
 }
 
-/* line 65, ../scss/src/committee.scss */
+/* line 76, ../scss/src/committee.scss */
 .flipper, .front, .back {
   width: 100%;
   height: 100%;
 }
 
-/* line 70, ../scss/src/committee.scss */
+/* line 81, ../scss/src/committee.scss */
 .flipper {
   -moz-transform: perspective(1000px);
   -moz-transform-style: preserve-3d;
   position: relative;
 }
 
-/* line 77, ../scss/src/committee.scss */
+/* line 88, ../scss/src/committee.scss */
 .front, .back {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -631,7 +646,7 @@ ul.div-selector a.active, ul.div-selector a:hover {
   left: 0;
 }
 
-/* line 104, ../scss/src/committee.scss */
+/* line 115, ../scss/src/committee.scss */
 .back {
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
@@ -640,7 +655,7 @@ ul.div-selector a.active, ul.div-selector a:hover {
   transform: rotateY(-180deg);
 }
 
-/* line 112, ../scss/src/committee.scss */
+/* line 123, ../scss/src/committee.scss */
 .flip-container:hover .back, .flip-container.hover .back {
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
@@ -649,7 +664,7 @@ ul.div-selector a.active, ul.div-selector a:hover {
   transform: rotateY(0deg);
 }
 
-/* line 120, ../scss/src/committee.scss */
+/* line 131, ../scss/src/committee.scss */
 .flip-container:hover .front, .flip-container.hover .front {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -657,7 +672,7 @@ ul.div-selector a.active, ul.div-selector a:hover {
   transform: rotateY(180deg);
 }
 
-/* line 128, ../scss/src/committee.scss */
+/* line 139, ../scss/src/committee.scss */
 .front {
   z-index: 2;
 }

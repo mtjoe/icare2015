@@ -21,7 +21,7 @@ ul.div-selector {
 	margin-bottom: 70px;
 
 	li {
-		margin: 0px 20px;
+		margin: 0px 15px;
 		display: inline-block;
 		
 	}
@@ -34,6 +34,10 @@ ul.div-selector {
 }
 
 .team-container {
+    li, p { 
+        font-size: 15px;
+        line-height: 1.3 !important;
+    }
 	.one_fifth-margin-20,
     .one_fifth-no-margin {
 		height: 188px;
@@ -51,6 +55,13 @@ ul.div-selector {
 			p { margin: 0px; }
 		}
 	}
+}
+
+.team-division.active {
+    display: inline;
+}
+.team-division:not(.active) {
+    display: none;
 }
 
 /* FLIPPING ANIMATION */

@@ -26,7 +26,6 @@
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'index'));
 
-	Router::redirect('/about/committee', '/about/committee/executive');
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */

@@ -1,7 +1,7 @@
 <?php 
 	$this->assign('title', 'ICarE 2015');
 	$this->assign('name', 'about');
-	echo $this->Html->css("about");
+	echo $this->Html->css(array("about", "committee"));
 	echo $this->Html->script("about");
 ?>
 
@@ -58,13 +58,50 @@
 	</div>
 </div>
 
-<div class="small-width" style="padding: 30px 0px;" align="center">
-	<h2>Find out more about us!</h2>
-	<br>
-	<a class="one_third" href="/about/ppia">Melbourne University Indonesian Student Association (MUISA) ></a>
-	<a class="one_third" href="/about/committee">The Committe ></a>
-	<a class="one_third column-last" href="/about/recap2014">Recap of Indonesian Career Expo 2014 ></a>
+<div class="normal-width" style="padding: 30px 0px;" align="center">
+	<div class="committee-content normal-width" align="center">
+	<h1>MEET THE TEAM</h1><br>
+	
+	<ul class="div-selector">
+		<li><a onclick='goToDivision("executive")' class="executive active">EXECUTIVE</a></li>
+		<li><a onclick='goToDivision("sa")' class="sa">SUPERVISOR &amp; ADVISER</a></li>
+		<li><a onclick='goToDivision("program")' class="program">PROGRAM</a></li>
+		<li><a onclick='goToDivision("sponsorship")' class="sponsorship">SPONSORSHIP</a></li>
+		<li><a onclick='goToDivision("logistic")' class="logistic">LOGISTIC</a></li>
+		<li><a onclick='goToDivision("marketing")' class="marketing">MEDIA &amp; MARKETING</a></li>
+		<li><a onclick='goToDivision("lo")' class="lo">LIASON</a></li>
+		<li><a onclick='goToDivision("creative")' class="creative">CREATIVE</a></li>
+	</ul>
+	<div class="team-container">
+		<div class="team-division executive active">
+			<?php echo $this->element('executive'); ?>
+		</div>
+		<div class="team-division sa">
+			<?php echo $this->element('supervisor-adviser'); ?>
+		</div>
+		<div class="team-division program">
+			<?php echo $this->element('program'); ?>
+		</div>
+		<div class="team-division sponsorship">
+			<?php echo $this->element('sponsorship'); ?>
+		</div>
+		<div class="team-division logistic">
+			<?php echo $this->element('logistic'); ?>
+		</div>
+		<div class="team-division marketing">
+			<?php echo $this->element('marketing'); ?>
+		</div>
+		<div class="team-division lo">
+			<?php echo $this->element('lo'); ?>
+		</div>
+		<div class="team-division creative">
+			<?php echo $this->element('creative'); ?>
+		</div>
+
+	</div>
 	<div class="clear"></div>
+</div>
+	
 </div>
 
 

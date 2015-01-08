@@ -25148,3 +25148,163 @@ Stack Trace:
 #178 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #179 [internal function]: App::shutdown()
 #180 {main}
+2015-01-08 12:50:18 Error: [MissingViewException] View file "Pages/about/committee/supervisor-adviser.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/committee/supervisor-adviser.ctp',
+)
+Request URL: /about/committee/supervisor-adviser
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/committee...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/committee...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/committee...')
+#3 [internal function]: PagesController->display('about', 'committee', 'supervisor-advi...')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-08 13:06:52 Error: Fatal Error (4): syntax error, unexpected end of file in [/Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/View/Pages/about/index.ctp, line 86]
+2015-01-08 13:06:52 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /about/index
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/marisatj...', 86)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/marisatj...', 86, Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/marisatj...', 86, Array)
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-08 13:07:30 Error: Fatal Error (4): syntax error, unexpected end of file in [/Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/View/Pages/about/index.ctp, line 86]
+2015-01-08 13:07:30 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /about/index
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/marisatj...', 86)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/marisatj...', 86, Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/marisatj...', 86, Array)
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-08 13:07:37 Error: [MissingViewException] View file "Pages/about/executive.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/executive.ctp',
+)
+Request URL: /about/executive
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/executive')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/executive', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/executive')
+#3 [internal function]: PagesController->display('about', 'executive')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-08 13:07:42 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/View/Pages/about/committee/executive.ctp, line 3]
+2015-01-08 13:07:42 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /about/committee/executive
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/marisatj...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/marisatj...', 3, Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/marisatj...', 3, Array)
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-08 13:08:44 Error: Fatal Error (4): syntax error, unexpected end of file in [/Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/View/Pages/about/index.ctp, line 86]
+2015-01-08 13:08:44 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /about/index
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/marisatj...', 86)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/marisatj...', 86, Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/marisatj...', 86, Array)
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-08 13:08:44 Error: [MissingViewException] View file "Pages/about.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about.ctp',
+)
+Request URL: /about
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about')
+#3 [internal function]: PagesController->display('about')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-08 13:08:51 Error: [MissingViewException] View file "Pages/about.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about.ctp',
+)
+Request URL: /about
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about')
+#3 [internal function]: PagesController->display('about')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-08 13:13:47 Error: [MissingViewException] View file "Pages/about.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about.ctp',
+)
+Request URL: /about
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about')
+#3 [internal function]: PagesController->display('about')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-08 13:25:17 Error: [MissingViewException] View file "Pages/about/committee/supervisor-adviser.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/committee/supervisor-adviser.ctp',
+)
+Request URL: /about/committee/supervisor-adviser
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/committee...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/committee...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/committee...')
+#3 [internal function]: PagesController->display('about', 'committee', 'supervisor-advi...')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-08 13:30:00 Error: [MissingViewException] View file "Pages/about/committee/supervisor-adviser.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/committee/supervisor-adviser.ctp',
+)
+Request URL: /about/committee/supervisor-adviser
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/committee...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/committee...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/committee...')
+#3 [internal function]: PagesController->display('about', 'committee', 'supervisor-advi...')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-08 13:30:03 Error: [MissingViewException] View file "Pages/about/committee/executive.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/committee/executive.ctp',
+)
+Request URL: /about/committee/executive
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/committee...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/committee...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/committee...')
+#3 [internal function]: PagesController->display('about', 'committee', 'executive')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}

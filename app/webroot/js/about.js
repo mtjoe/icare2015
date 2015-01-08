@@ -1,3 +1,10 @@
+function goToDivision(div) {
+	$(".team-division").removeClass("active");
+	$(".div-selector a").removeClass("active");
+	$(".team-division." + div).addClass("active");
+	$(".div-selector a." + div).addClass("active");
+}
+
 $(window).load(function() {
 	$(".able img").hover(function() {
 		$(this).css({'opacity' : '0.5'});

@@ -71,10 +71,6 @@
 						</div>
 						<h5>PPIA Unimelb</h5>
 					</a>
-					<a href="/about/committee">
-						<div class="submenu" style="background: url(/img/subnavbar/committee.jpg); background-size: cover;"></div>
-						<h5>COMMITTEE</h5>
-					</a>
 				</div>
 			</div>
 			<div id="sub-events" class="subnavbar-entry" hidden>
