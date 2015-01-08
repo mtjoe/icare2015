@@ -10,7 +10,7 @@
 		<h1>CONTACT US</h1>	
 		<p>Any suggestions? Wanna let us know what you think? Drop us a message below!</p><br>
 		<?php
-			echo $this->Form->create(null, array('controller' => 'pages', 'action' => 'contact', 'method' => 'post'));
+			echo $this->Form->create(null, array('/contact', 'method' => 'post'));
 			echo $this->Form->input('name', array(
 				'label' => false,
 				'class' => "one_half-margin-20",

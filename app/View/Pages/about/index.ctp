@@ -105,9 +105,10 @@
 </div>
 
 <script type="text/javascript">
-$(window).load(function() {
-	if (location.hash == '#team') {
-		$("html, body").scrollTop($(".team").offset().);
+$(document).ready(function() {
+	if (location.hash === '#team') {
+		$("html").scrollTop($(".team").offset().top);
+		$("body").scrollTop($(".team").offset().top);
 	}
 });
 </script>

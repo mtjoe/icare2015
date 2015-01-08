@@ -43,11 +43,11 @@ class EmailConfig {
 		'transport' => 'Smtp',
 		'from' => array('info@indonesiancareerexpo.org' => 'Indonesian Career Expo'),
 		'domain' => 'indonesiancareerexpo.org',
-		'host' => 'just15.justhost.com',
-		'port' => 465,
+		'host' => 'mail.indonesiancareerexpo.org',
+		'port' => 26,
 		'timeout' => 30,
 		'username' => 'info@indonesiancareerexpo.org',
-		'password' => 'ICare123',
+		'password' => 'Icare123',
 		'log' => false,
 	);
 }

@@ -69,7 +69,13 @@
 		</div>
 		<div class="clear"></div>
 	</div>
+
+	<div class="registration" align="center">
+		<p style="font-size: 20px;">Registration Coming Soon</p>
+	</div>
 </div>
+
+
 
 <!-- SPONSORS -->
 <!-- <div class="sponsors" align="center">

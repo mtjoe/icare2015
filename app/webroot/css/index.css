@@ -134,7 +134,7 @@ section .navibar li {
   vertical-align: middle;
   margin: 0px 30px;
   font-size: 20px;
-  line-height: 45px;
+  line-height: 45px !important;
 }
 /* line 113, ../scss/src/partials/_base.scss */
 section .navibar li a:hover {
