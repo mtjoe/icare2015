@@ -24,7 +24,7 @@
     	</div>
 	    <div class="item" >
 	    	<img src="/img/team/all.jpg" alt="corp" style="margin-top: -130px;" href="/about/committee">
-	    	<a class="carousel-caption" style="bottom: -100px;  width: 500px; margin-left: 125px; height: 330px; color: #273487 !important;" href="/about/committee"  align="center">
+	    	<a class="carousel-caption" style="bottom: -100px;  width: 500px; margin-left: 125px; height: 330px; color: #273487 !important;" href="/about/index#team"  align="center">
 	    		<div class="opaque" style="background: white; opacity: 0.6;"></div>
 	    		<div class="opaque-text" style="padding: 10px;">
 	    			<h2 style="border-bottom: 2px solid #273487; font-size: 30px;">Introducing</h2>

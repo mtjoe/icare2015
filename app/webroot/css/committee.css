@@ -132,7 +132,7 @@ section .navibar li {
   display: inline-block;
   font-family: Ostrich-black;
   vertical-align: middle;
-  margin: 0px 40px;
+  margin: 0px 30px;
   font-size: 20px;
   line-height: 45px;
 }

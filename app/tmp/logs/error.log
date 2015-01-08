@@ -25308,3 +25308,93 @@ Stack Trace:
 #6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
 #7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2015-01-08 14:50:17 Error: [MissingViewException] View file "Pages/subjects/biology.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/subjects/biology.ctp',
+)
+Request URL: /subjects/biology
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('subjects/biolog...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('subjects/biolog...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('subjects/biolog...')
+#3 [internal function]: PagesController->display('subjects', 'biology')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-08 15:01:35 Error: [MissingViewException] View file "Pages/about/recap2014.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/recap2014.ctp',
+)
+Request URL: /about/recap2014
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/recap2014')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/recap2014', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/recap2014')
+#3 [internal function]: PagesController->display('about', 'recap2014')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-08 15:08:42 Error: [MissingViewException] View file "Pages/about/recap2014.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/recap2014.ctp',
+)
+Request URL: /about/recap2014
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/recap2014')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/recap2014', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/recap2014')
+#3 [internal function]: PagesController->display('about', 'recap2014')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-08 15:08:43 Error: [MissingViewException] View file "Pages/about/recap2014.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/recap2014.ctp',
+)
+Request URL: /about/recap2014
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/recap2014')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/recap2014', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/recap2014')
+#3 [internal function]: PagesController->display('about', 'recap2014')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-08 15:08:50 Error: [MissingViewException] View file "Pages/about.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about.ctp',
+)
+Request URL: /about
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about')
+#3 [internal function]: PagesController->display('about')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-08 17:33:42 Error: [MissingViewException] View file "Pages/about/committee.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about/committee.ctp',
+)
+Request URL: /about/committee
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('about/committee')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('about/committee', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(68): Controller->render('about/committee')
+#3 [internal function]: PagesController->display('about', 'committee')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}

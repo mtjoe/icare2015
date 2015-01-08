@@ -58,7 +58,7 @@
 						</div>
 						<h5>ICarE 2015</h5>
 					</a>
-					<a href="/about/recap2014">
+					<a href="/about/icare2014">
 						<div class="submenu">
 							<img src="/img/logo/icare2014.png" style="height: auto; width: 80%; bottom: 40px; left: 15px;">
 						</div>
