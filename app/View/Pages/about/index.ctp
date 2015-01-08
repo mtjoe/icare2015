@@ -22,9 +22,9 @@
 
 <div class="mission normal-width" >
 	<div align="center">
-		<img src="/img/logo/icare.png" style="width: 80%; margin-bottom: 30px;">
+		<img src="/img/logo/icare-small.png" style="width: 20%; margin-bottom: 30px;">
 	</div>
-	<div class="small-width" style="background: white; padding: 30px;">
+	<div class="small-width" style="background: white; padding: 0px;">
 		<h2 style="text-align: center;">Our Missions</h2>
 		<ol>
 			<li>To create awareness for Indonesian students of the importance of their role in the development of Indonesia.</li>
