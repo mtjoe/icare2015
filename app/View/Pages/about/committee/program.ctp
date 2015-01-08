@@ -14,7 +14,7 @@
 		<li><a href="/about/committee/sponsorship">SPONSORSHIP</a></li>
 		<li><a href="/about/committee/logistic">LOGISTIC</a></li>
 		<li><a href="/about/committee/marketing">MEDIA &amp; MARKETING</a></li>
-		<li><a href="/about/committee/lo">LIASON OFFICER</a></li>
+		<li><a href="/about/committee/lo">LIASON</a></li>
 		<li><a href="/about/committee/creative">CREATIVE</a></li>
 	</ul>
 	<div class="team-container">

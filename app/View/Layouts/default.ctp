@@ -58,21 +58,22 @@
 						</div>
 						<h5>ICarE 2015</h5>
 					</a>
-					<a href="/about/ppia">
-						<div class="submenu">
-							<img src="/img/logo/ppia.png" style="height: auto; width: 80%; bottom: 15px; left: 15px;">
-						</div>
-						<h5>About PPIA</h5>
-					</a>
-					<a href="/about/committee">
-						<div class="submenu" style="background: url(/img/subnavbar/committee.jpg); background-size: cover;"></div>
-						<h5>COMMITTEE</h5>
-					</a>
 					<a href="/about/recap2014">
 						<div class="submenu">
 							<img src="/img/logo/icare2014.png" style="height: auto; width: 80%; bottom: 40px; left: 15px;">
 						</div>
 						<h5>ICarE 2014</h5>
+					</a>
+
+					<a href="/about/ppia">
+						<div class="submenu">
+							<img src="/img/logo/ppia.png" style="height: auto; width: 80%; bottom: 15px; left: 15px;">
+						</div>
+						<h5>PPIA Unimelb</h5>
+					</a>
+					<a href="/about/committee">
+						<div class="submenu" style="background: url(/img/subnavbar/committee.jpg); background-size: cover;"></div>
+						<h5>COMMITTEE</h5>
 					</a>
 				</div>
 			</div>
