@@ -35,6 +35,7 @@
 </style>
 
 <div class="content-container normal-width" align="center">
+	<img src="/img/logo/ppia.png">
 	<img src="/img/aboutus.png" style="width: 100%;">
 
 	<div class="smallest-width social-ppia" align="center">

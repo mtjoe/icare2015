@@ -13,18 +13,18 @@
 
   	<!-- Wrapper for slides -->
   	<div class="carousel-inner" role="listbox">
-    	<div class="item active">
+    	<div class="item active" align="center">
     		<img src="/img/index-1.jpg" alt="Melbourne" style="margin-top: -130px;">
-    		<a class="carousel-caption" style="top: 0px; left: 600px; width: 500px; height: 100px; color: #273487 !important;" href="/about/recap2014">
+    		<a class="carousel-caption" style="top: 0px; height: 100px; color: #273487 !important;" href="/about/recap2014">
 	    		<div class="opaque" style="background: white; opacity: 0.5;"></div>
 	    		<div class="opaque-text" style="padding: 10px;">
 	    			<h2 style="font-size: 50px;">Recap ICarE 2014</h2>
 		    	</div>
 			</a>
     	</div>
-	    <div class="item">
+	    <div class="item" >
 	    	<img src="/img/team/all.jpg" alt="corp" style="margin-top: -130px;" href="/about/committee">
-	    	<a class="carousel-caption" style="bottom: -100px; width: 400px; left: 200px; height: 300px; color: #273487 !important;" href="/about/committee" >
+	    	<a class="carousel-caption" style="bottom: -100px;  width: 500px; margin-left: 125px; height: 330px; color: #273487 !important;" href="/about/committee"  align="center">
 	    		<div class="opaque" style="background: white; opacity: 0.6;"></div>
 	    		<div class="opaque-text" style="padding: 10px;">
 	    			<h2 style="border-bottom: 2px solid #273487; font-size: 30px;">Introducing</h2>

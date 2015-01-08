@@ -23,6 +23,7 @@
 					<li id="navi-about" class="uncomp"><a href="">ABOUT</a></li>
 					<li id="navi-events" class="uncomp"><a href="">EVENTS</a></li>
 					<li id="navi-exhibitors" class="uncomp"><a href="">EXHIBITORS</a></li>
+					<li id="navi-speakers" class="uncomp"><a href="">SPEAKERS</a></li>
 					<li id="navi-media" class="uncomp"><a href="/media">MEDIA RELEASE</a></li>
 					<li id="navi-contact" class="uncomp"><a href="/contact">CONTACT US</a></li>
 					<!-- <li class="uncomp round"><a href="/contact"><span class="ionicons ion-ios-telephone"></span></a></li>
@@ -37,6 +38,7 @@
 					<li id="navi-about"><a>ABOUT</a></li>
 					<li id="navi-events"><a>EVENTS</a></li>
 					<li id="navi-exhibitors"><a href="/exhibitors/list">EXHIBITORS</a></li>
+					<li id="navi-speakers"><a href="/speakers">SPEAKERS</a></li>
 					<li id="navi-media"><a href="/media">MEDIA RELEASE</a></li>
 					<li id="navi-contact"><a href="/contact">CONTACT US</a></li>
 					<!-- <li class="round"><a href="/contact"><span class="ionicons ion-ios-telephone"></span></a></li>
@@ -81,13 +83,21 @@
 						<div class="submenu" style="background: url(/img/subnavbar/schedule.jpg); background-size: cover;"></div>
 						<h5>SCHEDULE</h5>
 					</a>
-					<a href="/events/speakers">
-						<div class="submenu" style="background: url(/img/subnavbar/speakers.jpg); background-size: cover; background-position: center;"></div>
-						<h5>SPEAKERS</h5>
-					</a>
 					<a href="/events/pre-events">
-						<div class="submenu" style="background: url(/img/subnavbar/pre-events.jpg); background-size: cover; background-position: center;"></div>
+						<div class="submenu" style="background: url(/img/recap/2.jpg); background-size: cover; background-position: center;"></div>
 						<h5>PRE-EVENTS</h5>
+					</a>
+					<a href="/events/premiere">
+						<div class="submenu" style="background: url(/img/recap/1.jpg); background-size: cover; background-position: center;"></div>
+						<h5>The Premiere</h5>
+					</a>
+					<a href="/events/expo">
+						<div class="submenu" style="background: url(/img/recap/7.jpg); background-size: cover; background-position: center;"></div>
+						<h5>Expo</h5>
+					</a>
+					<a href="/events/networking-dinner">
+						<div class="submenu" style="background: url(/img/recap/3.jpg); background-size: cover; background-position: center;"></div>
+						<h5>Networking Dinner</h5>
 					</a>
 				</div>
 				

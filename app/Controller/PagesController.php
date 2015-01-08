@@ -73,4 +73,22 @@ class PagesController extends AppController {
 			throw new NotFoundException();
 		}
 	}
+
+	public function contact() {
+
+		if ($this->request->is('post')) {
+			$Email = new CakeEmail('default');
+			$Email->addHeaders(array('X-MC-Tags' => 'contact-us'));
+			$Email->from('info@indonesiancareerexpo.org', $this->request->data['name']);
+			$Email->replyTo($this->request->data['email'], $this->request->data['name']);
+			$Email->to('info@indonesiancareerexpo.org', 'Indonesian Career Expo');
+			$Email->subject("Enquiry");
+			$Email->send(h($this->request->data['message']));
+			$this->set('formSuccess', true);
+			$this->set('reply', false);
+			$this->render('thank-you');
+		} else {
+			$this->render('contact');
+		}
+	}
 }

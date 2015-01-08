@@ -25,7 +25,7 @@
 					<img src="/img/team/program/Indah.jpg">
 				</div>
 				<div class="back">
-					<h4>Indah Christian</h4>
+					<h4>Indah Cristian</h4>
 					<p>Coordinator</p>
 					<p>Bachelor of Commerce</p>
 				</div>

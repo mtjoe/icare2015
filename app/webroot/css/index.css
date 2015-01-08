@@ -555,25 +555,17 @@ img#logo.uncomp {
 #featured .carousel-inner, #featured .item {
   height: 100%;
 }
-/* line 25, ../scss/src/index.scss */
-#featured .carousel-caption {
-  padding: 0px;
-}
 /* line 27, ../scss/src/index.scss */
 #featured .item img {
   position: absolute;
 }
-/* line 28, ../scss/src/index.scss */
-#featured .item .carousel-caption {
-  position: absolute;
-}
-/* line 32, ../scss/src/index.scss */
+/* line 33, ../scss/src/index.scss */
 #featured img {
   width: 100%;
   z-index: -10;
 }
 
-/* line 40, ../scss/src/index.scss */
+/* line 41, ../scss/src/index.scss */
 .when-where {
   padding: 50px 0px;
   background: url(../img/pattern/light.png);
@@ -581,16 +573,16 @@ img#logo.uncomp {
   background-repeat: repeat;
   color: #5c5c5c;
 }
-/* line 48, ../scss/src/index.scss */
+/* line 49, ../scss/src/index.scss */
 .when-where .ion-ios-location {
   font-size: 190px;
   color: #263586;
 }
-/* line 50, ../scss/src/index.scss */
+/* line 51, ../scss/src/index.scss */
 .when-where .venue {
   margin-top: 30px;
 }
-/* line 51, ../scss/src/index.scss */
+/* line 52, ../scss/src/index.scss */
 .when-where .venue h2 {
   margin: 5px;
 }

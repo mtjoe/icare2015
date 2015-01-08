@@ -1,0 +1,17 @@
+{
+    "name": "davidyell/contact-us",
+    "type": "cakephp-plugin",
+    "extra": {
+        "installer-name": "ContactUs"
+    },
+    "description": "A basic contact us plugin",
+    "authors": [
+        {
+            "name": "David Yell",
+            "email": "neon1024@gmail.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}

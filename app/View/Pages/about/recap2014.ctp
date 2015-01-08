@@ -39,6 +39,6 @@
 </div>
 <div class="content-container normal-width" align="center">
 	
-	<p>Indonesian Career Expo brought by PPIA Melbourne University is coming for the second time and it will bring as much, or even more success than last year’s! With more than 15 accomplished Indonesian companies, 2 government partners, and brilliant speakers participating,  ICarE 2014 has managed to prompt tremendous amount of enthusiasm from over 600 participants around Victoria. The event itself had been a great success in facilitating Indonesian students studying in Australia, particularly the freshly graduates, to contribute to Indonesia by establishing their career back in their home country. So, with such success generating from our pilot event, you can certainly expect a bigger and better ICarE for this coming year!</p>	
-	<p>[video]</p>
+	<p>Indonesian Career Expo brought by PPIA Melbourne University is coming for the second time and it will bring as much, or even more success than last year’s! With more than 15 accomplished Indonesian companies, 2 government partners, and brilliant speakers participating,  ICarE 2014 has managed to prompt tremendous amount of enthusiasm from over 600 participants around Victoria. The event itself had been a great success in facilitating Indonesian students studying in Australia, particularly the freshly graduates, to contribute to Indonesia by establishing their career back in their home country. So, with such success generating from our pilot event, you can certainly expect a bigger and better ICarE for this coming year!</p>	<br>
+	<iframe width="560" height="315" src="//www.youtube.com/embed/SMsBIFS3AOY?list=UUYnS5ws4P3pH_G2cejdMzJg" frameborder="0" allowfullscreen></iframe>
 </div>

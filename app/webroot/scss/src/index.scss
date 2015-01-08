@@ -22,11 +22,12 @@ img#logo.uncomp  {
 	overflow: hidden;
 
 	.carousel-inner, .item { height: 100%; }
-	.carousel-caption { padding: 0px; }
+	//.carousel-caption { padding: 0px; }
 	.item {
 		img { position: absolute; }
 		.carousel-caption {
-			position: absolute;
+			//position: absolute;
+			
 		}
 	}
 	img {

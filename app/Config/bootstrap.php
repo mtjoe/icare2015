@@ -70,11 +70,15 @@ Cache::config('default', array('engine' => 'File'));
  *
  */
 
+CakePlugin::load('ContactUs', array('routes'=>true));
+
 /**
  * To prefer app translation over plugin translation, you can set
  *
  * Configure::write('I18n.preferApp', true);
  */
+
+Configure::write('ContactUs.email', 'info@indonesiancareerexpo.org');
 
 /**
  * You can attach event listeners to the request lifecycle as Dispatcher Filter. By default CakePHP bundles two filters:
