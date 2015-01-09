@@ -19,7 +19,7 @@
                      <iframe style="width: 800px;" height="500" src="//www.youtube.com/embed/SMsBIFS3AOY?list=UUYnS5ws4P3pH_G2cejdMzJg" frameborder="0" allowfullscreen></iframe>
                  </a>
              </div>
-             <a class="carousel-caption" style="padding: 0px; left: 0px !important; top: 0px; width: 100%; height: 100px; color: #273487 !important;" href="/about/recap2014">
+             <a class="carousel-caption" style="padding: 0px; left: 15% !important; top: 10px; width: 70%; height: 100px; color: #273487 !important;" href="/about/recap2014">
 	    		<div class="opaque" style="background: white; opacity: 0.5;"></div>
 	    		<div class="opaque-text" style="padding: 10px;">
 	    			<h2 style="font-size: 50px;">Recap ICarE 2014</h2>

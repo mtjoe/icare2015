@@ -50,7 +50,7 @@
 <div class="one_fifth-margin-20 column-last flip-container" ontouchstart="this.classList.toggle('hover');">
 	<div class="flipper">
 		<div class="front">
-			<img src="/img/team/exec/Andrew.jpg">
+			<img src="/img/team/exec/andrew.jpg">
 		</div>
 		<div class="back">
 			<h4>Andreas Budiman</h4>
