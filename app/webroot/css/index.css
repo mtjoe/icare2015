@@ -565,7 +565,13 @@ img#logo.uncomp {
   z-index: -10;
 }
 
-/* line 41, ../scss/src/index.scss */
+/* line 40, ../scss/src/index.scss */
+.flex-video {
+  width: 100%;
+  height: 500px;
+}
+
+/* line 46, ../scss/src/index.scss */
 .when-where {
   padding: 50px 0px;
   background: url(../img/pattern/light.png);
@@ -573,16 +579,16 @@ img#logo.uncomp {
   background-repeat: repeat;
   color: #5c5c5c;
 }
-/* line 49, ../scss/src/index.scss */
+/* line 54, ../scss/src/index.scss */
 .when-where .ion-ios-location {
   font-size: 190px;
   color: #263586;
 }
-/* line 51, ../scss/src/index.scss */
+/* line 56, ../scss/src/index.scss */
 .when-where .venue {
   margin-top: 30px;
 }
-/* line 52, ../scss/src/index.scss */
+/* line 57, ../scss/src/index.scss */
 .when-where .venue h2 {
   margin: 5px;
 }

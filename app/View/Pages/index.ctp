@@ -13,14 +13,20 @@
 
   	<!-- Wrapper for slides -->
   	<div class="carousel-inner" role="listbox">
-    	<div class="item active" align="center">
-    		<img src="/img/index-1.jpg" alt="Melbourne" style="margin-top: -130px;">
-    		<a class="carousel-caption" style="top: 0px; height: 100px; color: #273487 !important;" href="/about/recap2014">
+    	<div class="item active" align="center" style="background: black;">
+    		<div class="flex-video">
+                 <a class="fancybox" href="//www.youtube.com/embed/SMsBIFS3AOY?list=UUYnS5ws4P3pH_G2cejdMzJg" rel="gallery 523" data-fancybox-type="iframe">
+                     <iframe style="width: 800px;" height="500" src="//www.youtube.com/embed/SMsBIFS3AOY?list=UUYnS5ws4P3pH_G2cejdMzJg" frameborder="0" allowfullscreen></iframe>
+                 </a>
+             </div>
+             <a class="carousel-caption" style="padding: 0px; left: 0px !important; top: 0px; width: 100%; height: 100px; color: #273487 !important;" href="/about/recap2014">
 	    		<div class="opaque" style="background: white; opacity: 0.5;"></div>
 	    		<div class="opaque-text" style="padding: 10px;">
 	    			<h2 style="font-size: 50px;">Recap ICarE 2014</h2>
 		    	</div>
 			</a>
+    		<!-- <img src="/img/index-1.jpg" alt="Melbourne" style="margin-top: -130px;">
+    		 -->
     	</div>
 	    <div class="item" >
 	    	<img src="/img/team/all.jpg" alt="corp" style="margin-top: -130px;" href="/about/committee">
