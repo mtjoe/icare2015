@@ -69,7 +69,7 @@
 			<li><a onclick='goToDivision("sponsorship")' class="sponsorship">SPONSORSHIP</a></li>
 			<li><a onclick='goToDivision("logistic")' class="logistic">LOGISTIC</a></li>
 			<li><a onclick='goToDivision("marketing")' class="marketing">MEDIA &amp; MARKETING</a></li>
-			<li><a onclick='goToDivision("lo")' class="lo">LIASON</a></li>
+			<li><a onclick='goToDivision("lo")' class="lo">LIAISON OFFICER</a></li>
 			<li><a onclick='goToDivision("creative")' class="creative">CREATIVE</a></li>
 		</ul>
 		<div class="team-container">

@@ -55,7 +55,7 @@
 		<div class="back">
 			<h4>Andreas Budiman</h4>
 			<p>Adviser</p>
-			<p>Bachelor of Commerce</p>
+			<p>Bachelor of Arts</p>
 		</div>
 	</div>
 </div>

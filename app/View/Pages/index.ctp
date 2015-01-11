@@ -5,49 +5,45 @@
 
 <!-- INDEX CONTENT -->
 <div id="featured" class="carousel slide" data-ride="carousel">
-  	<!-- Indicators -->
-  	<ol class="carousel-indicators">
-    	<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    	<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-  	</ol>
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		</ol>
 
-  	<!-- Wrapper for slides -->
-  	<div class="carousel-inner" role="listbox">
-    	<div class="item active" align="center" style="background: black;">
-    		<div class="flex-video">
-                 <a class="fancybox" href="//www.youtube.com/embed/SMsBIFS3AOY?list=UUYnS5ws4P3pH_G2cejdMzJg" rel="gallery 523" data-fancybox-type="iframe">
-                     <iframe style="width: 800px;" height="500" src="//www.youtube.com/embed/SMsBIFS3AOY?list=UUYnS5ws4P3pH_G2cejdMzJg" frameborder="0" allowfullscreen></iframe>
-                 </a>
-             </div>
-             <a class="carousel-caption" style="padding: 0px; left: 15% !important; top: 10px; width: 70%; height: 100px; color: #273487 !important;" href="/about/recap2014">
-	    		<div class="opaque" style="background: white; opacity: 0.5;"></div>
-	    		<div class="opaque-text" style="padding: 10px;">
-	    			<h2 style="font-size: 50px;">Recap ICarE 2014</h2>
-		    	</div>
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active" align="center" style="background: black;">
+				<div id="player"></div>
+				 <a class="carousel-caption" style="padding: 0px; left: 0px !important; top: 0px; width: 100%; height: 100px; color: #273487 !important;" href="/about/recap2014">
+				<div class="opaque" style="background: white; opacity: 0.5;"></div>
+				<div class="opaque-text" style="padding: 10px;">
+					<h2 style="font-size: 50px;">Recap ICarE 2014</h2>
+				</div>
 			</a>
-    		<!-- <img src="/img/index-1.jpg" alt="Melbourne" style="margin-top: -130px;">
-    		 -->
-    	</div>
-	    <div class="item" >
-	    	<img src="/img/team/all.jpg" alt="corp" style="margin-top: -130px;" href="/about/committee">
-	    	<a class="carousel-caption" style="bottom: -100px;  width: 500px; margin-left: 125px; height: 330px; color: #273487 !important;" href="/about/index#team"  align="center">
-	    		<div class="opaque" style="background: white; opacity: 0.6;"></div>
-	    		<div class="opaque-text" style="padding: 10px;">
-	    			<h2 style="border-bottom: 2px solid #273487; font-size: 30px;">Introducing</h2>
-	    			<h2 style="font-size: 50px;">The Team</h2>
-		    	</div>
+				<!-- <img src="/img/index-1.jpg" alt="Melbourne" style="margin-top: -130px;">
+				 -->
+			</div>
+			<div class="item" >
+				<img src="/img/team/all.jpg" alt="corp" style="margin-top: -130px;" href="/about/committee">
+				<a class="carousel-caption" style="bottom: -100px;  width: 500px; margin-left: 125px; height: 330px; color: #273487 !important;" href="/about/index#team"  align="center">
+					<div class="opaque" style="background: white; opacity: 0.6;"></div>
+					<div class="opaque-text" style="padding: 10px;">
+						<h2 style="border-bottom: 2px solid #273487; font-size: 30px;">Introducing</h2>
+						<h2 style="font-size: 50px;">The Team</h2>
+					</div>
 			</a>
-	    </div>
+			</div>
 	</div>
 
 	<!-- Controls -->
 	<a class="left carousel-control" href="#featured" role="button" data-slide="prev">
 		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-	    <span class="sr-only">Previous</span>
+			<span class="sr-only">Previous</span>
 	</a>
 	<a class="right carousel-control" href="#featured" role="button" data-slide="next">
-	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-	    <span class="sr-only">Next</span>
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
 	</a>
 </div>
 
@@ -80,6 +76,55 @@
 		<p style="font-size: 20px;">Registration Coming Soon</p>
 	</div>
 </div>
+
+<script>
+	// 2. This code loads the IFrame Player API code asynchronously.
+	var tag = document.createElement('script');
+
+	tag.src = "https://www.youtube.com/iframe_api";
+	var firstScriptTag = document.getElementsByTagName('script')[0];
+	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+	// 3. This function creates an <iframe> (and YouTube player)
+	//    after the API code downloads.
+	var player;
+	function onYouTubeIframeAPIReady() {
+		player = new YT.Player('player', {
+			height: '500',
+			width: '800',
+			videoId: 'SMsBIFS3AOY',
+			events: {
+				//'onReady': onPlayerReady,
+				'onStateChange': onPlayerStateChange
+			}
+		});
+	}
+
+	// 4. The API will call this function when the video player is ready.
+	/*function onPlayerReady(event) {
+		event.target.playVideo();
+	}*/
+
+	// 5. The API calls this function when the player's state changes.
+	//    The function indicates that when playing a video (state=1),
+	//    the player should play for six seconds and then stop.
+	var playing = false;
+	function onPlayerStateChange(event) {
+		if (event.data == YT.PlayerState.PLAYING && !playing) {
+			$('#featured').carousel('pause');
+			playing = true;
+		} else if ( (event.data == YT.PlayerState.ENDED || event.data == YT.PlayerState.PAUSED) && playing) {
+			$('.carousel').carousel({
+				pause: false,
+				interval: false
+			});
+			playing = false;
+		}
+	}
+	function stopVideo() {
+		player.stopVideo();
+	}
+</script>
 
 
 
