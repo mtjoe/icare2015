@@ -1,7 +1,7 @@
 <?php 
-	$this->assign('title', 'Thank you - ICarE');
+	$this->assign('title', 'Thank you');
 	$this->assign('name', 'thank-you');
-	echo $this->Html->css("empty");
+	$this->Html->css("empty", array('inline' => false));
 ?>
 
 <!-- CONTACT CONTENT -->

@@ -1,7 +1,8 @@
 <?php 
-	$this->assign('title', 'ICarE 2015');
+	$this->assign('title', 'About');
+	echo $this->Html->meta('description', 'Indonesian Career Expo (ICarE) is an event held by Melbourne University Indonesian Student Association (MUISA) which aims to bridge the gap between Indonesian companies and Indonesian students studying in Melbourne. Following the grand success of the first Indonesian Career Expo, MUISA will hold its second Indonesian Career Expo in 2015.');
 	$this->assign('name', 'about');
-	echo $this->Html->css(array("about", "committee"));
+	$this->Html->css(array("about", "committee"), array('inline' => false));
 	echo $this->Html->script("about");
 ?>
 

@@ -1,7 +1,7 @@
 <?php 
-	$this->assign('title', 'Contact Us - ICarE');
+	$this->assign('title', 'Contact Us');
 	$this->assign('name', 'contact');
-	echo $this->Html->css("empty");
+	$this->Html->css("empty", array('inline' => false));
 ?>
 
 <!-- CONTACT CONTENT -->

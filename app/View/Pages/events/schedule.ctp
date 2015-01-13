@@ -1,7 +1,7 @@
 <?php 
-	$this->assign('title', 'Schedule - ICarE');
+	$this->assign('title', 'Schedule');
 	$this->assign('name', 'schedule');
-	echo $this->Html->css("empty");
+	$this->Html->css("empty", array('inline' => false));
 ?>
 
 <div class="content-container normal-width" align="center">

@@ -5,7 +5,7 @@
 		</div>
 		<div class="back">
 			<h4>Reagan Kurniadwiputra</h4>
-			<p>Superviser</p>
+			<p>Supervisor</p>
 			<p>Bachelor of Science</p>
 		</div>
 	</div>
@@ -17,7 +17,7 @@
 		</div>
 		<div class="back">
 			<h4>Ricky Wibowo</h4>
-			<p>Superviser</p>
+			<p>Supervisor</p>
 			<p>Bachelor of Science</p>
 		</div>
 	</div>
@@ -29,7 +29,7 @@
 		</div>
 		<div class="back">
 			<h4>Bianca Winataputri</h4>
-			<p>Superviser</p>
+			<p>Supervisor</p>
 			<p>Bachelor of Arts</p>
 		</div>
 	</div>
@@ -41,7 +41,7 @@
 		</div>
 		<div class="back">
 			<h4>Reinetta Tanujaya</h4>
-			<p>Superviser</p>
+			<p>Supervisor</p>
 			<p>Bachelor of Biomed</p>
 		</div>
 	</div>

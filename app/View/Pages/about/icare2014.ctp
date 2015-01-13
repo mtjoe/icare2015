@@ -1,7 +1,7 @@
 <?php 
-	$this->assign('title', 'Recap ICarE 2014');
+	$this->assign('title', 'Recap 2014');
 	$this->assign('name', 'recap');
-	echo $this->Html->css("empty");
+	$this->Html->css("empty", array('inline' => false));
 ?>
 <style type="text/css">
 	p { line-height: 1.8; }

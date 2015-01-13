@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script type="text/javascript" src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
-		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		<title><?php echo $this->fetch('title')." - Indonesian Career Expo"; ?></title>
 		
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css">
 
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 		<?php echo $this->Html->script("base"); ?>
-		
-		
+		<?php echo $this->fetch('script'); ?>
+		<?php echo $this->fetch('css'); ?>
+
+		<?php echo $this->Html->meta('description', 'Indonesian Career Expo (ICarE) is an event held by Melbourne University Indonesian Student Association (MUISA) which aims to bridge the gap between Indonesian companies and Indonesian students studying in Melbourne. Following the grand success of the first Indonesian Career Expo, MUISA will hold its second Indonesian Career Expo in 2015.'); ?>
 	</head>
 	<body>
 		<!-- NAVIGATION BAR -->

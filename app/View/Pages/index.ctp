@@ -1,6 +1,7 @@
 <?php 
 	$this->assign('name', 'index');
-	echo $this->Html->css(array("index", "committee"));
+	$this->assign('title', 'Home');
+	$this->Html->css(array("index", "committee"), array('inline' => false));
 ?>
 
 <!-- INDEX CONTENT -->

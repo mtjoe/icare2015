@@ -1,7 +1,7 @@
 <?php 
-	$this->assign('title', 'About MUISA - ICarE');
+	$this->assign('title', 'About MUISA');
 	$this->assign('name', 'muisa');
-	echo $this->Html->css("empty");
+	$this->Html->css("empty", array('inline' => false));
 ?>
 
 <style type="text/css">

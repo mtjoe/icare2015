@@ -1,7 +1,7 @@
 <?php 
-	$this->assign('title', 'Speakers - ICarE');
+	$this->assign('title', 'Speakers');
 	$this->assign('name', 'speakers');
-	echo $this->Html->css("empty");
+	$this->Html->css("empty", array('inline' => false));
 ?>
 
 <div class="content-container normal-width" align="center">
