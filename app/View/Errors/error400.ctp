@@ -1,3 +1,10 @@
+<?php 
+	$this->assign('title', '404');
+	$this->assign('name', 'error400');
+	$this->Html->css("empty", array('inline' => false));
+?>
+
+
 <?php
 /**
  * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
@@ -14,14 +21,16 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 ?>
-<h2><?php echo $message; ?></h2>
-<p class="error">
-	<strong><?php echo __d('cake', 'Error'); ?>: </strong>
-	<?php printf(
-		__d('cake', 'The requested address %s was not found on this server.'),
-		"<strong>'{$url}'</strong>"
-	); ?>
-</p>
+<div class="content-container normal-width" align="center">
+	<h1><?php echo $message; ?></h1>
+	<p class="error">
+		<strong><?php echo __d('cake', 'Error'); ?>: </strong>
+		<?php printf(
+			__d('cake', 'The requested address %s was not found on this server.'),
+			"<strong>'{$url}'</strong>"
+		); ?>
+	</p>
+</div>
 <?php
 if (Configure::read('debug') > 0):
 	echo $this->element('exception_stack_trace');

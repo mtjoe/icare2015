@@ -9,11 +9,20 @@
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript" src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-		<?php echo $this->Html->script("base"); ?>
-		<?php echo $this->fetch('script'); ?>
-		<?php echo $this->fetch('css'); ?>
+		<?php  ?>
 
-		<?php echo $this->Html->meta('description', 'Indonesian Career Expo (ICarE) is an event held by Melbourne University Indonesian Student Association (MUISA) which aims to bridge the gap between Indonesian companies and Indonesian students studying in Melbourne. Following the grand success of the first Indonesian Career Expo, MUISA will hold its second Indonesian Career Expo in 2015.'); ?>
+		<?php 
+			echo $this->Html->script("base");
+			echo $this->fetch('script');
+			echo $this->fetch('css');
+			echo $this->Html->meta('description', 'Indonesian Career Expo (ICarE) is an event held by Melbourne University Indonesian Student Association (MUISA) which aims to bridge the gap between Indonesian companies and Indonesian students studying in Melbourne. Following the grand success of the first Indonesian Career Expo, MUISA will hold its second Indonesian Career Expo in 2015.'); 
+			echo $this->Html->meta(
+			    'icon.ico',
+			    '/icon.ico',
+			    array('type' => 'icon')
+			);
+		?>
+
 	</head>
 	<body>
 		<!-- NAVIGATION BAR -->
