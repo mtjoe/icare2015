@@ -1,0 +1,547 @@
+/* FONTS */
+@font-face {
+  font-family: Ostrich-reg;
+  src: url("../font/ostrich-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Ostrich-bold;
+  src: url("../font/ostrich-bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Ostrich-black;
+  src: url("../font/ostrich-black.ttf") format("truetype");
+  font-weight: black;
+}
+
+@font-face {
+  font-family: Roboto-Lt;
+  src: url("../font/Roboto-Light.ttf") format("truetype");
+  font-weight: regular;
+}
+
+/****** COLORS  ******/
+/****** GENERAL ******/
+/* line 36, ../scss/src/partials/_base.scss */
+body {
+  position: relative;
+}
+
+/* line 37, ../scss/src/partials/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Ostrich-black;
+}
+
+/* line 38, ../scss/src/partials/_base.scss */
+p, input, label, textarea, li {
+  font: 17px Roboto-Lt;
+}
+
+/* line 40, ../scss/src/partials/_base.scss */
+h1 {
+  font: 50px Ostrich-bold;
+  color: #273487;
+}
+
+/* line 45, ../scss/src/partials/_base.scss */
+.clear {
+  clear: both;
+}
+
+/* line 48, ../scss/src/partials/_base.scss */
+.full-width, .normal-width, .small-width, .smallest-width {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 53, ../scss/src/partials/_base.scss */
+.full-width {
+  width: 100%;
+}
+
+/* line 54, ../scss/src/partials/_base.scss */
+.normal-width {
+  width: 980px;
+}
+
+/* line 55, ../scss/src/partials/_base.scss */
+.small-width {
+  width: 800px;
+}
+
+/* line 56, ../scss/src/partials/_base.scss */
+.smallest-width {
+  width: 600px;
+}
+
+/* line 58, ../scss/src/partials/_base.scss */
+.opaque {
+  z-index: 0;
+  position: absolute;
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  width: 100%;
+  height: 100%;
+}
+
+/* line 68, ../scss/src/partials/_base.scss */
+.opaque-text {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+}
+
+/* line 75, ../scss/src/partials/_base.scss */
+.content-container {
+  padding: 50px 0px;
+}
+
+/****** NAVIGARION BAR ******/
+/* line 80, ../scss/src/partials/_base.scss */
+section {
+  position: relative;
+  background: url(../img/pattern/light.png);
+  background-size: 100px 60px;
+  background-repeat: repeat;
+  height: 200px;
+  padding-top: 10px;
+}
+/* line 88, ../scss/src/partials/_base.scss */
+section img#logo {
+  margin-top: 1%;
+  width: auto;
+  height: 100px;
+}
+/* line 94, ../scss/src/partials/_base.scss */
+section .navibar {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  background: white;
+  border-top: 3px solid #273487;
+  border-bottom: 3px solid #273487;
+  margin-bottom: 0px;
+}
+/* line 104, ../scss/src/partials/_base.scss */
+section .navibar li {
+  display: inline-block;
+  font-family: Ostrich-black;
+  vertical-align: middle;
+  margin: 0px 30px;
+  font-size: 20px;
+  line-height: 45px !important;
+}
+/* line 115, ../scss/src/partials/_base.scss */
+section .navibar li a:hover {
+  color: #337AB7;
+  text-decoration: none;
+  border-bottom: 5px solid #808080;
+}
+/* line 120, ../scss/src/partials/_base.scss */
+section .navibar li a.active {
+  border-bottom: 5px solid #808080;
+}
+/* line 124, ../scss/src/partials/_base.scss */
+section .navibar li.round {
+  margin: 0px 10px;
+}
+/* line 126, ../scss/src/partials/_base.scss */
+section .navibar li.round a:hover {
+  border-bottom: none;
+}
+/* line 127, ../scss/src/partials/_base.scss */
+section .navibar li.round span {
+  color: #676767;
+}
+/* line 128, ../scss/src/partials/_base.scss */
+section .navibar li.round span:hover {
+  color: black;
+}
+/* line 132, ../scss/src/partials/_base.scss */
+section .nextPage {
+  position: absolute;
+  bottom: 130px;
+  left: calc(50% - 10px);
+  font-size: 70px;
+}
+
+/* line 140, ../scss/src/partials/_base.scss */
+.subnavbar {
+  z-index: -100;
+}
+/* line 144, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry {
+  top: 200px;
+  position: absolute;
+  height: 200px;
+  z-index: 1000;
+  width: 100%;
+}
+/* line 150, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry .opaque {
+  background: white;
+  opacity: 0.9;
+}
+/* line 154, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry .opaque-text {
+  padding: 0px 25px;
+}
+/* line 155, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry a {
+  z-index: 2000;
+  display: inline-block;
+}
+/* line 159, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry a .submenu {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  background: #dedede;
+  margin: 10px;
+  overflow: hidden;
+}
+/* line 167, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry a .submenu img {
+  position: absolute;
+  width: 100%;
+}
+
+/****** FOOTER ******/
+/* line 178, ../scss/src/partials/_base.scss */
+.footer {
+  padding: 20px;
+  background: #263586;
+  color: white;
+}
+/* line 182, ../scss/src/partials/_base.scss */
+.footer h3 {
+  margin: 0px;
+}
+/* line 183, ../scss/src/partials/_base.scss */
+.footer .social {
+  position: absolute;
+  top: 40px;
+}
+/* line 188, ../scss/src/partials/_base.scss */
+.footer #mc_embed_signup {
+  background: none !important;
+}
+/* line 191, ../scss/src/partials/_base.scss */
+.footer #mc_embed_signup form {
+  padding: 0px;
+}
+
+/* line 196, ../scss/src/partials/_base.scss */
+.social a,
+.social-ppia a {
+  float: left;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  text-align: center;
+  margin: 5px;
+  border-radius: 30px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+/* line 210, ../scss/src/partials/_base.scss */
+#web-icon:hover {
+  color: white !important;
+  border: 2px solid grey;
+  background: grey;
+}
+
+/* line 215, ../scss/src/partials/_base.scss */
+#fb-icon:hover {
+  color: white !important;
+  border: 2px solid #425E9C;
+  background: #425E9C;
+}
+
+/* line 220, ../scss/src/partials/_base.scss */
+#instagram-icon:hover {
+  color: white !important;
+  border: 2px solid #2D6991;
+  background: #2D6991;
+}
+
+/* line 225, ../scss/src/partials/_base.scss */
+#twitter-icon:hover {
+  color: white !important;
+  border: 2px solid #55ACEE;
+  background: #55ACEE;
+}
+
+/* line 231, ../scss/src/partials/_base.scss */
+#youtube-icon:hover {
+  color: white !important;
+  border: 2px solid #CC181E;
+  background: #CC181E;
+}
+
+/* line 239, ../scss/src/partials/_base.scss */
+.one_half {
+  width: 48%;
+}
+
+/* line 240, ../scss/src/partials/_base.scss */
+.one_third {
+  width: 30.5%;
+}
+
+/* line 241, ../scss/src/partials/_base.scss */
+.one_fourth {
+  width: 22%;
+}
+
+/* line 242, ../scss/src/partials/_base.scss */
+.one_fifth {
+  width: 16.8%;
+}
+
+/* line 243, ../scss/src/partials/_base.scss */
+.one_sixth {
+  width: 13.33%;
+}
+
+/* line 244, ../scss/src/partials/_base.scss */
+.two_fifth {
+  width: 37.6%;
+}
+
+/* line 245, ../scss/src/partials/_base.scss */
+.two_third {
+  width: 65.33%;
+}
+
+/* line 246, ../scss/src/partials/_base.scss */
+.three_fifth {
+  width: 58.4%;
+}
+
+/* line 247, ../scss/src/partials/_base.scss */
+.three_fourth {
+  width: 74%;
+}
+
+/* line 248, ../scss/src/partials/_base.scss */
+.four_fifth {
+  width: 67.2%;
+}
+
+/* line 249, ../scss/src/partials/_base.scss */
+.five_sixth {
+  width: 82.67%;
+}
+
+/* line 250, ../scss/src/partials/_base.scss */
+.one_eighth {
+  width: 11.8%;
+}
+
+/* line 263, ../scss/src/partials/_base.scss */
+.one_half,
+.one_third,
+.two_third,
+.three_fourth,
+.one_fourth,
+.one_fifth,
+.two_fifth,
+.three_fifth,
+.four_fifth,
+.one_sixth,
+.one_eighth,
+.five_sixth {
+  position: relative;
+  margin-right: 4%;
+  margin-bottom: 10px;
+  float: left;
+}
+
+/* line 269, ../scss/src/partials/_base.scss */
+.column-last {
+  margin-right: 0 !important;
+  clear: right;
+}
+
+/****** COLUMNS ******/
+/* line 276, ../scss/src/partials/_base.scss */
+.one_half-margin-20 {
+  width: calc((100% - 10px)/2);
+}
+
+/* line 277, ../scss/src/partials/_base.scss */
+.one_third-margin-20 {
+  width: calc((100% - 20px)/3);
+}
+
+/* line 278, ../scss/src/partials/_base.scss */
+.one_fourth-margin-20 {
+  width: calc((100% - 30px)/4);
+}
+
+/* line 279, ../scss/src/partials/_base.scss */
+.one_fifth-margin-20 {
+  width: calc((100% - 40px)/5);
+}
+
+/* line 280, ../scss/src/partials/_base.scss */
+.one_sixth-margin-20 {
+  width: calc((100% - 50px)/6);
+}
+
+/* line 281, ../scss/src/partials/_base.scss */
+.two_third-margin-20 {
+  width: calc((((100% - 20px)/3) * 2) + 10px);
+}
+
+/* line 282, ../scss/src/partials/_base.scss */
+.three_fourth-margin-20 {
+  width: calc((((100% - 30px)/4) * 3) + 20px);
+}
+
+/* line 283, ../scss/src/partials/_base.scss */
+.two_fifth-margin-20 {
+  width: calc((((100% - 40px)/5) * 2) + 10px);
+}
+
+/* line 284, ../scss/src/partials/_base.scss */
+.three_fifth-margin-20 {
+  width: calc((((100% - 40px)/5) * 3) + 20px);
+}
+
+/* line 285, ../scss/src/partials/_base.scss */
+.four_fifth-margin-20 {
+  width: calc((((100% - 40px)/5) * 4) + 30px);
+}
+
+/* line 296, ../scss/src/partials/_base.scss */
+.one_half-margin-20,
+.one_third-margin-20,
+.one_fourth-margin-20,
+.one_sixth-margin-20,
+.one_fifth-margin-20,
+.three_fourth-margin-20,
+.two_third-margin-20,
+.two_fifth-margin-20,
+.three_fifth-margin-20,
+.four_fifth-margin-20 {
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+/* line 303, ../scss/src/partials/_base.scss */
+.one_half-margin-10 {
+  width: calc((100% - 5px)/2);
+}
+
+/* line 304, ../scss/src/partials/_base.scss */
+.one_fifth-margin-10 {
+  width: calc((100% - 20px)/5);
+}
+
+/* line 307, ../scss/src/partials/_base.scss */
+.one_half-margin-10,
+.one_fifth-margin-10 {
+  position: relative;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+/* line 313, ../scss/src/partials/_base.scss */
+.one_half-no-margin {
+  width: calc(100%/2);
+}
+
+/* line 314, ../scss/src/partials/_base.scss */
+.one_third-no-margin {
+  width: calc(100%/3);
+}
+
+/* line 315, ../scss/src/partials/_base.scss */
+.two_third-no-margin {
+  width: calc((100%/3) * 2);
+}
+
+/* line 316, ../scss/src/partials/_base.scss */
+.one_fourth-no-margin {
+  width: calc(100%/4);
+}
+
+/* line 317, ../scss/src/partials/_base.scss */
+.one_fifth-no-margin {
+  width: calc(100%/5);
+}
+
+/* line 318, ../scss/src/partials/_base.scss */
+.two_fifth-no-margin {
+  width: calc((100%/5) * 2);
+}
+
+/* line 319, ../scss/src/partials/_base.scss */
+.three_fifth-no-margin {
+  width: calc((100%/5) * 3);
+}
+
+/* line 328, ../scss/src/partials/_base.scss */
+.one_half-no-margin,
+.one_third-no-margin,
+.two_third-no-margin,
+.one_fourth-no-margin,
+.two_fifth-no-margin,
+.three_fifth-no-margin,
+.one_fifth-no-margin {
+  position: relative;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  float: left;
+}
+
+/****** FORMS ******/
+/* line 337, ../scss/src/partials/_base.scss */
+input, textarea {
+  padding: 10px;
+  color: black;
+  background: #dcdcdc;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+/* line 345, ../scss/src/partials/_base.scss */
+input[type="file"] {
+  background: white;
+}
+
+/* line 349, ../scss/src/partials/_base.scss */
+input[type="submit"] {
+  background: #00adee;
+  padding: 10px 50px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+/* line 357, ../scss/src/partials/_base.scss */
+input[type="submit"]:hover {
+  background: #0082b6;
+}
+
+/* line 4, ../scss/src/preevent.scss */
+.content-container select, .content-container input {
+  width: 80%;
+  margin: 10px;
+  text-align: center;
+}

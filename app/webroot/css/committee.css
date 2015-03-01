@@ -520,6 +520,25 @@ input, textarea {
   resize: none;
 }
 
+/* line 345, ../scss/src/partials/_base.scss */
+input[type="file"] {
+  background: white;
+}
+
+/* line 349, ../scss/src/partials/_base.scss */
+input[type="submit"] {
+  background: #00adee;
+  padding: 10px 50px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+/* line 357, ../scss/src/partials/_base.scss */
+input[type="submit"]:hover {
+  background: #0082b6;
+}
+
 /* line 3, ../scss/src/committee.scss */
 .committee-content {
   padding: 50px 0px;

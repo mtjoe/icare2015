@@ -31,6 +31,8 @@ App::uses('CakeEmail', 'Network/Email');
  */
 class PagesController extends AppController {
 
+	
+
 /**
  * This controller does not use a model
  *

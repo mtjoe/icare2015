@@ -71,6 +71,7 @@ Cache::config('default', array('engine' => 'File'));
  */
 
 CakePlugin::load('ContactUs', array('routes'=>true));
+CakePlugin::load('DebugKit');
 
 /**
  * To prefer app translation over plugin translation, you can set

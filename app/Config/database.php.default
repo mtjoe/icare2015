@@ -71,10 +71,10 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'database_name',
+		'host' => 'just15.justhost.com',
+		'login' => 'ppiaunim_icare2',
+		'password' => 'Icare123',
+		'database' => 'ppiaunim_indocareerexpo',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);

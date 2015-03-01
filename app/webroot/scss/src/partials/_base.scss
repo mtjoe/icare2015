@@ -342,3 +342,18 @@ input, textarea {
 	outline: none;
 	resize: none;
 }
+input[type="file"] {
+	background: white;
+}
+
+input[type="submit"] {
+	background: $medblue;
+	padding: 10px 50px;
+	color: white;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+input[type="submit"]:hover {
+	background: #0082b6;
+}

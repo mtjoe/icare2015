@@ -1,0 +1,99 @@
+2015-02-28 00:56:18 Notice: Notice (8): Array to string conversion in [/Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Config/routes.php, line 33]
+Trace:
+include - APP/Config/routes.php, line 33
+Router::_loadRoutes() - CORE/Cake/Routing/Router.php, line 1266
+Router::parse() - CORE/Cake/Routing/Router.php, line 595
+Dispatcher::parseParams() - CORE/Cake/Routing/Dispatcher.php, line 219
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 147
+[main] - APP/webroot/index.php, line 118
+
+2015-02-28 00:56:20 Notice: Notice (8): Array to string conversion in [/Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Config/routes.php, line 33]
+Trace:
+include - APP/Config/routes.php, line 33
+Router::_loadRoutes() - CORE/Cake/Routing/Router.php, line 1266
+Router::parse() - CORE/Cake/Routing/Router.php, line 595
+Dispatcher::parseParams() - CORE/Cake/Routing/Dispatcher.php, line 219
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 147
+[main] - APP/webroot/index.php, line 118
+
+2015-02-28 00:56:22 Notice: Notice (8): Array to string conversion in [/Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Config/routes.php, line 33]
+Trace:
+include - APP/Config/routes.php, line 33
+Router::_loadRoutes() - CORE/Cake/Routing/Router.php, line 1266
+Router::parse() - CORE/Cake/Routing/Router.php, line 595
+Dispatcher::parseParams() - CORE/Cake/Routing/Dispatcher.php, line 219
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 147
+[main] - APP/webroot/index.php, line 118
+
+2015-02-28 00:56:37 Notice: Notice (8): Array to string conversion in [/Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Config/routes.php, line 33]
+Trace:
+include - APP/Config/routes.php, line 33
+Router::_loadRoutes() - CORE/Cake/Routing/Router.php, line 1266
+Router::parse() - CORE/Cake/Routing/Router.php, line 595
+Dispatcher::parseParams() - CORE/Cake/Routing/Dispatcher.php, line 219
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 147
+[main] - APP/webroot/index.php, line 118
+
+2015-02-28 00:56:55 Notice: Notice (8): Array to string conversion in [/Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Config/routes.php, line 33]
+Trace:
+include - APP/Config/routes.php, line 33
+Router::_loadRoutes() - CORE/Cake/Routing/Router.php, line 1266
+Router::parse() - CORE/Cake/Routing/Router.php, line 595
+Dispatcher::parseParams() - CORE/Cake/Routing/Dispatcher.php, line 219
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 147
+[main] - APP/webroot/index.php, line 118
+
+2015-02-28 00:57:26 Notice: Notice (8): Array to string conversion in [/Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Config/routes.php, line 33]
+Trace:
+include - APP/Config/routes.php, line 33
+Router::_loadRoutes() - CORE/Cake/Routing/Router.php, line 1266
+Router::parse() - CORE/Cake/Routing/Router.php, line 595
+Dispatcher::parseParams() - CORE/Cake/Routing/Dispatcher.php, line 219
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 147
+[main] - APP/webroot/index.php, line 118
+
+2015-02-28 00:58:05 Notice: Notice (8): Array to string conversion in [/Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Config/routes.php, line 33]
+Trace:
+include - APP/Config/routes.php, line 33
+Router::_loadRoutes() - CORE/Cake/Routing/Router.php, line 1266
+Router::parse() - CORE/Cake/Routing/Router.php, line 595
+Dispatcher::parseParams() - CORE/Cake/Routing/Dispatcher.php, line 219
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 147
+[main] - APP/webroot/index.php, line 118
+
+2015-02-28 00:58:21 Notice: Notice (8): Array to string conversion in [/Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Config/routes.php, line 33]
+Trace:
+include - APP/Config/routes.php, line 33
+Router::_loadRoutes() - CORE/Cake/Routing/Router.php, line 1266
+Router::parse() - CORE/Cake/Routing/Router.php, line 595
+Dispatcher::parseParams() - CORE/Cake/Routing/Dispatcher.php, line 219
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 147
+[main] - APP/webroot/index.php, line 118
+
+2015-02-28 01:01:19 Notice: Notice (8): Array to string conversion in [/Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Config/routes.php, line 33]
+Trace:
+include - APP/Config/routes.php, line 33
+Router::_loadRoutes() - CORE/Cake/Routing/Router.php, line 1266
+Router::parse() - CORE/Cake/Routing/Router.php, line 595
+Dispatcher::parseParams() - CORE/Cake/Routing/Dispatcher.php, line 219
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 147
+[main] - APP/webroot/index.php, line 118
+

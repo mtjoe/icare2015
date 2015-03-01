@@ -50,4 +50,16 @@ class EmailConfig {
 		'password' => 'Icare123',
 		'log' => false,
 	);
+
+	public $admin = array(
+		'transport' => 'Smtp',
+		'from' => array('admin@indonesiancareerexpo.org' => 'Indonesian Career Expo'),
+		'domain' => 'indonesiancareerexpo.org',
+		'host' => 'mail.indonesiancareerexpo.org',
+		'port' => 26,
+		'timeout' => 30,
+		'username' => 'admin@indonesiancareerexpo.org',
+		'password' => 'Icare123',
+		'log' => false,
+	);
 }
