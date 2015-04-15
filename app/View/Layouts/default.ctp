@@ -2,6 +2,9 @@
 <html>
 	<head>
 		<title><?php echo $this->fetch('title')." - Indonesian Career Expo"; ?></title>
+
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300' rel='stylesheet' type='text/css'>
 		
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css">
@@ -36,8 +39,8 @@
 				<a onclick="addCompressed()"><span class="nextPage ionicons ion-ios-arrow-down"></span></a>
 				<ul class="navibar uncomp normal-width">
 					<li id="navi-home" class="uncomp"><a href="/">HOME</a></li>
-					<li id="navi-about" class="uncomp"><a href="">ABOUT</a></li>
-					<li id="navi-events" class="uncomp"><a href="">EVENTS</a></li>
+					<li id="navi-about" class="uncomp"><a href="">ABOUT ▾</a></li>
+					<li id="navi-events" class="uncomp"><a href="">EVENTS ▾</a></li>
 					<li id="navi-exhibitors" class="uncomp"><a href="">EXHIBITORS</a></li>
 					<li id="navi-speakers" class="uncomp"><a href="">SPEAKERS</a></li>
 					<li id="navi-media" class="uncomp"><a href="/media">MEDIA RELEASE</a></li>
@@ -51,8 +54,8 @@
 				<a href="/index"><img id="logo" src="/img/logo/icare.png"></a>
 				<ul class="navibar normal-width">
 					<li id="navi-home"><a href="/">HOME</a></li>
-					<li id="navi-about"><a>ABOUT</a></li>
-					<li id="navi-events"><a>EVENTS</a></li>
+					<li id="navi-about"><a>ABOUT ▾</a></li>
+					<li id="navi-events"><a>EVENTS ▾</a></li>
 					<li id="navi-exhibitors"><a href="/exhibitors/list">EXHIBITORS</a></li>
 					<li id="navi-speakers"><a href="/speakers">SPEAKERS</a></li>
 					<li id="navi-media"><a href="/media">MEDIA RELEASE</a></li>
@@ -94,23 +97,24 @@
 				<div class="opaque-text normal-width" align="center">
 					<a href="/events/schedule">
 						<div class="submenu" style="background: url(/img/subnavbar/schedule.jpg); background-size: cover;"></div>
-						<h5>SCHEDULE</h5>
-					</a>
-					<a href="/events/pre-events">
-						<div class="submenu" style="background: url(/img/recap/2.jpg); background-size: cover; background-position: center;"></div>
-						<h5>PRE-EVENTS</h5>
+						<h5>Schedule</h5>
 					</a>
 					<a href="/events/premiere">
 						<div class="submenu" style="background: url(/img/recap/1.jpg); background-size: cover; background-position: center;"></div>
 						<h5>The Premiere</h5>
 					</a>
+					<a href="/events/start-smart">
+						<div class="submenu" style="background: url(/img/recap/2.jpg); background-size: cover; background-position: center;"></div>
+						<h5>Start Smart</h5>
+					</a>
+					
 					<a href="/events/expo">
 						<div class="submenu" style="background: url(/img/recap/7.jpg); background-size: cover; background-position: center;"></div>
-						<h5>Expo</h5>
+						<h5>The Expo</h5>
 					</a>
-					<a href="/events/networking-dinner">
+					<a href="/events/insight-dinner">
 						<div class="submenu" style="background: url(/img/recap/3.jpg); background-size: cover; background-position: center;"></div>
-						<h5>Networking Dinner</h5>
+						<h5>Insight Dinner</h5>
 					</a>
 				</div>
 				

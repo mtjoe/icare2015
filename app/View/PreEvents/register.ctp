@@ -6,16 +6,19 @@
 
 <?php 
 	$universities = array(
-		'University of Melbourne',
-		'Monash University',
-		'Victoria University',
-		'RMIT',
-		'Others',
+		'University of Melbourne' => 'University of Melbourne',
+		'Monash University' => 'Monash University',
+		'RMIT' => 'RMIT',
+		'Victoria University' => 'Victoria University',
+		'Swinburne University' => 'Swinburne University',
+		'Deakin University' => 'Deakin University',
+		'La Trobe University' => 'La Trobe University',
+		'Others' => 'Others',
 	);
 ?>
 
 <div class="content-container small-width" align="center">
-	<h1>Pre-Event Registration</h1>
+	<h1>Start Smart Registration</h1>
 
 	<p>Please fill in your details for registration.</p><br>
 
@@ -32,14 +35,9 @@
 	<div align="left" style="margin-top: 50px;">
 		<h2>Take your resume to the next level</h2>
 		<h4>Sponsored by SuperStar Education</h4>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>To be able to gain as much help and resources as possible in Start Smart, we recommend participants to attach their latest Curriculum Vitae (CV) or Resume with their application. We will be inviting experienced consultants to the event to guide participants in creating a well-structured CV or Resume by reviewing participants’ CV or Resume submissions. We recommend PDF files no more than 5MB.</p>
 		<div align="center">
-			<?php echo $this->Form->input('resume', array('label' => false, 'type'=>'file')); ?>
+			<?php echo $this->Form->input('resume', array('label' => false, 'type'=>'file', 'options' => array('accept' => 'application/pdf', 'data-max-size' => '5120'))); ?>
 		</div>
 	</div>
 	<?php echo $this->Form->end('Register'); ?>

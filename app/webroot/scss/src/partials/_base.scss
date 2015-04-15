@@ -148,14 +148,16 @@ section {
 		z-index: 1000;
 		width: 100%;
 		.opaque {
-			background: white;
+			background: #CDCDCD;
 			opacity: 0.9;
 		}
 		.opaque-text { padding: 0px 25px; }
+
+		h5 { font-family: "Open Sans" !important; }
 		a {
 			z-index: 2000;
 			display: inline-block;
-
+			
 			.submenu {
 				position: relative;
 				height: 150px;

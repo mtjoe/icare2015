@@ -40,6 +40,13 @@ class PagesController extends AppController {
  */
 	public $uses = array('Email');
 
+
+	public function beforeFilter() {
+		parent::beforeFilter();
+
+		$this->Auth->allow(array('display', 'contact'));
+	}
+
 /**
  * Displays a view
  *

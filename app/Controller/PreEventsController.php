@@ -2,12 +2,18 @@
 
 App::uses('AppController', 'Controller');
 App::uses('CakeEmail', 'Network/Email');
+App::uses('Security', 'Utility'); 
 
 class PreEventsController extends AppController {
 	public $components = array('Paginator');
 	public $helpers = array('Html', 'Form');
 	public $uses = array('UnconPreEvent', 'PreEvent');
 	public $MAXATTENDEES = 50;
+
+	public function beforeFilter() {
+		parent::beforeFilter();
+        $this->Auth->allow('register', 'thankyou', 'confirm');
+    }
 
 	public function index() {
 		$this->Paginator->settings = array(
@@ -84,6 +90,8 @@ class PreEventsController extends AppController {
 	}
 
 	public function confirm($hash) {
+		$this->request->allowMethod('post');
+
 		$attendee = $this->UnconPreEvent->find('first', array('conditions' => array('UnconPreEvent.hash' => $hash)));
 		if ($attendee === null) {
 			throw new NotFoundException();

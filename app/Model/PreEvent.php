@@ -24,11 +24,15 @@ class PreEvent extends AppModel {
 		),
 		'university' => array(
 			'alphanumeric' => array(
-				'rule' => 'alphanumeric',
+				'rule' => 'Please enter a valid university.',
 				'allowEmpty' => 'false'
 			)
 		),
 		'resume' => array(
+			/*'extension' => array(
+	            'rule' => array('extension', array('pdf')),
+	             'message' => 'Only pdf files',
+	         )*/
 	    )
 
 	);

@@ -11,6 +11,8 @@
 </style>
 
 <div class="content-container normal-width">
+	<p><b>You are logged in as <?php echo $this->Session->read('Auth.User.username'); ?>.</b></p><a href="/Users/logout">Logout now ></a>
+
 	<h1 align="center">Attendees of Pre-Event</h1>
 	<?php if (count($data) === 0): ?>
 		<p align="center">No attendees yet.</p>
