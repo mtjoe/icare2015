@@ -1,0 +1,120 @@
+@import "partials/base";
+
+p, li { line-height: 1.5; }
+
+.content-container {
+	h1, h2, h3, h4, h5, h6 { font-family: "Open Sans"; text-transform: uppercase; font-weight: 700; }
+}
+.date p { 
+	font: 50px 'Open Sans';
+	font-weight: 800;
+	margin: 0;
+	line-height: 50px;
+}
+.loc p { margin: 0; }
+
+.one_third-margin-20  { min-height: 180px; }
+
+.imp {
+	padding: 3px;
+	background: #B7BCFF;
+	border-radius: 5px;
+	width: auto;
+}
+
+.map { border: 5px solid white; }
+
+.objectives .four_fifth {
+	background: #BFEDFF;
+	padding: 30px; 
+
+	p { font-family: "Open Sans"; margin:0px; }
+}
+
+.bold { font-weight: 600; color: #3B355D; }
+
+.synopsis p {
+	font-size: 20px;
+	line-height: 1.8;
+}
+
+.speaker-wrapper {
+	padding: 20px 0px;
+	border-top: 5px solid #91B876;
+	position: relative;
+	img.ss-speaker {
+		width: 290px;
+		position: absolute;
+		bottom: 0px;
+		right: 30px;
+	}
+
+	.one_fourth, .three_fifth { margin-bottom: 0px; }
+
+	.one_third { 
+		transition: all 0.3s ease 0s;
+		height: 300px; 
+		overflow: hidden; 
+		position: relative;
+		img.prem-speaker { position: absolute; width: 100%; }
+		.opaque {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			
+		}
+		.prem-speaker-name {
+			position: absolute;
+			text-align: center;
+			bottom: 50px;
+		}
+
+		.opaque { background: rgba(0, 0, 0, 0.2); transition: all 0.3s ease 0s; }
+		.prem-speaker-name { width: 80%; left: 10%; }
+		.prem-speaker-name p {
+			color: white;
+			text-align: center;
+			font: 20px "Open Sans";
+		}
+
+		.prem-speaker-name p:nth-child(1) { 
+			display: inline;
+			font-style: italic;
+			font-weight: 700;
+			background: rgba(0, 0, 0, 0.7);
+			padding: 5px;
+		}
+		.prem-speaker-name p:nth-child(2) { display: none; text-transform: uppercase; font-family: Montserrat; }
+	}
+
+	.one_third:hover {
+		.opaque { background: rgba(0, 0, 0, 0.9); }
+
+		.prem-speaker-name p:nth-child(1) { display: none; }
+		.prem-speaker-name p:nth-child(2) { display: inline; }
+	}
+
+}
+
+.speaker-wrapper:last-of-type {
+	border-bottom: 1px solid black;
+}
+
+section#cd-timeline {
+	background: none;
+
+	.ion-ios-circle-filled {
+		line-height: 100% !important;
+		height: 100% !important;
+		width: 100% !important;
+		text-align: center !important;
+		font-size: 40px;
+		padding-top: 10px;
+		color: #76AA85;
+	}
+
+	.cd-date {
+		font-family: "Open Sans";
+		font-weight: 700;
+	}
+}

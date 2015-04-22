@@ -57,3 +57,50 @@ img#logo.uncomp  {
 .sponsors {
 	//height: 300px;
 }
+
+.event-list {
+	.one_fourth-margin-20 {
+		position: relative;
+		padding: 60px 0px;
+		background: white;
+		height: 200px;
+		overflow: hidden;
+		img { 
+			position: absolute;
+			width: 80%;
+			left: 10%;
+		}
+		.opaque {
+			position: absolute;
+			transition: all 0.3s ease 0s;
+			margin-top: -60px;
+		}
+	}
+
+	.one_fourth-margin-20:hover {
+		.opaque {
+			background: rgba(0,0,100,0.7);
+		}
+	}
+}
+
+.platinum-sponsors, .gold-sponsors, .medpar {
+	h2 {
+		font: 50px "Open Sans";
+		text-transform: uppercase;
+		font-weight: 600;
+		color: #515151;
+
+	}
+	ul {
+		margin-top: 50px;
+		li {
+			width: 48%;
+			display: inline-block;
+
+			img {
+				width: 80%;
+			}
+		}
+	}
+}

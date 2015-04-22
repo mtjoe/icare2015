@@ -6,14 +6,14 @@
 
 <?php 
 	$universities = array(
-		'University of Melbourne' => 'University of Melbourne',
-		'Monash University' => 'Monash University',
-		'RMIT' => 'RMIT',
-		'Victoria University' => 'Victoria University',
-		'Swinburne University' => 'Swinburne University',
-		'Deakin University' => 'Deakin University',
-		'La Trobe University' => 'La Trobe University',
-		'Others' => 'Others',
+		'University of Melbourne',
+		'Monash University',
+		'RMIT',
+		'Victoria University',
+		'Swinburne University',
+		'Deakin University',
+		'La Trobe University',
+		'Others',
 	);
 ?>
 

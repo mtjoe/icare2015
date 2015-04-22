@@ -4,6 +4,10 @@
 	$this->Html->css(array("index", "committee"), array('inline' => false));
 ?>
 
+<style type="text/css">
+	.btn-blue:hover { background: #0076AA !important; }
+</style>
+
 <!-- INDEX CONTENT -->
 <div id="featured" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
@@ -49,7 +53,7 @@
 </div>
 
 <!-- WHEN & WHERE -->
-<div class="when-where">
+<div class="when-where" style="padding-bottom: 100px;">
 	<div class="normal-width" align="center">
 		<div><img src="/img/logo/ppia.png" style="width: 100px;"></div>
 		<h2>presents</h2>
@@ -73,8 +77,58 @@
 		<div class="clear"></div>
 	</div>
 
-	<div class="registration" align="center">
-		<p style="font-size: 20px;">Registration Coming Soon</p>
+	<div class="registration" align="center" style="margin-top: 50px;">
+		<a href="/events/expo" class="btn-register btn-blue" style="background: #00A0E4;">Read More</a>
+		<a href="https://www.eventbrite.com/e/the-expo-indonesian-career-expo-2015-tickets-16183652741" target="blank" class="btn-register">Register on Eventbrite</a>
+	</div>
+</div>
+
+<div align="center" style="background: #DDDEED; padding: 120px 0px;">
+	<div class="normal-width event-list">
+		<h2 style="font: 35px 'Open Sans'; font-weight: 600; text-transform: uppercase; color: #263586; border-bottom: 2px solid #263586; padding-bottom: 20px;">We have a series of events lined up for you!</h2><br>
+		<a href="/events/start-smart" class="one_fourth-margin-20">
+			<img src="/img/logo/start-smart.png" style="padding-top: 20px;">
+			<div class="opaque"></div>
+		</a>
+		<a href="/events/premiere" class="one_fourth-margin-20">
+			<img src="/img/logo/premiere.png" style="width: 90%; padding-top: 20px; left: 5%;">
+			<div class="opaque"></div>
+		</a>
+		<a href="/events/expo" class="one_fourth-margin-20">
+			<img src="/img/logo/expo.png">
+			<div class="opaque"></div>
+		</a>
+		<a href="/events/insight-dinner" class="one_fourth-margin-20 column-last">
+			<img src="/img/logo/insight-dinner.png">
+			<div class="opaque"></div>
+		</a>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div class="platinum-sponsors" style="padding: 70px 0px; border-bottom: 5px solid #ECECEC;">
+	<div class="normal-width" align="center">
+		<h2 style="">Platinum Sponsors</h2>
+		<ul>
+			<li style="width: 44%;"><img src="/img/logo/anz.png"></li>
+			<li style="width: 55%;"><img src="/img/logo/permata.png"></li>
+		</ul>
+	</div>
+</div>
+<div class="gold-sponsors" style="padding: 70px 0px;">
+	<div class="normal-width" align="center">
+		<h2>Gold Sponsors</h2>
+		<ul class="platinum-sponsors">
+			<li style="width: 50%;"><img src="/img/logo/commonwealth.jpg"></li>
+			<li style="width: 35%;"><img src="/img/logo/sctv.png"></li>
+			<li style="width: 50%;"><img src="/img/logo/axa.png"></li>
+		</ul>
+	</div>
+</div>
+
+<div class="medpar" style="padding: 70px 0px; background: #F4F1F6;">
+	<div class="normal-width" align="center">
+		<h2>Media Partners</h2>
 	</div>
 </div>
 

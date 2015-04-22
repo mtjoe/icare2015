@@ -1,0 +1,757 @@
+/* FONTS */
+@font-face {
+  font-family: Ostrich-reg;
+  src: url("../font/ostrich-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Ostrich-bold;
+  src: url("../font/ostrich-bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Ostrich-black;
+  src: url("../font/ostrich-black.ttf") format("truetype");
+  font-weight: black;
+}
+
+@font-face {
+  font-family: Roboto-Lt;
+  src: url("../font/Roboto-Light.ttf") format("truetype");
+  font-weight: regular;
+}
+
+/****** COLORS  ******/
+/****** GENERAL ******/
+/* line 36, ../scss/src/partials/_base.scss */
+body {
+  position: relative;
+}
+
+/* line 37, ../scss/src/partials/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ostrich-black";
+}
+
+/* line 38, ../scss/src/partials/_base.scss */
+p, input, label, textarea, li {
+  font: 17px Roboto-Lt;
+}
+
+/* line 39, ../scss/src/partials/_base.scss */
+p {
+  margin-bottom: 20px;
+}
+
+/* line 40, ../scss/src/partials/_base.scss */
+h1 {
+  font: 50px Ostrich-bold;
+  color: #273487;
+}
+
+/* line 44, ../scss/src/partials/_base.scss */
+a:hover {
+  cursor: pointer;
+}
+
+/* line 45, ../scss/src/partials/_base.scss */
+.clear {
+  clear: both;
+}
+
+/* line 48, ../scss/src/partials/_base.scss */
+.full-width, .normal-width, .small-width, .smallest-width {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 53, ../scss/src/partials/_base.scss */
+.full-width {
+  width: 100%;
+}
+
+/* line 54, ../scss/src/partials/_base.scss */
+.normal-width {
+  width: 980px;
+}
+
+/* line 55, ../scss/src/partials/_base.scss */
+.small-width {
+  width: 800px;
+}
+
+/* line 56, ../scss/src/partials/_base.scss */
+.smallest-width {
+  width: 600px;
+}
+
+/* line 58, ../scss/src/partials/_base.scss */
+.opaque {
+  z-index: 0;
+  position: absolute;
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  width: 100%;
+  height: 100%;
+}
+
+/* line 68, ../scss/src/partials/_base.scss */
+.opaque-text {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+}
+
+/* line 75, ../scss/src/partials/_base.scss */
+.content-container {
+  padding: 50px 0px;
+}
+
+/****** NAVIGARION BAR ******/
+/* line 80, ../scss/src/partials/_base.scss */
+section.navibar-wrapper {
+  position: relative;
+  background: url(../img/pattern/light.png);
+  background-size: 100px 60px;
+  background-repeat: repeat;
+  height: 200px;
+  padding-top: 10px;
+}
+/* line 88, ../scss/src/partials/_base.scss */
+section.navibar-wrapper img#logo {
+  margin-top: 1%;
+  width: auto;
+  height: 100px;
+}
+/* line 94, ../scss/src/partials/_base.scss */
+section.navibar-wrapper .navibar {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  background: white;
+  border-top: 3px solid #273487;
+  border-bottom: 3px solid #273487;
+  margin-bottom: 0px;
+}
+/* line 104, ../scss/src/partials/_base.scss */
+section.navibar-wrapper .navibar li {
+  display: inline-block;
+  font-family: Montserrat;
+  vertical-align: middle;
+  margin: 0px 20px;
+  font-size: 15px;
+  line-height: 45px !important;
+}
+/* line 112, ../scss/src/partials/_base.scss */
+section.navibar-wrapper .navibar li a:hover {
+  color: #337AB7;
+  text-decoration: none;
+  border-bottom: 5px solid #808080;
+}
+/* line 117, ../scss/src/partials/_base.scss */
+section.navibar-wrapper .navibar li a.active {
+  border-bottom: 5px solid #808080;
+}
+/* line 121, ../scss/src/partials/_base.scss */
+section.navibar-wrapper .navibar li.round {
+  margin: 0px 10px;
+}
+/* line 123, ../scss/src/partials/_base.scss */
+section.navibar-wrapper .navibar li.round a:hover {
+  border-bottom: none;
+}
+/* line 124, ../scss/src/partials/_base.scss */
+section.navibar-wrapper .navibar li.round span {
+  color: #676767;
+}
+/* line 125, ../scss/src/partials/_base.scss */
+section.navibar-wrapper .navibar li.round span:hover {
+  color: black;
+}
+/* line 129, ../scss/src/partials/_base.scss */
+section.navibar-wrapper .nextPage {
+  position: absolute;
+  bottom: 130px;
+  left: calc(50% - 10px);
+  font-size: 70px;
+}
+
+/* line 137, ../scss/src/partials/_base.scss */
+.subnavbar {
+  z-index: -100;
+}
+/* line 141, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry {
+  top: 200px;
+  position: absolute;
+  height: 200px;
+  z-index: 1000;
+  width: 100%;
+}
+/* line 147, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry .opaque {
+  background: #CDCDCD;
+  opacity: 0.95;
+}
+/* line 151, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry .opaque-text {
+  padding: 0px 25px;
+}
+/* line 153, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry h5 {
+  font: 12px "Montserrat" !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: black;
+}
+/* line 154, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry a {
+  z-index: 2000;
+  display: inline-block;
+}
+/* line 158, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry a .submenu {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  background: rgba(255, 255, 255, 0.4);
+  margin: 10px;
+  overflow: hidden;
+}
+/* line 166, ../scss/src/partials/_base.scss */
+.subnavbar .subnavbar-entry a .submenu img {
+  position: absolute;
+  width: 100%;
+}
+
+/****** FOOTER ******/
+/* line 177, ../scss/src/partials/_base.scss */
+.footer {
+  padding: 20px;
+  background: #263586;
+  color: white;
+}
+/* line 181, ../scss/src/partials/_base.scss */
+.footer h3 {
+  margin: 0px;
+}
+/* line 182, ../scss/src/partials/_base.scss */
+.footer .social {
+  position: absolute;
+  top: 40px;
+}
+/* line 187, ../scss/src/partials/_base.scss */
+.footer #mc_embed_signup {
+  background: none !important;
+}
+/* line 190, ../scss/src/partials/_base.scss */
+.footer #mc_embed_signup form {
+  padding: 0px;
+}
+
+/* line 195, ../scss/src/partials/_base.scss */
+.social a,
+.social-ppia a {
+  float: left;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  text-align: center;
+  margin: 5px;
+  border-radius: 30px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+/* line 209, ../scss/src/partials/_base.scss */
+#web-icon:hover {
+  color: white !important;
+  border: 2px solid grey;
+  background: grey;
+}
+
+/* line 214, ../scss/src/partials/_base.scss */
+#fb-icon:hover {
+  color: white !important;
+  border: 2px solid #425E9C;
+  background: #425E9C;
+}
+
+/* line 219, ../scss/src/partials/_base.scss */
+#instagram-icon:hover {
+  color: white !important;
+  border: 2px solid #2D6991;
+  background: #2D6991;
+}
+
+/* line 224, ../scss/src/partials/_base.scss */
+#twitter-icon:hover {
+  color: white !important;
+  border: 2px solid #55ACEE;
+  background: #55ACEE;
+}
+
+/* line 230, ../scss/src/partials/_base.scss */
+#youtube-icon:hover {
+  color: white !important;
+  border: 2px solid #CC181E;
+  background: #CC181E;
+}
+
+/* line 238, ../scss/src/partials/_base.scss */
+.one_half {
+  width: 48%;
+}
+
+/* line 239, ../scss/src/partials/_base.scss */
+.one_third {
+  width: 30.5%;
+}
+
+/* line 240, ../scss/src/partials/_base.scss */
+.one_fourth {
+  width: 22%;
+}
+
+/* line 241, ../scss/src/partials/_base.scss */
+.one_fifth {
+  width: 16.8%;
+}
+
+/* line 242, ../scss/src/partials/_base.scss */
+.one_sixth {
+  width: 13.33%;
+}
+
+/* line 243, ../scss/src/partials/_base.scss */
+.two_fifth {
+  width: 37.6%;
+}
+
+/* line 244, ../scss/src/partials/_base.scss */
+.two_third {
+  width: 65.33%;
+}
+
+/* line 245, ../scss/src/partials/_base.scss */
+.three_fifth {
+  width: 58.4%;
+}
+
+/* line 246, ../scss/src/partials/_base.scss */
+.three_fourth {
+  width: 74%;
+}
+
+/* line 247, ../scss/src/partials/_base.scss */
+.four_fifth {
+  width: 67.2%;
+}
+
+/* line 248, ../scss/src/partials/_base.scss */
+.five_sixth {
+  width: 82.67%;
+}
+
+/* line 249, ../scss/src/partials/_base.scss */
+.one_eighth {
+  width: 11.8%;
+}
+
+/* line 250, ../scss/src/partials/_base.scss */
+.sevent_eighth {
+  width: 84.2%;
+}
+
+/* line 264, ../scss/src/partials/_base.scss */
+.one_half,
+.one_third,
+.two_third,
+.three_fourth,
+.one_fourth,
+.one_fifth,
+.two_fifth,
+.three_fifth,
+.four_fifth,
+.one_sixth,
+.one_eighth,
+.five_sixth,
+.sevent_eighth {
+  position: relative;
+  margin-right: 4%;
+  margin-bottom: 10px;
+  float: left;
+}
+
+/* line 270, ../scss/src/partials/_base.scss */
+.column-last {
+  margin-right: 0 !important;
+  clear: right;
+}
+
+/****** COLUMNS ******/
+/* line 277, ../scss/src/partials/_base.scss */
+.one_half-margin-20 {
+  width: calc((100% - 10px)/2);
+}
+
+/* line 278, ../scss/src/partials/_base.scss */
+.one_third-margin-20 {
+  width: calc((100% - 20px)/3);
+}
+
+/* line 279, ../scss/src/partials/_base.scss */
+.one_fourth-margin-20 {
+  width: calc((100% - 30px)/4);
+}
+
+/* line 280, ../scss/src/partials/_base.scss */
+.one_fifth-margin-20 {
+  width: calc((100% - 40px)/5);
+}
+
+/* line 281, ../scss/src/partials/_base.scss */
+.one_sixth-margin-20 {
+  width: calc((100% - 50px)/6);
+}
+
+/* line 282, ../scss/src/partials/_base.scss */
+.two_third-margin-20 {
+  width: calc((((100% - 20px)/3) * 2) + 10px);
+}
+
+/* line 283, ../scss/src/partials/_base.scss */
+.three_fourth-margin-20 {
+  width: calc((((100% - 30px)/4) * 3) + 20px);
+}
+
+/* line 284, ../scss/src/partials/_base.scss */
+.two_fifth-margin-20 {
+  width: calc((((100% - 40px)/5) * 2) + 10px);
+}
+
+/* line 285, ../scss/src/partials/_base.scss */
+.three_fifth-margin-20 {
+  width: calc((((100% - 40px)/5) * 3) + 20px);
+}
+
+/* line 286, ../scss/src/partials/_base.scss */
+.four_fifth-margin-20 {
+  width: calc((((100% - 40px)/5) * 4) + 30px);
+}
+
+/* line 297, ../scss/src/partials/_base.scss */
+.one_half-margin-20,
+.one_third-margin-20,
+.one_fourth-margin-20,
+.one_sixth-margin-20,
+.one_fifth-margin-20,
+.three_fourth-margin-20,
+.two_third-margin-20,
+.two_fifth-margin-20,
+.three_fifth-margin-20,
+.four_fifth-margin-20 {
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+/* line 304, ../scss/src/partials/_base.scss */
+.one_half-margin-10 {
+  width: calc((100% - 5px)/2);
+}
+
+/* line 305, ../scss/src/partials/_base.scss */
+.one_fifth-margin-10 {
+  width: calc((100% - 20px)/5);
+}
+
+/* line 308, ../scss/src/partials/_base.scss */
+.one_half-margin-10,
+.one_fifth-margin-10 {
+  position: relative;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+/* line 314, ../scss/src/partials/_base.scss */
+.one_half-no-margin {
+  width: calc(100%/2);
+}
+
+/* line 315, ../scss/src/partials/_base.scss */
+.one_third-no-margin {
+  width: calc(100%/3);
+}
+
+/* line 316, ../scss/src/partials/_base.scss */
+.two_third-no-margin {
+  width: calc((100%/3) * 2);
+}
+
+/* line 317, ../scss/src/partials/_base.scss */
+.one_fourth-no-margin {
+  width: calc(100%/4);
+}
+
+/* line 318, ../scss/src/partials/_base.scss */
+.one_fifth-no-margin {
+  width: calc(100%/5);
+}
+
+/* line 319, ../scss/src/partials/_base.scss */
+.two_fifth-no-margin {
+  width: calc((100%/5) * 2);
+}
+
+/* line 320, ../scss/src/partials/_base.scss */
+.three_fifth-no-margin {
+  width: calc((100%/5) * 3);
+}
+
+/* line 329, ../scss/src/partials/_base.scss */
+.one_half-no-margin,
+.one_third-no-margin,
+.two_third-no-margin,
+.one_fourth-no-margin,
+.two_fifth-no-margin,
+.three_fifth-no-margin,
+.one_fifth-no-margin {
+  position: relative;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  float: left;
+}
+
+/****** FORMS ******/
+/* line 338, ../scss/src/partials/_base.scss */
+input, textarea {
+  padding: 10px;
+  color: black;
+  background: #dcdcdc;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+/* line 346, ../scss/src/partials/_base.scss */
+input[type="file"] {
+  background: white;
+}
+
+/* line 350, ../scss/src/partials/_base.scss */
+input[type="submit"] {
+  background: #00adee;
+  padding: 10px 50px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+/* line 358, ../scss/src/partials/_base.scss */
+input[type="submit"]:hover {
+  background: #0082b6;
+}
+
+/* line 363, ../scss/src/partials/_base.scss */
+.btn-register {
+  padding: 20px 50px;
+  background: #8DC99B;
+  color: white;
+  font-size: 25px;
+  border-radius: 5px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 374, ../scss/src/partials/_base.scss */
+.btn-register:hover {
+  color: white;
+  background: #76AA85;
+  text-decoration: none;
+}
+
+/* line 3, ../scss/src/events.scss */
+p, li {
+  line-height: 1.5;
+}
+
+/* line 6, ../scss/src/events.scss */
+.content-container h1, .content-container h2, .content-container h3, .content-container h4, .content-container h5, .content-container h6 {
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* line 8, ../scss/src/events.scss */
+.date p {
+  font: 50px 'Open Sans';
+  font-weight: 800;
+  margin: 0;
+  line-height: 50px;
+}
+
+/* line 14, ../scss/src/events.scss */
+.loc p {
+  margin: 0;
+}
+
+/* line 16, ../scss/src/events.scss */
+.one_third-margin-20 {
+  min-height: 180px;
+}
+
+/* line 18, ../scss/src/events.scss */
+.imp {
+  padding: 3px;
+  background: #B7BCFF;
+  border-radius: 5px;
+  width: auto;
+}
+
+/* line 25, ../scss/src/events.scss */
+.map {
+  border: 5px solid white;
+}
+
+/* line 27, ../scss/src/events.scss */
+.objectives .four_fifth {
+  background: #BFEDFF;
+  padding: 30px;
+}
+/* line 31, ../scss/src/events.scss */
+.objectives .four_fifth p {
+  font-family: "Open Sans";
+  margin: 0px;
+}
+
+/* line 34, ../scss/src/events.scss */
+.bold {
+  font-weight: 600;
+  color: #3B355D;
+}
+
+/* line 36, ../scss/src/events.scss */
+.synopsis p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+/* line 41, ../scss/src/events.scss */
+.speaker-wrapper {
+  padding: 20px 0px;
+  border-top: 5px solid #91B876;
+  position: relative;
+}
+/* line 45, ../scss/src/events.scss */
+.speaker-wrapper img.ss-speaker {
+  width: 290px;
+  position: absolute;
+  bottom: 0px;
+  right: 30px;
+}
+/* line 52, ../scss/src/events.scss */
+.speaker-wrapper .one_fourth, .speaker-wrapper .three_fifth {
+  margin-bottom: 0px;
+}
+/* line 54, ../scss/src/events.scss */
+.speaker-wrapper .one_third {
+  transition: all 0.3s ease 0s;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 59, ../scss/src/events.scss */
+.speaker-wrapper .one_third img.prem-speaker {
+  position: absolute;
+  width: 100%;
+}
+/* line 60, ../scss/src/events.scss */
+.speaker-wrapper .one_third .opaque {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/* line 66, ../scss/src/events.scss */
+.speaker-wrapper .one_third .prem-speaker-name {
+  position: absolute;
+  text-align: center;
+  bottom: 50px;
+}
+/* line 72, ../scss/src/events.scss */
+.speaker-wrapper .one_third .opaque {
+  background: rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease 0s;
+}
+/* line 73, ../scss/src/events.scss */
+.speaker-wrapper .one_third .prem-speaker-name {
+  width: 80%;
+  left: 10%;
+}
+/* line 74, ../scss/src/events.scss */
+.speaker-wrapper .one_third .prem-speaker-name p {
+  color: white;
+  text-align: center;
+  font: 20px "Open Sans";
+}
+/* line 80, ../scss/src/events.scss */
+.speaker-wrapper .one_third .prem-speaker-name p:nth-child(1) {
+  display: inline;
+  font-style: italic;
+  font-weight: 700;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+}
+/* line 87, ../scss/src/events.scss */
+.speaker-wrapper .one_third .prem-speaker-name p:nth-child(2) {
+  display: none;
+  text-transform: uppercase;
+  font-family: Montserrat;
+}
+/* line 91, ../scss/src/events.scss */
+.speaker-wrapper .one_third:hover .opaque {
+  background: rgba(0, 0, 0, 0.9);
+}
+/* line 93, ../scss/src/events.scss */
+.speaker-wrapper .one_third:hover .prem-speaker-name p:nth-child(1) {
+  display: none;
+}
+/* line 94, ../scss/src/events.scss */
+.speaker-wrapper .one_third:hover .prem-speaker-name p:nth-child(2) {
+  display: inline;
+}
+
+/* line 99, ../scss/src/events.scss */
+.speaker-wrapper:last-of-type {
+  border-bottom: 1px solid black;
+}
+
+/* line 103, ../scss/src/events.scss */
+section#cd-timeline {
+  background: none;
+}
+/* line 106, ../scss/src/events.scss */
+section#cd-timeline .ion-ios-circle-filled {
+  line-height: 100% !important;
+  height: 100% !important;
+  width: 100% !important;
+  text-align: center !important;
+  font-size: 40px;
+  padding-top: 10px;
+  color: #76AA85;
+}
+/* line 116, ../scss/src/events.scss */
+section#cd-timeline .cd-date {
+  font-family: "Open Sans";
+  font-weight: 700;
+}

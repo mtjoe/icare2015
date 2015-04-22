@@ -24,6 +24,8 @@ class PreEventsController extends AppController {
 	}
 
 	public function register() {
+
+
 		$hasResume = false;
 		if ($this->request->is('post')) {
 
@@ -85,6 +87,11 @@ class PreEventsController extends AppController {
 
 					return $this->redirect('/PreEvents/thankyou');
 				}
+			}
+		} else {
+			$count = count($this->PreEvent->find('all'));
+			if ($count >= $this->MAXATTENDEES) {
+				throw new NotFoundException('Start Smart has been fully booked');
 			}
 		}
 	}

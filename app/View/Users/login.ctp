@@ -11,12 +11,12 @@
 		width: 400px;
 	}
 
-	input[type="submit"] {
+	.smallest-width input[type="submit"] {
 		float: right;
 	}
 </style>
 
-<div class="smallest-width" align="left" style="padding: 10w0px 0;">
+<div class="smallest-width" align="left" style="padding: 100px 0;">
 	<div class="users form">
 		<?php echo $this->Session->flash('auth'); ?>
 		<h1></h1>

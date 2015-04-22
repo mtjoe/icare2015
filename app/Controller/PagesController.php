@@ -31,20 +31,20 @@ App::uses('CakeEmail', 'Network/Email');
  */
 class PagesController extends AppController {
 
-	
+	public $MAXATTENDEES = 50;
 
 /**
  * This controller does not use a model
  *
  * @var array
  */
-	public $uses = array('Email');
+	public $uses = array('Email', 'PreEvent');
 
 
 	public function beforeFilter() {
 		parent::beforeFilter();
 
-		$this->Auth->allow(array('display', 'contact'));
+		$this->Auth->allow(array('display', 'contact', 'startSmart'));
 	}
 
 /**
@@ -97,5 +97,13 @@ class PagesController extends AppController {
 		} else {
 			$this->render('contact');
 		}
+	}
+
+	public function startSmart() {
+		$count = count($this->PreEvent->find('all'));
+
+		$full = ($count >= $this->MAXATTENDEES);
+		$this->set(compact('full'));
+		$this->render('events/start-smart');
 	}
 }

@@ -5,6 +5,8 @@
 
 		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet' type='text/css'>		
 		
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css">
@@ -19,8 +21,8 @@
 			echo $this->fetch('css');
 			echo $this->Html->meta('description', 'Indonesian Career Expo (ICarE) is an event held by Melbourne University Indonesian Student Association (MUISA) which aims to bridge the gap between Indonesian companies and Indonesian students studying in Melbourne. Following the grand success of the first Indonesian Career Expo, MUISA will hold its second Indonesian Career Expo in 2015.'); 
 			echo $this->Html->meta(
-			    'icon.ico',
-			    '/icon.ico',
+			    'favicon.ico',
+			    '/favicon.ico',
 			    array('type' => 'icon')
 			);
 			echo $this->Html->meta(
@@ -50,7 +52,7 @@
 				</ul>
 			</section>
 		<?php else: ?>
-			<section align="center">
+			<section align="center" class="navibar-wrapper">
 				<a href="/index"><img id="logo" src="/img/logo/icare.png"></a>
 				<ul class="navibar normal-width">
 					<li id="navi-home"><a href="/">HOME</a></li>
@@ -99,13 +101,13 @@
 						<div class="submenu" style="background: url(/img/subnavbar/schedule.jpg); background-size: cover;"></div>
 						<h5>Schedule</h5>
 					</a>
-					<a href="/events/premiere">
-						<div class="submenu" style="background: url(/img/recap/1.jpg); background-size: cover; background-position: center;"></div>
-						<h5>The Premiere</h5>
-					</a>
 					<a href="/events/start-smart">
 						<div class="submenu" style="background: url(/img/recap/2.jpg); background-size: cover; background-position: center;"></div>
 						<h5>Start Smart</h5>
+					</a>
+					<a href="/events/premiere">
+						<div class="submenu" style="background: url(/img/recap/1.jpg); background-size: cover; background-position: center;"></div>
+						<h5>The Premiere</h5>
 					</a>
 					
 					<a href="/events/expo">
