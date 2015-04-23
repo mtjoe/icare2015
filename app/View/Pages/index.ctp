@@ -110,7 +110,7 @@
 	<div class="normal-width" align="center">
 		<h2 style="">Platinum Sponsors</h2>
 		<ul>
-			<li style="width: 44%;"><img src="/img/logo/anz.png"></li>
+			<li style="width: 44%;"><img src="/img/logo/ANZ.png"></li>
 			<li style="width: 55%;"><img src="/img/logo/permata.png"></li>
 		</ul>
 	</div>
@@ -118,7 +118,7 @@
 <div class="gold-sponsors" style="padding: 70px 0px;">
 	<div class="normal-width" align="center">
 		<h2>Gold Sponsors</h2>
-		<ul class="platinum-sponsors">
+		<ul>
 			<li style="width: 50%;"><img src="/img/logo/commonwealth.jpg"></li>
 			<li style="width: 35%;"><img src="/img/logo/sctv.png"></li>
 			<li style="width: 50%;"><img src="/img/logo/axa.png"></li>
@@ -129,6 +129,19 @@
 <div class="medpar" style="padding: 70px 0px; background: #F4F1F6;">
 	<div class="normal-width" align="center">
 		<h2>Media Partners</h2>
+		<ul>
+			<li style="width: 20%;"><img src="/img/logo/medpar/buset.png"></li>
+			<li style="width: 20%;"><img src="/img/logo/medpar/ozip.png"></li>
+			<li style="width: 20%;"><img src="/img/logo/medpar/indopost.png"></li>
+			<li style="width: 20%;"><img src="/img/logo/medpar/kopitoebruk.png"></li>
+			<li style="width: 20%;"><img src="/img/logo/medpar/meld.png"></li>
+			<li style="width: 20%;"><img src="/img/logo/medpar/perspektif.png"></li>
+			<li style="width: 20%;"><img src="/img/logo/medpar/radioppid.png"></li>
+			<li style="width: 20%;"><img src="/img/logo/medpar/radioppia.png"></li>
+			<li style="width: 20%;"><img src="/img/logo/medpar/aktivis.png"></li>
+			<li style="width: 20%;"><img src="/img/logo/medpar/cicak2.png"></li>
+			<li style="width: 20%;"><img src="/img/logo/medpar/republika.png"></li>
+		</ul>
 	</div>
 </div>
 

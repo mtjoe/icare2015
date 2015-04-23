@@ -60,9 +60,17 @@
 
 		<p>As part of the Indonesian Career Expo, seminars will run throughout the expo, bringing participants first-hand information and detail of the working culture and other various topics on specific companies. It is important that participants are able to learn what goes internally as well as externally in the company that they wish to participate at what better way to do so through experiencing the seminar series in ICarE 2015!</p>
 
-		<div class="seminar-list">
-			
-		</div>
+		<p class="bold">More info on seminars coming soon! Subscribe to our mailing list to get updates.</p>
+
+		<!-- <div class="seminar-list" style="margin: 50px 0px;">
+			<div class="one-half-margin-20">
+				<h2>What's Next?</h2>
+				<h5>By Permata Bank</h5>
+
+			</div>
+			<div class="one-half-margin-20 column-last"></div>
+			<div class="clear"></div>
+		</div> -->
 
 		<!-- OBJECTIVES -->
 		<div class="objectives">
@@ -143,7 +151,7 @@
 					</div> <!-- cd-timeline-img -->
 			 
 					<div class="cd-timeline-content">
-						<h2>Seminar 2 - TBA</h2>
+						<h2>Seminar by Permata Bank - <br>"What's Next?"</h2>
 						<span class="cd-date">2.30 PM - 3.30 PM</span>
 					</div> <!-- cd-timeline-content -->
 				</div>

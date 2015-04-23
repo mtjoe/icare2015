@@ -688,8 +688,9 @@ img#logo.uncomp {
 .platinum-sponsors ul li, .gold-sponsors ul li, .medpar ul li {
   width: 48%;
   display: inline-block;
+  margin-bottom: 20px;
 }
-/* line 101, ../scss/src/index.scss */
+/* line 102, ../scss/src/index.scss */
 .platinum-sponsors ul li img, .gold-sponsors ul li img, .medpar ul li img {
   width: 80%;
 }

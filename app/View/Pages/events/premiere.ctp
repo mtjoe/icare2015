@@ -61,7 +61,7 @@
 			<h2 style="font-size: 40px; margin-bottom: 20px;">Introducing the Speakers</h2>
 			<div class="speaker-wrapper" style="border-bottom: 5px solid #91B876;">
 				<a class="one_third" data-toggle="modal" data-target="#desc-lie">
-					<img class="prem-speaker" src="/img/speakers/lhermawan.jpg">
+					<img class="prem-speaker" src="/img/speakers/lhermawan.JPG">
 					<div class="opaque"></div>
 					<div class="prem-speaker-name">
 						<p>Dr. Lie Dharmawan</p>

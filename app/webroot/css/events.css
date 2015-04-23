@@ -755,3 +755,9 @@ section#cd-timeline .cd-date {
   font-family: "Open Sans";
   font-weight: 700;
 }
+
+/* line 123, ../scss/src/events.scss */
+.seminar-list .one_half-margin-20 {
+  background: #813B4E;
+  min-height: 200px;
+}

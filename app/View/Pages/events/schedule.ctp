@@ -8,7 +8,7 @@
 	.one_third-no-margin {
 		border-right: 1px solid #E0E2E6;
 		padding: 0px 5px;
-		min-height: 370px;
+		min-height: 410px;
 	}
 
 	.one_third-no-margin:first-of-type {
@@ -52,32 +52,32 @@
 	<h1 style="font-size: 70px;">Schedule</h1>
 	<p>We have a series of events specially lined-up for you.</p><br>
 	<div class="one_third-no-margin">
+		<h5>MAY 9</h5>
+
+		<a href="/events/start-smart" class="entry ss">
+			<h6>Start Smart</h6>
+			<p>11.30 AM - 2.00 AM</p>
+		</a>
+	</div>
+	<div class="one_third-no-margin">
 		<h5>MAY 15</h5>
 
 		<a href="/events/premiere" class="entry premiere">
 			<h6>The Premiere</h6>
-			<p>11.30 - 17:00</p>
-		</a>
-
-		<a href="/events/start-smart" class="entry ss">
-			<h6>Start Smart</h6>
-			<p>11.30 - 17:00</p>
+			<p>6.00 PM - 8.30 PM</p>
 		</a>
 	</div>
 	<div class="one_third-no-margin">
-		<h5>MAY 16</h5>
 
-		<a href="/events/expo" class="entry expo">
-			<h6>The Expo</h6>
-			<p>11.00 - 16:00</p>
-		</a>
-	</div>
-	<div class="one_third-no-margin">
 		<h5>MAY 17</h5>
+		<a href="/events/premiere" class="entry expo">
+			<h6>Expo &amp; Seminars</h6>
+			<p>10.30 AM - 5.00 PM</p>
+		</a>
 
 		<a href="/events/insight-dinner" class="entry id">
 			<h6>Insight Dinner</h6>
-			<p>11.30 - 17:00</p>
+			<p>6.00 PM - 9.00 PM</p>
 		</a>
 	</div>
 	<div class="clear"></div>
