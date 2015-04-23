@@ -119,7 +119,7 @@
 	<div class="normal-width" align="center">
 		<h2>Gold Sponsors</h2>
 		<ul>
-			<li style="width: 50%;"><img src="/img/logo/commonwealth.jpg"></li>
+			<li style="width: 50%;"><img src="/img/logo/commonwealth.png"></li>
 			<li style="width: 35%;"><img src="/img/logo/sctv.png"></li>
 			<li style="width: 50%;"><img src="/img/logo/axa.png"></li>
 		</ul>

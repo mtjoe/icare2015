@@ -9,7 +9,7 @@
 	<div class="normal-width">
 		<div align="center" style="padding: 50px 0px 80px 0px;">
 			<h1 style="font: 100px 'Montserrat'; margin-bottom: 0px;line-height: 1; width: 500px;">INSIGHT DINNER</h1><br><br><br>
-			<a href="http://www.eventbrite.com/e/insight-dinner-indonesian-career-expo-2015-tickets-16533356715" target="blank" class="btn-register">Register on Eventbrite</a>
+			<a href="https://www.eventbrite.com/e/insight-dinner-indonesian-career-expo-2015-tickets-16533356715" target="blank" class="btn-register">Register on Eventbrite</a>
 		</div>
 	</div>
 
@@ -108,6 +108,6 @@
 	</div>
 
 	<div align="center" style="margin: 70px 0px;">
-		<a href="http://www.eventbrite.com/e/insight-dinner-indonesian-career-expo-2015-tickets-16533356715" target="blank" class="btn-register">Register on Eventbrite</a>
+		<a href="https://www.eventbrite.com/e/insight-dinner-indonesian-career-expo-2015-tickets-16533356715" target="blank" class="btn-register">Register on Eventbrite</a>
 	</div>
 </div>

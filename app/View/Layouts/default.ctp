@@ -44,7 +44,6 @@
 					<li id="navi-about" class="uncomp"><a href="">ABOUT ▾</a></li>
 					<li id="navi-events" class="uncomp"><a href="">EVENTS ▾</a></li>
 					<li id="navi-exhibitors" class="uncomp"><a href="">EXHIBITORS</a></li>
-					<li id="navi-speakers" class="uncomp"><a href="">SPEAKERS</a></li>
 					<li id="navi-media" class="uncomp"><a href="/media">MEDIA RELEASE</a></li>
 					<li id="navi-contact" class="uncomp"><a href="/contact">CONTACT US</a></li>
 					<!-- <li class="uncomp round"><a href="/contact"><span class="ionicons ion-ios-telephone"></span></a></li>
@@ -59,7 +58,6 @@
 					<li id="navi-about"><a>ABOUT ▾</a></li>
 					<li id="navi-events"><a>EVENTS ▾</a></li>
 					<li id="navi-exhibitors"><a href="/exhibitors/list">EXHIBITORS</a></li>
-					<li id="navi-speakers"><a href="/speakers">SPEAKERS</a></li>
 					<li id="navi-media"><a href="/media">MEDIA RELEASE</a></li>
 					<li id="navi-contact"><a href="/contact">CONTACT US</a></li>
 					<!-- <li class="round"><a href="/contact"><span class="ionicons ion-ios-telephone"></span></a></li>

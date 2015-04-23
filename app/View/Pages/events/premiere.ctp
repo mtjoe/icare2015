@@ -10,7 +10,7 @@
 	<div class="normal-width">
 		<div align="center" style="padding: 50px 0px 80px 0px;">
 			<h1 style="color: black; font: 100px Montserrat; margin-bottom: 30px; border-top: 5px solid #A19E9E; border-bottom: 5px solid #A19E9E; font-weight: 400;margin-bottom: 50px;">The Premiere</h1><br><br><br>
-			<a href="http://www.eventbrite.com/e/the-premiere-indonesian-career-expo-2015-tickets-16533323616" target="blank" class="btn-register">Register on Eventbrite</a>
+			<a href="https://www.eventbrite.com/e/the-premiere-indonesian-career-expo-2015-tickets-16533323616" target="blank" class="btn-register">Register on Eventbrite</a>
 		</div>
 	</div>
 	<div style="background: #E1E0EA; padding: 100px 0px;">
@@ -76,8 +76,14 @@
 						<p>Read More</p>
 					</div>
 				</a>
-				<a class="one_third column-last">
-					
+
+				<a class="one_third column-last" data-toggle="modal" data-target="#desc-mhasan">
+					<img class="prem-speaker" src="/img/speakers/mhasan.jpg">
+					<div class="opaque"></div>
+					<div class="prem-speaker-name">
+						<p>Maya Hasan &amp; Helen Oglivie</p>
+						<p>Read More</p>
+					</div>
 				</a>
 				<div class="clear"></div>
 			</div>
@@ -108,6 +114,17 @@
 					<p>Satar’s career started when he was still attending university, working as an accountant for PriceWaterhouseCoopers. Following his graduation, he worked as an Assistant of Vice President of Citibank’s Corporate Banking. Satar’s other employment includes Vice CEO at PT Bank Danamon Indonesia and President Director at PT Niaga Factoring Corporation. </p>
 					<p>In 2003, Satar left the banking world to join with Garuda Indonesia as their Chief Financial Officer. Then in 2005 he was trusted for the job as CEO, becoming the youngest to have taken up the position. From an airline in crisis when Satar started as the CEO, he was able to turn its fortunes around and establish Garuda Indonesia as a profit-making premium airline. He dramatically improved the airline’s accounts, safety and reputation. </p>
 					<p>In an interview, Satar is quoted in saying, “And if Indonesians don't help this country, who will?... Garuda is an Indonesian icon… And I am a proud Indonesian.” His drive to tackle new challenges and help improve Indonesia to be a better country makes him an icon in the corporate world and role-model to many aspiring Indonesians. He was awarded with the 2013 CNBC 2013 Travel Business Leader Award Asia Pacific.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="desc-mhasan" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<h2 style="font-size: 30px;">Maya Hasan &amp; Helen Oglivie</h2><br><br>
+					<p>Description coming soon.</p>
 				</div>
 			</div>
 		</div>
@@ -233,7 +250,7 @@
 	</div>
 
 	<div align="center" style="margin: 70px 0px;">
-		<a href="http://www.eventbrite.com/e/the-premiere-indonesian-career-expo-2015-tickets-16533323616" target="blank" class="btn-register">Register on Eventbrite</a>
+		<a href="https://www.eventbrite.com/e/the-premiere-indonesian-career-expo-2015-tickets-16533323616" target="blank" class="btn-register">Register on Eventbrite</a>
 	</div>
 </div>
 
