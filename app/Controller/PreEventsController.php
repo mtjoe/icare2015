@@ -97,7 +97,6 @@ class PreEventsController extends AppController {
 	}
 
 	public function confirm($hash) {
-		$this->request->allowMethod('post');
 
 		$attendee = $this->UnconPreEvent->find('first', array('conditions' => array('UnconPreEvent.hash' => $hash)));
 		if ($attendee === null) {

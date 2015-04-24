@@ -13,7 +13,7 @@
 <div class="content-container">
 	<div class="normal-width">
 		<div align="center" style="padding: 50px 0px 80px 0px;">
-			<h1 style="font: 140px Syncopate; border: 10px solid #273487; padding: 20px 10px 0px 10px; line-height: 120px; display:inline-block;" align="left">EXPO</h1><br><br><br>
+			<h1 style="font: 140px Syncopate; border: 10px solid #273487; padding: 20px 10px 0px 10px; line-height: 120px; display:inline-block;" align="left">THE EXPO</h1><br><br><br>
 			<a class="goto-seminar" onclick="goto('seminar')"><h1 style="margin-bottom: 50px; display: inline-block;">&amp; SEMINARS ▾</h1></a>
 			<br>
 			<a href="https://www.eventbrite.com/e/the-expo-indonesian-career-expo-2015-tickets-16183652741" target="blank" class="btn-register">Register on Eventbrite</a>
@@ -39,53 +39,6 @@
 			<div class="clear"></div>
 		</div>
 	</div>
-	
-
-	<div class="small-width synopsis" style="padding: 100px 0px 50px 0px;">
-		<p style="font: 25px 'Open Sans';" class="bold">Our second Indonesian Career Expo is back in Melbourne!</p><br>
-		<p>With positive feedbacks and abundant improvements, Indonesian Career Expo 2015 will be held to accommodate companies and students onto one space, allowing for new interactions, career channelling advices and job applications. With Indonesia’s growing population and surging levels of GDP growth, the need for human resources is increasing in Indonesia. Being able to help Indonesia with the education learnt overseas would escalate the quality of work and talent pool of people for Indonesia’s long run wellbeing.</p><br>
-	</div>
-
-	<div class="smallest-width" style="background: #F4F1E7; padding: 30px;">
-		<h2 style="font-size: 30px;">OBJECTIVE</h2><br><br>
-		<p>To provide the opportunity for Indonesian students studying in Australia to <span class="bold">meet first-hand with company representatives from various industries</span>, and to become the “bridge” in <span class="bold">satisfying the needs of students for career development</span> and <span class="bold">the needs of companies for recruiting talented candidates</span>.</p>
-	</div>
-<!-- 
-	<div class="normal-width" style="padding: 50px;">
-		<h2 style="font: 60px 'Open Sans'; border-top: 1px solid #E0E2E6; border-bottom: 1px solid #E0E2E6; padding: 20px; font-weight: 600;" align="center"><b>KARYA</b></h2><br>
-	</div>
- -->
-	<div id="seminar" class="normal-width" style="padding: 50px;">
-		<h2 style="font: 60px 'Open Sans'; border-top: 1px solid #E0E2E6; border-bottom: 1px solid #E0E2E6; padding: 20px; font-weight: 600;" align="center"><b>SEMINARS</b></h2><br>
-
-		<p>As part of the Indonesian Career Expo, seminars will run throughout the expo, bringing participants first-hand information and detail of the working culture and other various topics on specific companies. It is important that participants are able to learn what goes internally as well as externally in the company that they wish to participate at what better way to do so through experiencing the seminar series in ICarE 2015!</p>
-
-		<p class="bold">More info on seminars coming soon! Subscribe to our mailing list to get updates.</p>
-
-		<!-- <div class="seminar-list" style="margin: 50px 0px;">
-			<div class="one-half-margin-20">
-				<h2>What's Next?</h2>
-				<h5>By Permata Bank</h5>
-
-			</div>
-			<div class="one-half-margin-20 column-last"></div>
-			<div class="clear"></div>
-		</div> -->
-
-		<!-- OBJECTIVES -->
-		<div class="objectives">
-			<h2 style="font-size: 40px; margin-top: 40px;" align="center">Objectives</h2><br>
-			
-			<div class="four_fifth" style="margin-left: 150px;"><p><span class="bold">Sharing information</span> on <span class="bold">company business culture ad activities</span> to those interested in working in the specific company. This would be done by company representatives.</p></div>
-			<div class="clear"></div>
-			<div class="four_fifth" style="margin-left: 220px;"><p>Information on <span class="bold">work and internship opportunities</span></p></div>
-			<div class="clear"></div>
-			<div class="four_fifth column-last" style="margin-left: 180px;"><p><span class="bold">Share knowledge</span> on <span class="bold">what companies looks for</span> in new graduates and what <span class="bold">expectations</span> they would want to see from you!</p></div>
-			<div class="clear"></div><br><br>
-		</div>
-
-	</div>
-
 	<div style="background: #E9F0F5;"> 
 		<div class="normal-width">
 			<section id="cd-timeline">
@@ -190,6 +143,51 @@
 				</div>
 				<div class="clear"></div>
 			</section>
+		</div>
+	</div>
+	
+
+	<div class="small-width synopsis" style="padding: 100px 0px 50px 0px;">
+		<p style="font: 25px 'Open Sans';" class="bold">Our second Indonesian Career Expo is back in Melbourne!</p><br>
+		<p>With positive feedbacks and abundant improvements, Indonesian Career Expo 2015 will be held to accommodate companies and students onto one space, allowing for new interactions, career channelling advices and job applications. With Indonesia’s growing population and surging levels of GDP growth, the need for human resources is increasing in Indonesia. Being able to help Indonesia with the education learnt overseas would escalate the quality of work and talent pool of people for Indonesia’s long run wellbeing.</p><br>
+	</div>
+
+	<div class="smallest-width" style="background: #F4F1E7; padding: 30px;">
+		<h2 style="font-size: 30px;">OBJECTIVE</h2><br><br>
+		<p>To provide the opportunity for Indonesian students studying in Australia to <span class="bold">meet first-hand with company representatives from various industries</span>, and to become the “bridge” in <span class="bold">satisfying the needs of students for career development</span> and <span class="bold">the needs of companies for recruiting talented candidates</span>.</p>
+	</div>
+<!-- 
+	<div class="normal-width" style="padding: 50px;">
+		<h2 style="font: 60px 'Open Sans'; border-top: 1px solid #E0E2E6; border-bottom: 1px solid #E0E2E6; padding: 20px; font-weight: 600;" align="center"><b>KARYA</b></h2><br>
+	</div>
+ -->
+	<div id="seminar" class="normal-width" style="padding: 50px;">
+		<h2 style="font: 60px 'Open Sans'; border-top: 1px solid #E0E2E6; border-bottom: 1px solid #E0E2E6; padding: 20px; font-weight: 600;" align="center"><b>SEMINARS</b></h2><br>
+
+		<p>As part of the Indonesian Career Expo, seminars will run throughout the expo, bringing participants first-hand information and detail of the working culture and other various topics on specific companies. It is important that participants are able to learn what goes internally as well as externally in the company that they wish to participate at what better way to do so through experiencing the seminar series in ICarE 2015!</p>
+
+		<p class="bold">More info on seminars coming soon! Subscribe to our mailing list to get updates.</p>
+
+		<!-- <div class="seminar-list" style="margin: 50px 0px;">
+			<div class="one-half-margin-20">
+				<h2>What's Next?</h2>
+				<h5>By Permata Bank</h5>
+
+			</div>
+			<div class="one-half-margin-20 column-last"></div>
+			<div class="clear"></div>
+		</div> -->
+
+		<!-- OBJECTIVES -->
+		<div class="objectives">
+			<h2 style="font-size: 40px; margin-top: 40px;" align="center">Objectives</h2><br>
+			
+			<div class="four_fifth" style="margin-left: 150px;"><p><span class="bold">Sharing information</span> on <span class="bold">company business culture ad activities</span> to those interested in working in the specific company. This would be done by company representatives.</p></div>
+			<div class="clear"></div>
+			<div class="four_fifth" style="margin-left: 220px;"><p>Information on <span class="bold">work and internship opportunities</span></p></div>
+			<div class="clear"></div>
+			<div class="four_fifth column-last" style="margin-left: 180px;"><p><span class="bold">Share knowledge</span> on <span class="bold">what companies looks for</span> in new graduates and what <span class="bold">expectations</span> they would want to see from you!</p></div>
+			<div class="clear"></div><br><br>
 		</div>
 	</div>
 

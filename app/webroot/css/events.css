@@ -739,8 +739,9 @@ p, li {
 /* line 103, ../scss/src/events.scss */
 section#cd-timeline {
   background: none;
+  margin-top: 0px;
 }
-/* line 106, ../scss/src/events.scss */
+/* line 107, ../scss/src/events.scss */
 section#cd-timeline .ion-ios-circle-filled {
   line-height: 100% !important;
   height: 100% !important;
@@ -750,13 +751,13 @@ section#cd-timeline .ion-ios-circle-filled {
   padding-top: 10px;
   color: #76AA85;
 }
-/* line 116, ../scss/src/events.scss */
+/* line 117, ../scss/src/events.scss */
 section#cd-timeline .cd-date {
   font-family: "Open Sans";
   font-weight: 700;
 }
 
-/* line 123, ../scss/src/events.scss */
+/* line 124, ../scss/src/events.scss */
 .seminar-list .one_half-margin-20 {
   background: #813B4E;
   min-height: 200px;

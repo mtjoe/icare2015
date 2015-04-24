@@ -56,7 +56,7 @@
 
 		<a href="/events/start-smart" class="entry ss">
 			<h6>Start Smart</h6>
-			<p>11.30 AM - 2.00 AM</p>
+			<p>11.30 AM - 4.00 AM</p>
 		</a>
 	</div>
 	<div class="one_third-no-margin">
@@ -69,7 +69,7 @@
 	</div>
 	<div class="one_third-no-margin">
 
-		<h5>MAY 17</h5>
+		<h5>MAY 16</h5>
 		<a href="/events/premiere" class="entry expo">
 			<h6>Expo &amp; Seminars</h6>
 			<p>10.30 AM - 5.00 PM</p>

@@ -37,9 +37,49 @@
 		<h4>Sponsored by SuperStar Education</h4>
 		<p>To be able to gain as much help and resources as possible in Start Smart, we recommend participants to attach their latest Curriculum Vitae (CV) or Resume with their application. We will be inviting experienced consultants to the event to guide participants in creating a well-structured CV or Resume by reviewing participants’ CV or Resume submissions. We recommend PDF files no more than 5MB.</p>
 		<div align="center">
-			<?php echo $this->Form->input('resume', array('label' => false, 'type'=>'file', 'options' => array('accept' => 'application/pdf', 'data-max-size' => '5120'))); ?>
+			<?php echo $this->Form->input('resume', array('id' => 'fileinput', 'label' => false, 'type'=>'file', 'accept' => 'application/pdf')); ?>
 		</div>
 	</div>
-	<?php echo $this->Form->end('Register'); ?>
+	<?php echo $this->Form->end(array('label' => 'submit', 'div' => FALSE, 'onclick'=>'showFileSize()')); ?>
 	
 </div>
+
+<script type='text/javascript'>
+	function showFileSize() {
+	    var input, file;
+
+	    // (Can't use `typeof FileReader === "function"` because apparently
+	    // it comes back as "object" on some browsers. So just see if it's there
+	    // at all.)
+	    if (!window.FileReader) {
+	        alert("The file API isn't supported on this browser yet.");
+	        return;
+	    }
+
+	    input = document.getElementById('fileinput');
+	    if (!input) {
+	        alert("Um, couldn't find the fileinput element.");
+	    }
+	    else if (!input.files) {
+	        alert("This browser doesn't seem to support the `files` property of file inputs.");
+	    }
+	    else if (!input.files[0]) {
+	        alert("Please select a file before clicking 'Load'");
+	    }
+	    else {
+	        file = input.files[0];
+	        alert("File " + file.name + " is " + file.size + " MB in size");
+	        if ((file.size/1000000) > 5) {
+	        	alert("Please upload CVs in PDF format, no more 5MB in size.");	
+	        	input.value= null;
+	        }
+	        
+	    }
+	}
+
+	$(window).load(function() {
+		$("#fileinput").on("change", function() {
+			showFileSize();
+		});
+	});
+</script>
