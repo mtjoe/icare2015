@@ -27,11 +27,7 @@
 	 				<p><a href="">The Spot</a></p>
 					<p>The University of Melbourne</p>
 			</div>
-			<div style="width: 25%; float: left;">
-				<a href="https://www.eventbrite.com/e/insight-dinner-indonesian-career-expo-2015-tickets-16533356715" target="blank" class="btn-register btn-top" style="padding: 35px 10px !important;">
-					<p style="line-height: 25px;">BUY TICKET $15</p>
-				</a>
-			</div>
+			
 			<div class="clear"></div>
 		</div>	
 	</div>

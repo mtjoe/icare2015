@@ -726,7 +726,7 @@ p, li {
 .speaker-wrapper .one_third .prem-speaker-name {
   position: absolute;
   text-align: center;
-  bottom: 50px;
+  top: 230px;
 }
 /* line 91, ../scss/src/events.scss */
 .speaker-wrapper .one_third .opaque {

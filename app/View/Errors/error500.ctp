@@ -1,3 +1,11 @@
+<?php 
+	$this->assign('title', '404');
+	$this->assign('name', 'error400');
+	$this->Html->css("empty", array('inline' => false));
+?>
+
+
+
 <?php
 /**
  * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
