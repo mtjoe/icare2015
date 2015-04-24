@@ -573,8 +573,15 @@ input[type="submit"]:hover {
   font-weight: 700;
   text-transform: uppercase;
 }
+/* line 373, ../scss/src/partials/_base.scss */
+.btn-register p {
+  font-size: 25px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  margin: 0px;
+}
 
-/* line 374, ../scss/src/partials/_base.scss */
+/* line 381, ../scss/src/partials/_base.scss */
 .btn-register:hover {
   color: white;
   background: #76AA85;
@@ -583,7 +590,7 @@ input[type="submit"]:hover {
 
 /* line 4, ../scss/src/preevent.scss */
 .content-container select, .content-container input {
-  width: 80%;
-  margin: 10px;
+  width: 100%;
+  margin: 10px 0px;
   text-align: center;
 }

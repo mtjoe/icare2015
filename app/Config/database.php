@@ -72,6 +72,7 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => /*'localhost', //*/'173.254.28.15',
+		
 		'login' => 'ppiaunim_icare2',
 		'password' => 'Icare123',
 		'database' => 'ppiaunim_indocareerexpo',

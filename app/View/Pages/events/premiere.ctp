@@ -8,12 +8,13 @@
 
 <div class="content-container">
 	<div class="normal-width">
-		<div align="center" style="padding: 50px 0px 80px 0px;">
-			<h1 style="color: black; font: 100px Montserrat; margin-bottom: 30px; border-top: 5px solid #A19E9E; border-bottom: 5px solid #A19E9E; font-weight: 400;margin-bottom: 50px;">The Premiere</h1><br><br><br>
-			<a href="https://www.eventbrite.com/e/the-premiere-indonesian-career-expo-2015-tickets-16533323616" target="blank" class="btn-register">Register on Eventbrite</a>
+		<div align="center" style="padding: 80px 0px 80px 0px;">
+			<h1 style="color: black; font: 100px Montserrat; margin-bottom: 30px; border-top: 5px solid #A19E9E; border-bottom: 5px solid #A19E9E; font-weight: 400;margin-bottom: 50px;">The Premiere</h1><br><br>
+			<!-- <a href="https://www.eventbrite.com/e/the-premiere-indonesian-career-expo-2015-tickets-16533323616" target="blank" class="btn-register">Register on Eventbrite</a> -->
+			<h1>COMING SOON</h1>
 		</div>
 	</div>
-	<div style="background: #E1E0EA; padding: 100px 0px;">
+	<!-- <div style="background: #E1E0EA; padding: 100px 0px;">
 		<div class="normal-width">
 			<div class="date" style="width: 30%; float: left; padding-right: 20px; " align="right">
 				<p>15</p>
@@ -32,6 +33,149 @@
 			</div>
 			<div class="clear"></div>
 		</div>
+	</div> -->
+<!-- 
+	<!- - TIME & DATE - ->
+	<div class="setting" style="background: #E1E0EA; padding: 20px 0px; width: 100%;">
+		<div class="normal-width">
+			<!- - DATE - ->
+			<div class="date" style="width: 30%; float: left; padding-right: 20px;" align="right">
+				<p>15 MAY</p>
+				<p>2015</p>
+			</div>
+
+			<!- - LOCATION - ->
+			<div class="loc" style="width: 50%; float: left; padding-left: 20px; border-left: 1px solid #D1CEDB;">
+					<p class="bold">6.00 PM - 8.30 PM</p><br>
+	 				<p>Copland Theatre, The Spot</p>
+					<p>The University of Melbourne</p>
+			</div>
+			<div style="width: 20%; float: left;">
+				<a href="/PreEvents/register" target="blank" class="btn-register btn-top" style="padding: 25px 10px !important;">
+					<p style="line-height: 25px;">REGISTER</p>
+					<p style="font-size: 15px;">+CV SUBMIT</p>
+				</a>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<!- - TIMELINE - ->
+	<div style="background: #E9F0F5;"> 
+		<div class="normal-width">
+			<section id="cd-timeline">
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<span class="ionicons ion-ios-circle-filled"></span>
+					</div> <!- - cd-timeline-img - ->
+			 
+					<div class="cd-timeline-content">
+						<h2>Registration Opens</h2>
+						<span class="cd-date">5.15 PM</span>
+					</div> <!- - cd-timeline-content - ->
+				</div> <!- - cd-timeline-block - ->
+			 
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<span class="ionicons ion-ios-circle-filled"></span>
+					</div> <!- - cd-timeline-img - ->
+			 
+					<div class="cd-timeline-content">
+						<h2>Opening Speech</h2>
+						<span class="cd-date">6.15 PM</span>
+					</div> <!- - cd-timeline-content - ->
+				</div>
+
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<span class="ionicons ion-ios-circle-filled"></span>
+					</div> <!- - cd-timeline-img - ->
+			 
+					<div class="cd-timeline-content">
+						<h2>Speaker 1: Dr. Lie</h2>
+						<span class="cd-date">6.40 PM</span>
+					</div> <!- - cd-timeline-content - ->
+				</div>
+
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<span class="ionicons ion-ios-circle-filled"></span>
+					</div> <!- - cd-timeline-img - ->
+			 
+					<div class="cd-timeline-content">
+						<h2>Speaker 2: Emirsyah Satar</h2>
+						<span class="cd-date">6.50 PM</span>
+					</div> <!- - cd-timeline-content - ->
+				</div>
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<span class="ionicons ion-ios-circle-filled"></span>
+					</div> <!- - cd-timeline-img - ->
+			 
+					<div class="cd-timeline-content">
+						<h2>Performance by Felicia Lase</h2>
+						<span class="cd-date">7.00 PM</span>
+					</div> <!- - cd-timeline-content - ->
+				</div>
+
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<span class="ionicons ion-ios-circle-filled"></span>
+					</div> <!- - cd-timeline-img - ->
+			 
+					<div class="cd-timeline-content">
+						<h2>Speaker 3: Maya Hasan &amp; Helen Oglivie</h2>
+						<span class="cd-date">7.10 PM</span>
+					</div> <!- - cd-timeline-content - ->
+				</div>
+
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<span class="ionicons ion-ios-circle-filled"></span>
+					</div> <!- - cd-timeline-img - ->
+			 
+					<div class="cd-timeline-content">
+						<h2>Speech by AIC</h2>
+						<span class="cd-date">7.30 PM</span>
+					</div> <!- - cd-timeline-content - ->
+				</div>
+
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<span class="ionicons ion-ios-circle-filled"></span>
+					</div> <!- - cd-timeline-img - ->
+			 
+					<div class="cd-timeline-content">
+						<h2>Talk Show &amp; Q&amp;A </h2>
+						<span class="cd-date">7.40 PM</span>
+					</div> <!- - cd-timeline-content - ->
+				</div>
+
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<span class="ionicons ion-ios-circle-filled"></span>
+					</div> <!- - cd-timeline-img - ->
+			 
+					<div class="cd-timeline-content">
+						<h2>Closing Speech</h2>
+						<span class="cd-date">8.45 PM</span>
+					</div> <!- - cd-timeline-content - ->
+				</div>
+
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<span class="ionicons ion-ios-circle-filled"></span>
+					</div> <!- - cd-timeline-img - ->
+			 
+					<div class="cd-timeline-content">
+						<h2>Networking Session</h2>
+						<p>Light </p>
+						<span class="cd-date">9.00 PM</span>
+					</div> <!- - cd-timeline-content - ->
+				</div>
+				<div class="clear"></div>
+			</section>
+		</div>
 	</div>
 	
 
@@ -43,7 +187,7 @@
 
 	<div class="normal-width" style="padding-top: 50px;">
 
-		<!-- OBJECTIVES -->
+		<!- - OBJECTIVES - ->
 		<div class="objectives">
 			<h2 style="font-size: 60px;" align="center">Objectives</h2><br>
 			
@@ -130,127 +274,8 @@
 		</div>
 	</div>
 
-
-	
-	<!-- TIMELINE -->
-	<div style="background: #E9F0F5;"> 
-		<div class="normal-width">
-			<section id="cd-timeline">
-				<div class="cd-timeline-block">
-					<div class="cd-timeline-img">
-						<span class="ionicons ion-ios-circle-filled"></span>
-					</div> <!-- cd-timeline-img -->
-			 
-					<div class="cd-timeline-content">
-						<h2>Registration Opens</h2>
-						<span class="cd-date">5.15 PM</span>
-					</div> <!-- cd-timeline-content -->
-				</div> <!-- cd-timeline-block -->
-			 
-				<div class="cd-timeline-block">
-					<div class="cd-timeline-img">
-						<span class="ionicons ion-ios-circle-filled"></span>
-					</div> <!-- cd-timeline-img -->
-			 
-					<div class="cd-timeline-content">
-						<h2>Opening Speech</h2>
-						<span class="cd-date">6.15 PM</span>
-					</div> <!-- cd-timeline-content -->
-				</div>
-
-				<div class="cd-timeline-block">
-					<div class="cd-timeline-img">
-						<span class="ionicons ion-ios-circle-filled"></span>
-					</div> <!-- cd-timeline-img -->
-			 
-					<div class="cd-timeline-content">
-						<h2>Speaker 1: Dr. Lie</h2>
-						<span class="cd-date">6.40 PM</span>
-					</div> <!-- cd-timeline-content -->
-				</div>
-
-				<div class="cd-timeline-block">
-					<div class="cd-timeline-img">
-						<span class="ionicons ion-ios-circle-filled"></span>
-					</div> <!-- cd-timeline-img -->
-			 
-					<div class="cd-timeline-content">
-						<h2>Speaker 2: Emirsyah Satar</h2>
-						<span class="cd-date">6.50 PM</span>
-					</div> <!-- cd-timeline-content -->
-				</div>
-				<div class="cd-timeline-block">
-					<div class="cd-timeline-img">
-						<span class="ionicons ion-ios-circle-filled"></span>
-					</div> <!-- cd-timeline-img -->
-			 
-					<div class="cd-timeline-content">
-						<h2>Performance</h2>
-						<span class="cd-date">7.00 PM</span>
-					</div> <!-- cd-timeline-content -->
-				</div>
-
-				<div class="cd-timeline-block">
-					<div class="cd-timeline-img">
-						<span class="ionicons ion-ios-circle-filled"></span>
-					</div> <!-- cd-timeline-img -->
-			 
-					<div class="cd-timeline-content">
-						<h2>Speaker 3: Maya Hasan &amp; Helen Oglivie</h2>
-						<span class="cd-date">7.10 PM</span>
-					</div> <!-- cd-timeline-content -->
-				</div>
-
-				<div class="cd-timeline-block">
-					<div class="cd-timeline-img">
-						<span class="ionicons ion-ios-circle-filled"></span>
-					</div> <!-- cd-timeline-img -->
-			 
-					<div class="cd-timeline-content">
-						<h2>Speech by AIC</h2>
-						<span class="cd-date">7.30 PM</span>
-					</div> <!-- cd-timeline-content -->
-				</div>
-
-				<div class="cd-timeline-block">
-					<div class="cd-timeline-img">
-						<span class="ionicons ion-ios-circle-filled"></span>
-					</div> <!-- cd-timeline-img -->
-			 
-					<div class="cd-timeline-content">
-						<h2>Talk Show</h2>
-						<span class="cd-date">7.40 PM</span>
-					</div> <!-- cd-timeline-content -->
-				</div>
-
-				<div class="cd-timeline-block">
-					<div class="cd-timeline-img">
-						<span class="ionicons ion-ios-circle-filled"></span>
-					</div> <!-- cd-timeline-img -->
-			 
-					<div class="cd-timeline-content">
-						<h2>Q&amp;A</h2>
-						<span class="cd-date">8.30 PM</span>
-					</div> <!-- cd-timeline-content -->
-				</div>
-
-				<div class="cd-timeline-block">
-					<div class="cd-timeline-img">
-						<span class="ionicons ion-ios-circle-filled"></span>
-					</div> <!-- cd-timeline-img -->
-			 
-					<div class="cd-timeline-content">
-						<h2>End of Event</h2>
-						<span class="cd-date">8.45 PM</span>
-					</div> <!-- cd-timeline-content -->
-				</div>
-				<div class="clear"></div>
-			</section>
-		</div>
-	</div>
-
 	<div align="center" style="margin: 70px 0px;">
 		<a href="https://www.eventbrite.com/e/the-premiere-indonesian-career-expo-2015-tickets-16533323616" target="blank" class="btn-register">Register on Eventbrite</a>
-	</div>
+	</div> -->
 </div>
 

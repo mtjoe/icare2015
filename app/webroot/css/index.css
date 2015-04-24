@@ -573,8 +573,15 @@ input[type="submit"]:hover {
   font-weight: 700;
   text-transform: uppercase;
 }
+/* line 373, ../scss/src/partials/_base.scss */
+.btn-register p {
+  font-size: 25px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  margin: 0px;
+}
 
-/* line 374, ../scss/src/partials/_base.scss */
+/* line 381, ../scss/src/partials/_base.scss */
 .btn-register:hover {
   color: white;
   background: #76AA85;
@@ -641,56 +648,68 @@ img#logo.uncomp {
 }
 /* line 51, ../scss/src/index.scss */
 .when-where .venue {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 /* line 52, ../scss/src/index.scss */
 .when-where .venue h2 {
   margin: 5px;
+  font-size: 25px;
 }
 
-/* line 62, ../scss/src/index.scss */
-.event-list .one_fourth-margin-20 {
+/* line 63, ../scss/src/index.scss */
+.event-list .one_half-margin-20 {
   position: relative;
-  padding: 60px 0px;
+  padding: 100px 0px;
   background: white;
-  height: 200px;
+  height: 400px;
   overflow: hidden;
 }
-/* line 68, ../scss/src/index.scss */
-.event-list .one_fourth-margin-20 img {
+/* line 69, ../scss/src/index.scss */
+.event-list .one_half-margin-20 img {
   position: absolute;
   width: 80%;
   left: 10%;
 }
-/* line 73, ../scss/src/index.scss */
-.event-list .one_fourth-margin-20 .opaque {
+/* line 74, ../scss/src/index.scss */
+.event-list .one_half-margin-20 .opaque {
   position: absolute;
   transition: all 0.3s ease 0s;
-  margin-top: -60px;
+  margin-top: -100px;
+  color: white;
+  padding-top: 100px !important;
 }
 /* line 81, ../scss/src/index.scss */
-.event-list .one_fourth-margin-20:hover .opaque {
-  background: rgba(0, 0, 100, 0.7);
+.event-list .one_half-margin-20 .opaque p {
+  display: none;
+}
+/* line 86, ../scss/src/index.scss */
+.event-list .one_half-margin-20:hover .opaque {
+  background: rgba(0, 0, 100, 0.95);
+  display: inline;
+}
+/* line 90, ../scss/src/index.scss */
+.event-list .one_half-margin-20:hover .opaque p {
+  display: block;
 }
 
-/* line 88, ../scss/src/index.scss */
+/* line 96, ../scss/src/index.scss */
 .platinum-sponsors h2, .gold-sponsors h2, .medpar h2 {
   font: 50px "Open Sans";
   text-transform: uppercase;
   font-weight: 600;
   color: #515151;
 }
-/* line 95, ../scss/src/index.scss */
+/* line 103, ../scss/src/index.scss */
 .platinum-sponsors ul, .gold-sponsors ul, .medpar ul {
   margin-top: 50px;
 }
-/* line 97, ../scss/src/index.scss */
+/* line 105, ../scss/src/index.scss */
 .platinum-sponsors ul li, .gold-sponsors ul li, .medpar ul li {
   width: 48%;
   display: inline-block;
   margin-bottom: 20px;
 }
-/* line 102, ../scss/src/index.scss */
+/* line 110, ../scss/src/index.scss */
 .platinum-sponsors ul li img, .gold-sponsors ul li img, .medpar ul li img {
   width: 80%;
 }

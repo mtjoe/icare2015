@@ -11,7 +11,7 @@
 		display: inline-block;
 		margin-top: 10px;
 		padding: 5px 25px;
-		border-right: 2px solid #6B6B6B;
+		border-right: 2px solid #000000;
 		vertical-align: text-top;
 	}
 
@@ -24,7 +24,7 @@
 	.comp-bar li a { color: white; font-family: "Open Sans"; }
 	.comp-bar li a:hover {
 		text-decoration: none;
-		color: #F0477D;
+		color: #F0477D;	
 	}
 	.comp-bar li a.disabled { color: #DDDDDD; cursor: default;}
 	.comp-bar li a.disabled:hover { color: #DDDDDD; }
@@ -51,7 +51,7 @@
 </style>
 
 <div class="content-container" align="center" style="padding: 0px;">
-	<div id="comp-bar-wrapper" style="background: #63CDE6; height: 60px; width: 100%;">
+	<div id="comp-bar-wrapper" style="background: #68CA79; height: 60px; width: 100%;">
 		<ul class="normal-width comp-bar">
 			<li><a onclick="goto('comp-anz')">ANZ Bank</a></li>
 			<li><a onclick="goto('comp-permata')">Permata Bank</a></li>

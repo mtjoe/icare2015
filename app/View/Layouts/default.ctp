@@ -55,8 +55,8 @@
 				<a href="/index"><img id="logo" src="/img/logo/icare.png"></a>
 				<ul class="navibar normal-width">
 					<li id="navi-home"><a href="/">HOME</a></li>
-					<li id="navi-about"><a>ABOUT ▾</a></li>
-					<li id="navi-events"><a>EVENTS ▾</a></li>
+					<li id="navi-about"><a href="/about/index">ABOUT ▾</a></li>
+					<li id="navi-events"><a href="/events/schedule">EVENTS ▾</a></li>
 					<li id="navi-exhibitors"><a href="/exhibitors/list">EXHIBITORS</a></li>
 					<li id="navi-media"><a href="/media">MEDIA RELEASE</a></li>
 					<li id="navi-contact"><a href="/contact">CONTACT US</a></li>
@@ -95,16 +95,12 @@
 			<div id="sub-events" class="subnavbar-entry" hidden>
 				<div class="opaque"></div>
 				<div class="opaque-text normal-width" align="center">
-					<a href="/events/schedule">
-						<div class="submenu" style="background: url(/img/subnavbar/schedule.jpg); background-size: cover;"></div>
-						<h5>Schedule</h5>
-					</a>
 					<a href="/events/start-smart">
 						<div class="submenu" style="background: url(/img/recap/2.jpg); background-size: cover; background-position: center;"></div>
 						<h5>Start Smart</h5>
 					</a>
 					<a href="/events/premiere">
-						<div class="submenu" style="background: url(/img/recap/1.jpg); background-size: cover; background-position: center;"></div>
+						<div class="submenu" style="background: url(/img/recap/11.jpg); background-size: cover; background-position: center;"></div>
 						<h5>The Premiere</h5>
 					</a>
 					
@@ -115,6 +111,10 @@
 					<a href="/events/insight-dinner">
 						<div class="submenu" style="background: url(/img/recap/3.jpg); background-size: cover; background-position: center;"></div>
 						<h5>Insight Dinner</h5>
+					</a>
+					<a href="/events/recruitment">
+						<div class="submenu" style="background: url(/img/recap/10.jpg); background-size: cover; background-position: center;"></div>
+						<h5>Recruitment</h5>
 					</a>
 				</div>
 				

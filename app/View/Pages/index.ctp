@@ -58,17 +58,17 @@
 		<div><img src="/img/logo/ppia.png" style="width: 100px;"></div>
 		<h2>presents</h2>
 		<div>
-			<img src="/img/logo/icare.png" style="width: 700px; margin-bottom: 50px;margin-top: -30px;">
+			<img src="/img/logo/icare.png" style="width: 600px; margin-bottom: 50px;margin-top: -30px;">
 		</div>
 		<div class="two_fifth-no-margin" style="margin-right: 0px; margin-left: auto;" align="right">
-			<h2 style="font-size: 60px; border-bottom: 2px solid grey;">16<sup>th</sup> MAY</h2>
-			<h2 style="font-size: 100px;">2015</h2>
+			<h2 style="font-size: 50px; border-bottom: 2px solid grey;">16<sup>th</sup> MAY</h2>
+			<h2 style="font-size: 70px;">2015</h2>
 		</div>
 		<div class="one_fifth-no-margin" style="margin-right: 0px; margin-left: auto;" align="center">
-			<span class="ionicons ion-ios-location"></span>
+			<span class="ionicons ion-ios-location" style="font-size: 170px;"></span>
 		</div>
 		<div class="two_fifth-no-margin column-last" style="margin-right: 0px; margin-left: auto;" align="left">
-			<h2 style="font-size: 60px; border-bottom: 2px solid grey;">VENUE</h2>
+			<h2 style="font-size: 50px; border-bottom: 2px solid grey;">VENUE</h2>
 			<div class="venue">
 				<h2>Courtyard</h2>
 				<h2>State Library of Victoria</h2>
@@ -86,21 +86,41 @@
 <div align="center" style="background: #DDDEED; padding: 120px 0px;">
 	<div class="normal-width event-list">
 		<h2 style="font: 35px 'Open Sans'; font-weight: 600; text-transform: uppercase; color: #263586; border-bottom: 2px solid #263586; padding-bottom: 20px;">We have a series of events lined up for you!</h2><br>
-		<a href="/events/start-smart" class="one_fourth-margin-20">
-			<img src="/img/logo/start-smart.png" style="padding-top: 20px;">
-			<div class="opaque"></div>
+		<a href="/events/start-smart" class="one_half-margin-20">
+			<img src="/img/logo/start-smart.png" style="padding-top: 50px;">
+			<div class="opaque" style="padding: 30px; left: 0px;">
+				<p style="font: 50px 'Montserrat'; margin-bottom: 0px; line-height: 50px;">090515</p>
+				<p>University of Melbourne</p><br>
+				<p>CV and Job Interview Simulation Seminar by Superstar Education</p>
+				<p style="font-family: 'Open Sans';">READ MORE</p>
+			</div>
 		</a>
-		<a href="/events/premiere" class="one_fourth-margin-20">
-			<img src="/img/logo/premiere.png" style="width: 90%; padding-top: 20px; left: 5%;">
-			<div class="opaque"></div>
+		<a href="/events/premiere" class="one_half-margin-20 column-last">
+			<img src="/img/logo/premiere.png" style="width: 90%; padding-top: 50px; left: 5%;">
+			<div class="opaque" style="padding: 30px; left: 0px;">
+				<p style="font: 50px 'Montserrat'; margin-bottom: 0px; line-height: 50px;">150515</p>
+				<p>University of Melbourne</p><br>
+				<p>A Little Inspiration, Towards a Better Nation</p>
+				<p style="font-family: 'Open Sans';">READ MORE</p>
+			</div>
 		</a>
-		<a href="/events/expo" class="one_fourth-margin-20">
-			<img src="/img/logo/expo.png">
-			<div class="opaque"></div>
+		<a href="/events/expo" class="one_half-margin-20">
+			<img src="/img/logo/expo.png" style="width: 90%; padding-top: 50px; left: 5%;">
+			<div class="opaque" style="padding: 30px; left: 0px;">
+				<p style="font: 50px 'Montserrat'; margin-bottom: 0px; line-height: 50px;">160515</p>
+				<p>State Library of Victoria</p><br>
+				<p>Take the Real Steaps, Meet the Professionals, <br>and Build the Network.</p>
+				<p style="font-family: 'Open Sans';">READ MORE</p>
+			</div>
 		</a>
-		<a href="/events/insight-dinner" class="one_fourth-margin-20 column-last">
+		<a href="/events/insight-dinner" class="one_half-margin-20 column-last">
 			<img src="/img/logo/insight-dinner.png">
-			<div class="opaque"></div>
+			<div class="opaque" style="padding: 30px; left: 0px;">
+				<p style="font: 50px 'Montserrat'; margin-bottom: 0px; line-height: 50px;">160515</p>
+				<p>YUZU Restaurant</p><br>
+				<p>An Exclusive Networking Session with the Representatives</p>
+				<p style="font-family: 'Open Sans';">READ MORE</p>
+			</div>
 		</a>
 		<div class="clear"></div>
 	</div>

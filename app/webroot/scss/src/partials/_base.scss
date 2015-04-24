@@ -369,6 +369,13 @@ input[type="submit"]:hover {
 	font-family: "Open Sans";
 	font-weight: 700;
 	text-transform: uppercase;
+
+	p {
+		font-size: 25px;
+		font-family: "Open Sans";
+		font-weight: 700;
+		margin: 0px;
+	}
 }
 
 .btn-register:hover {
