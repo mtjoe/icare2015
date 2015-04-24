@@ -11,6 +11,7 @@
 		<div align="center" style="padding: 0px 0px 150px 0px;">
 			<h1 style="font-size: 120px; margin-bottom: 0px;">Start<span style="color: #00A0E4">Smart</span></h1>
 			<p style="vertical-align: middle;"><b>By</b> <img src="/img/logo/superstar.jpg" style="width: 200px;"></p>
+			<p class="bold" style="margin-bottom: 0px;">Registration closes May 2, 2015</p>
 			<p class="bold">Limited Spots Available</p><br><br>
 			<!-- <a href="/PreEvents/register" class="btn-register" target="blank">Register Now</a> -->
 		</div>
@@ -28,13 +29,13 @@
 			<!-- LOCATION -->
 			<div class="loc" style="width: 50%; float: left; padding-left: 20px; border-left: 1px solid #D1CEDB;">
 					<p class="bold">11.30 AM - 2.00 PM</p><br>
-	 				<p>Yasuoka Hiraoka Myer Room, Sydney Myer Asia Centre</p>
+	 				<p>Yasuoka Hiraoka Myer Room, <a href="https://www.google.com.au/maps/place/Sidney+Myer+Asia+Centre/@-37.798911,144.963948,17z/data=!3m1!4b1!4m2!3m1!1s0x6ad642d3789de4bd:0xaf58d210421d6bf7" target="blank">Sydney Myer Asia Centre</a></p>
 					<p>The University of Melbourne</p>
 			</div>
 			<div style="width: 20%; float: left;">
 				<a href="/PreEvents/register" target="blank" class="btn-register btn-top" style="padding: 25px 10px !important;">
 					<p style="line-height: 25px;">REGISTER</p>
-					<p style="font-size: 15px;">+CV SUBMIT</p>
+					<p style="font-size: 15px;">+ CV SUBMIT</p>
 				</a>
 			</div>
 			<div class="clear"></div>

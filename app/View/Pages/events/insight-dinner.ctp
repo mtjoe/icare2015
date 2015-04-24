@@ -25,7 +25,7 @@
 			<!-- LOCATION -->
 			<div class="loc" style="width: 45%; float: left; padding-left: 20px; border-left: 1px solid #D1CEDB;">
 					<p class="bold">6.30 PM - 9.00 PM</p><br>
-	 				<p><a href="">Yuzu Restaurant</a></p>
+	 				<p><a href="https://www.google.com.au/maps/place/480+Collins+St,+Melbourne+VIC+3000/@-37.8176557,144.9579052,17z/data=!3m1!4b1!4m2!3m1!1s0x6ad65d4dacb7e3a1:0x391a70c4f449fb1b" target="blank">Yuzu Restaurant</a></p>
 					<p>480 Collins St</p>
 			</div>
 			<div style="width: 25%; float: left;">

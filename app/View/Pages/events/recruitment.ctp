@@ -16,7 +16,7 @@
 	<div class="setting" style="background: #E1E0EA; padding: 30px 0px; width: 100%;">
 		<div class="normal-width">
 			<!-- DATE -->
-			<div class="date" style="width: 30%; float: left; padding-right: 20px;" align="right">
+			<div class="date" style="width: 45%; float: left; padding-right: 20px;" align="right">
 				<p>17 MAY</p>
 				<p>2015</p>
 			</div>
@@ -24,7 +24,7 @@
 			<!-- LOCATION -->
 			<div class="loc" style="width: 45%; float: left; padding-left: 20px; border-left: 1px solid #D1CEDB;">
 					<p class="bold">10.00 AM – 4.00 PM</p><br>
-	 				<p><a href="">The Spot</a></p>
+	 				<p><a href="https://www.google.com.au/maps/place/The+Spot/@-37.801582,144.958703,17z/data=!3m1!4b1!4m2!3m1!1s0x6ad65d2d7e8c6a1f:0x12b0e41da2757bbd" target="blank">The Spot</a></p>
 					<p>The University of Melbourne</p>
 			</div>
 			

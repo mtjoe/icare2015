@@ -26,7 +26,7 @@
 			<!-- LOCATION -->
 			<div class="loc" style="width: 50%; float: left; padding-left: 20px; border-left: 1px solid #D1CEDB;">
 					<p class="bold">6.00 PM - 8.30 PM</p><br>
-	 				<p>Copland Theatre, <a href="">The Spot</a></p>
+	 				<p>Copland Theatre, <a href="https://www.google.com.au/maps/place/The+Spot/@-37.801582,144.958703,17z/data=!3m1!4b1!4m2!3m1!1s0x6ad65d2d7e8c6a1f:0x12b0e41da2757bbd" target="blank">The Spot</a></p>
 					<p>The University of Melbourne</p>
 			</div>
 			<div style="width: 20%; float: left;">

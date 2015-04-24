@@ -43,6 +43,8 @@
 		<p>Please upload your CV in PDF fornat, and ensure that it is under 5MB in size.</p>
 		<?php echo $this->Form->input('resume', array('id' => 'fileinput', 'label' => false, 'type'=>'file', 'accept' => 'application/pdf')); ?>
 	</div><br><br>
+
+	<p>By submitting this registration form, you are acknowledging that you will be automatically subscribed to our newsletter as well as saved in our database.</p>
 	<?php echo $this->Form->end(array('label' => 'submit', 'div' => FALSE)); ?>
 	
 </div>
