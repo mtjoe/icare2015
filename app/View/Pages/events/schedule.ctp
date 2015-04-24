@@ -66,7 +66,7 @@
 
 		<a href="/events/premiere" class="entry premiere">
 			<h6>The Premiere</h6>
-			<p>6.00 PM - 8.30 PM</p>
+			<p>5.15 PM - 9.00 PM</p>
 		</a>
 	</div>
 	<div class="one_fourth-no-margin">

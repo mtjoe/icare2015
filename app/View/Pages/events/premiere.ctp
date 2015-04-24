@@ -25,7 +25,7 @@
 
 			<!-- LOCATION -->
 			<div class="loc" style="width: 50%; float: left; padding-left: 20px; border-left: 1px solid #D1CEDB;">
-					<p class="bold">6.00 PM - 8.30 PM</p><br>
+					<p class="bold">5.15 PM - 9.00 PM</p><br>
 	 				<p>Copland Theatre, <a href="https://www.google.com.au/maps/place/The+Spot/@-37.801582,144.958703,17z/data=!3m1!4b1!4m2!3m1!1s0x6ad65d2d7e8c6a1f:0x12b0e41da2757bbd" target="blank">The Spot</a></p>
 					<p>The University of Melbourne</p>
 			</div>
@@ -98,6 +98,17 @@
 						<p>Read More</p>
 					</div>
 				</a>
+				<div class="two_third" style="width: 65%; margin-top: 25px; padding-top: 100px; background: #EBEBEB; height: 300px">
+					<h1 align="center">Moderated by</h1>
+				</div>
+				<a class="one_third column-last" data-toggle="modal" data-target="#desc-mhasan"  style="margin-top: 20px;">
+					<img class="prem-speaker" src="/img/speakers/sdean.jpg">
+					<div class="opaque"></div>
+					<div class="prem-speaker-name">
+						<p>Sri Dean</p>
+						<p>Read More</p>
+					</div>
+				</a>
 				<div class="clear"></div>
 			</div>
 			
@@ -137,7 +148,9 @@
 			<div class="modal-content">
 				<div class="modal-body">
 					<h2 style="font-size: 30px;">Maya Hasan &amp; Helen Oglivie</h2><br><br>
-					<p>Description coming soon.</p>
+					<p>Maya Hasan established herself as an excellent harp musician and a performer. Hasan attended Willamette University in Oregon, USA taking the degree of Harp Performance. She was involved in The Salem Chambers Orchestra during her time in Oregon. After completing her studies with multiple awards under her belt, she moved to Indonesia. She performed with various classical orchestra groups such as Nusantara Chamber Orchestra, Malaysia Philharmonic Orchestra, and Erwin Gutawa Orchestra, to name a few. In 2000, Hasan released her album, Seabreeze, composed with her musical group she formed called Celtic. Her talent extends to her role as an actress in the big screen production, Koper, released in 2006.</p>
+					<p>Helen Dewi Kirana is a veteran in the Indonesian fashion industry with her original and innovative twist to an Indonesian trademark, batik. Her creations are portrayed through her labels, NES and Bi Batik. NES has recently received an award at Inacraft 2015, acknowledging its contribution to the arts and craft community in Indonesia. NES is also exhibited in countries such as Thailand and France, testament of its excellence. Established in 2005, Bi Batik is well-known amongst high-profile individuals. These include David Foster and Friends, various artists and even in beauty pageant competitions such as Miss Indonesia and Miss Universe. Her works is not just fashion to be sold but more of an original creation that influences the Indonesian cloth industry.</p>
+					<p>Hasan and Kirana has been best friends since they were in their youths and have collaborated a number of times. Together, they are inspiring many Indonesians and others from around the world within the performing arts and craft industries. Their creations are proof that the Indonesian arts industry plays an important role to showcase the creative and alluring nature of Indonesia.</p>
 				</div>
 			</div>
 		</div>
