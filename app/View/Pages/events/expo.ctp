@@ -10,7 +10,8 @@
 	/*.goto-seminar h1:hover { color: #813B4E !important; }*/
 
 
-	.btn-register.disabled {  }
+	.btn-register.disabled { background: #A5A5A5; cursor: default; }
+	.btn-register.disabled:hover { background: #A5A5A5; }
 
 	.sem {
 		background: #E33A70;
