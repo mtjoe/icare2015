@@ -86,7 +86,7 @@
 <div align="center" style="background: #DDDEED; padding: 120px 0px;">
 	<div class="normal-width event-list">
 		<h2 style="font: 35px 'Open Sans'; font-weight: 600; text-transform: uppercase; color: #263586; border-bottom: 2px solid #263586; padding-bottom: 20px;">We have a series of events lined up for you!</h2><br>
-		<a href="/events/start-smart" class="one_half-margin-20">
+		<a href="/events/start-smart" class="one_half-margin-20 event-entry">
 			<img src="/img/logo/start-smart.png" style="padding-top: 50px;">
 			<div class="opaque" style="padding: 30px; left: 0px;">
 				<p style="font: 50px 'Montserrat'; margin-bottom: 0px; line-height: 50px;">090515</p>
@@ -95,7 +95,7 @@
 				<p style="font-family: 'Open Sans';">READ MORE</p>
 			</div>
 		</a>
-		<a href="/events/premiere" class="one_half-margin-20 column-last">
+		<a href="/events/premiere" class="one_half-margin-20 event-entry column-last">
 			<img src="/img/logo/premiere.png" style="width: 90%; padding-top: 50px; left: 5%;">
 			<div class="opaque" style="padding: 30px; left: 0px;">
 				<p style="font: 50px 'Montserrat'; margin-bottom: 0px; line-height: 50px;">150515</p>
@@ -104,7 +104,10 @@
 				<p style="font-family: 'Open Sans';">READ MORE</p>
 			</div>
 		</a>
-		<a href="/events/expo" class="one_half-margin-20">
+		<div class="clear"></div>
+		<a href="/PreEvents/register" target="blank" class="one_half-margin-20 event-book">Book Now</a>
+		<a href="https://www.eventbrite.com/e/the-premiere-indonesian-career-expo-2015-tickets-16533323616" class="one_half-margin-20 event-book column-last">Book Now</a>
+		<a href="/events/expo" class="one_half-margin-20 event-entry">
 			<img src="/img/logo/expo.png" style="width: 90%; padding-top: 50px; left: 5%;">
 			<div class="opaque" style="padding: 30px; left: 0px;">
 				<p style="font: 50px 'Montserrat'; margin-bottom: 0px; line-height: 50px;">160515</p>
@@ -113,7 +116,7 @@
 				<p style="font-family: 'Open Sans';">READ MORE</p>
 			</div>
 		</a>
-		<a href="/events/insight-dinner" class="one_half-margin-20 column-last">
+		<a href="/events/insight-dinner" class="one_half-margin-20 event-entry column-last">
 			<img src="/img/logo/insight-dinner.png">
 			<div class="opaque" style="padding: 30px; left: 0px;">
 				<p style="font: 50px 'Montserrat'; margin-bottom: 0px; line-height: 50px;">160515</p>
@@ -122,6 +125,9 @@
 				<p style="font-family: 'Open Sans';">READ MORE</p>
 			</div>
 		</a>
+		<div class="clear"></div>
+		<a href="/PreEvents/register" target="blank" class="one_half-margin-20 event-book">Book Now</a>
+		<a href="https://www.eventbrite.com/e/the-premiere-indonesian-career-expo-2015-tickets-16533323616" class="one_half-margin-20 event-book column-last">Book Now</a>
 		<div class="clear"></div>
 	</div>
 </div>

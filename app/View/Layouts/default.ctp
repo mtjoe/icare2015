@@ -52,7 +52,7 @@
 			</section>
 		<?php else: ?>
 			<section align="center" class="navibar-wrapper">
-				<a href="/index"><img id="logo" src="/img/logo/icare.png"></a>
+				<a href="/index" style="margin-left: auto;"><img id="logo" src="/img/logo/icare.png"></a>
 				<ul class="navibar normal-width">
 					<li id="navi-home"><a href="/">HOME</a></li>
 					<li id="navi-about"><a href="/about/index">ABOUT ▾</a></li>
@@ -96,7 +96,7 @@
 				<div class="opaque"></div>
 				<div class="opaque-text normal-width" align="center">
 					<a href="/events/start-smart">
-						<div class="submenu" style="background: url(/img/recap/2.jpg); background-size: cover; background-position: center;"></div>
+						<div class="submenu" style="background: url(/img/logo/superstar.jpg); background-size: cover; background-position: center;"></div>
 						<h5>Start Smart</h5>
 					</a>
 					<a href="/events/premiere">

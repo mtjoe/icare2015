@@ -60,12 +60,13 @@ img#logo.uncomp  {
 }
 
 .event-list {
-	.one_half-margin-20 {
+	.event-entry {
 		position: relative;
 		padding: 100px 0px;
 		background: white;
 		height: 400px;
 		overflow: hidden;
+		margin-bottom: 0px;
 		img { 
 			position: absolute;
 			width: 80%;
@@ -82,7 +83,20 @@ img#logo.uncomp  {
 		}
 	}
 
-	.one_half-margin-20:hover {
+	.event-book {
+		background: #000064;
+		color: white;
+		font: 25px "Open Sans";
+		text-transform: uppercase;
+		padding: 20px;
+	}
+
+	.event-book:hover {
+		text-decoration: none;
+		background: #3A4165;
+	}
+
+	.event-entry:hover {
 		.opaque {
 			background: rgba(0,0,100,0.95);
 			display: inline;

@@ -1,14 +1,14 @@
 <?php 
 	$this->assign('title', 'The Premiere');
 	$this->assign('name', 'premiere');
-	$this->Html->css(array("reset", "style", "events"), array('inline' => false));
+	$this->Html->css(array("style", "events"), array('inline' => false));
 	$this->Html->script(array("modernizr", "main", "events"), array('inline' => false));
 ?>
 
 
 <div class="content-container">
 	<div class="normal-width">
-		<div align="center" style="padding: 80px 0px 150px 0px;">
+		<div align="center" style="padding: 50px 0px 150px 0px;">
 			<h1 style="color: black; font: 100px Montserrat; margin-bottom: 20px; border-top: 5px solid #A19E9E; border-bottom: 5px solid #A19E9E; font-weight: 400;margin-bottom: 50px;">The Premiere</h1>
 			<p class="bold">A Little Inspiration, Towards a Better Nation</p><br><br>
 		</div>
@@ -98,10 +98,10 @@
 						<p>Read More</p>
 					</div>
 				</a>
-				<div class="two_third" style="width: 65%; margin-top: 25px; padding-top: 100px; background: #EBEBEB; height: 300px">
+				<div class="two_third" style="width: 65%; margin-top: 25px; margin-bottom: 0px; padding-top: 100px; height: 300px">
 					<h1 align="center">Moderated by</h1>
 				</div>
-				<a class="one_third column-last" data-toggle="modal" data-target="#desc-mhasan"  style="margin-top: 20px;">
+				<a class="one_third column-last" data-toggle="modal" data-target="#desc-sdean"  style="margin-top: 25px; margin-bottom: 0px;">
 					<img class="prem-speaker" src="/img/speakers/sdean.jpg">
 					<div class="opaque"></div>
 					<div class="prem-speaker-name">
@@ -112,20 +112,6 @@
 				<div class="clear"></div>
 			</div>
 			
-		</div>
-	</div>
-
-	<div class="modal fade" id="desc-lie" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-body">
-					<h2 style="font-size: 30px;">Dr. Lie Augustinus Dharmawan, Ph.D, FICS, Sp.B, Sp.BTKV</h2><br><br>
-					<p>Born in Padang, Indonesia on April 16, 1946, Dr. Lie Augustinus Dharmawan, Ph.D, FICS, Sp.B, Sp. BTKV, is a specialist surgeon who co-founded the non-profift organization, doctorSHARE Foundation in 2008, which aims to ‘save lives and minimize communities’ sufferings that are under crisis so that they are able to improve their own livelihood’. The foundation’s work focuses on isolated areas that has little or no medical services. DoctorSHARE’s work is supported by many medical specialists, working professionals, entrepreneurs and social workers to fulfill doctorSHARE’s vision and mission.</p>
-					<p>Dr. Lie completed his primary and secondary studies in his hometown Padang before moving to Germany to complete his tertiary studies. He completed his undergraduate studies in the Free University in Berlin, Germany and continued his postgraduate studies at University Hospital in Cologne, Germany and Free University in Berlin. </p>
-					<p>Dr. Lie has been actively involved in organizations during his studies and his time in Indonesia. He founded the Indonesian Student Doctors Association in Berlin and was the President for the Indonesian Doctors Association in Germany. His previous employments include being the head of the medical committee in the Husada Hospital, Jakarta. Currently, he is actively fulfilling the vision and mission of doctorSHARE. </p>
-					<p>Dr. Lie’s work has not gone unrecognized. Indonesian television show, Kick Andy, has awarded Dr. Lie with its ‘Kick Andy Heroes’ award. Dr. Lie has also been awarded by Indonesia’s Department of Social Services for his welfare works with doctorSHARE.</p>
-				</div>
-			</div>
 		</div>
 	</div>
 
@@ -156,6 +142,19 @@
 		</div>
 	</div>
 
+	<div class="modal fade" id="desc-sdean" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<h2 style="font-size: 30px;">Sri Dean</h2><br><br>
+					<p>Sri Dean’s first work experiences were in Indonesia but currently she is the broadcaster-journalist on the SBS Radio Indonesian Program from Melbourne.</p>
+					<p>Sri first joined SBS late in 1993, initially as a contributor.  At the same time she was teaching Indonesian at her alma mater, the Australian Defence Force School of Languages.  She then moved to teach at a private secondary school in Melbourne.</p>
+					<p>Sri has completed tertiary education at Indonesian and Australian universities, including Melbourne University in fields as diverse as Physical Education, Education (language teaching and literature),  Asian Studies and Journalism.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!-- TIMELINE -->
 	<div style="background: #E9F0F5;"> 
 		<div class="normal-width">
@@ -179,7 +178,7 @@
 				<div class="cd-timeline-block">
 					<div class="cd-timeline-img"><span class="ionicons ion-ios-circle-filled"></span></div>
 					<div class="cd-timeline-content">
-						<h2>Speaker 1: Dr. Lie</h2>
+						<h2>Speaker 1: Coming Soon</h2>
 						<span class="cd-date">6.40 PM</span>
 					</div> <!-- cd-timeline-content -->
 				</div>
