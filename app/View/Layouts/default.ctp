@@ -6,7 +6,7 @@
 		<meta property="og:title" content="Indonesian Career Expo 2015"/>
 		<meta property="og:type" content="event"/>
 		<meta property="og:url" content="http://www.indonesiancareerexpo.org"/>
-		<meta property="og:image" content="www.indonesiancareerexpo.org/img/logo/icare.png"/>
+		<meta property="og:image" content="http://www.indonesiancareerexpo.org/img/logo/icare.png"/>
 		<meta property="og:site_name" content="Indonesian Career Expo 2015"/>
 		<meta property="og:email" content="admin@indonesiancareerexpo.com"/>
 		<meta property="og:description" content="Indonesian Career Expo (ICarE) is an event held by Melbourne University Indonesian Student Association (MUISA) which aims to bridge the gap between Indonesian companies and Indonesian students studying in Melbourne. Following the grand success of the first Indonesian Career Expo, MUISA will hold its second Indonesian Career Expo in 2015."/>
