@@ -106,7 +106,7 @@
 		</a>
 		<div class="clear"></div>
 		<a href="/PreEvents/register" target="blank" class="one_half-margin-20 event-book">Book Now</a>
-		<a href="https://www.eventbrite.com/e/the-premiere-indonesian-career-expo-2015-tickets-16533323616" class="one_half-margin-20 event-book column-last">Book Now</a>
+		<a href="https://www.eventbrite.com/e/the-premiere-indonesian-career-expo-2015-tickets-16533323616" target="blank" class="one_half-margin-20 event-book column-last">Book Now</a>
 		<a href="/events/expo" class="one_half-margin-20 event-entry">
 			<img src="/img/logo/expo.png" style="width: 90%; padding-top: 50px; left: 5%;">
 			<div class="opaque" style="padding: 30px; left: 0px;">
@@ -126,8 +126,8 @@
 			</div>
 		</a>
 		<div class="clear"></div>
-		<a href="/PreEvents/register" target="blank" class="one_half-margin-20 event-book">Book Now</a>
-		<a href="https://www.eventbrite.com/e/the-premiere-indonesian-career-expo-2015-tickets-16533323616" class="one_half-margin-20 event-book column-last">Book Now</a>
+		<a href="https://www.eventbrite.com/e/the-expo-indonesian-career-expo-2015-tickets-16183652741" target="blank" class="one_half-margin-20 event-book">Book Now</a>
+		<a href="https://www.eventbrite.com/e/insight-dinner-indonesian-career-expo-2015-tickets-16533356715" target="blank" class="one_half-margin-20 event-book column-last">Buy Ticket $15</a>
 		<div class="clear"></div>
 	</div>
 </div>

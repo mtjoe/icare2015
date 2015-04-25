@@ -3,6 +3,14 @@
 	<head>
 		<title><?php echo $this->fetch('title')." - Indonesian Career Expo"; ?></title>
 
+		<meta property="og:title" content="Indonesian Career Expo 2015"/>
+		<meta property="og:type" content="event"/>
+		<meta property="og:url" content="http://www.indonesiancareerexpo.org"/>
+		<meta property="og:image" content="/img/logo/icare.png"/>
+		<meta property="og:site_name" content="Indonesian Career Expo 2015"/>
+		<meta property="og:email" content="admin@indonesiancareerexpo.com"/>
+		<meta property="og:description" content="Indonesian Career Expo (ICarE) is an event held by Melbourne University Indonesian Student Association (MUISA) which aims to bridge the gap between Indonesian companies and Indonesian students studying in Melbourne. Following the grand success of the first Indonesian Career Expo, MUISA will hold its second Indonesian Career Expo in 2015."/>
+
 		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>

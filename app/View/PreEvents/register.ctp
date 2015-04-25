@@ -26,9 +26,7 @@
 
 <div class="content-container smallest-width" align="center">
 	<h1>Start Smart Registration</h1>
-
 	<p>Please fill in your details for registration.</p><br>
-
 	<?php 
 	if (isset($error)) echo $error;
 	?>
