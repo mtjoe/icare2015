@@ -31,7 +31,7 @@ class PreEventsController extends AppController {
 
 			// If email is registered in PreEvent
 			if (count($this->PreEvent->find('first', array('conditions' => array('PreEvent.email' => $this->request->data['UnconPreEvent']['email'])))) > 0) {
-				$this->set('error', "The email address has been registered for this event");{}
+				$this->set('error', "The email address has been registered for this event");
 				return;
 			}
 
@@ -83,7 +83,7 @@ class PreEventsController extends AppController {
 					$Email->replyTo('info@indonesiancareerexpo.org', "Indonesian Career Expo");
 					$Email->to($this->request->data['UnconPreEvent']['email'], $fullName);
 					$Email->subject('ICarE2015 Pre-Event Registration Confirmation');
-					$Email->send(h("Thank you for Registering for our Pre-Event\n\nTo confirm you attendance, click on the following link:\n" . $link));
+					$Email->send(h("Thank you for Registering for Start Smart\n\nTo confirm you attendance, click on the following link:\n" . $link));
 
 					return $this->redirect('/PreEvents/thankyou');
 				}
@@ -103,6 +103,10 @@ class PreEventsController extends AppController {
 			throw new NotFoundException();
 		} else {
 
+			if (count($this->PreEvent->find('first', array('conditions' => array('PreEvent.email' => $attendee['UnconPreEvent']['email'])))) > 0) {
+				throw new NotFoundException('The email address has been registered for this event');
+			}
+
 			if ($attendee['UnconPreEvent']['resume'] !== null) {
 				$source = ROOT . DS . 'app' . DS . 'webroot' . DS . $attendee['UnconPreEvent']['resume'];
 				$filename = $attendee['UnconPreEvent']['email'] . '.' . pathinfo($attendee['UnconPreEvent']['resume'], PATHINFO_EXTENSION);
@@ -111,6 +115,7 @@ class PreEventsController extends AppController {
 			}
 			$id = $attendee['UnconPreEvent']['id'];
 			unset($attendee['UnconPreEvent']['id']);
+
 			if ($this->PreEvent->save($attendee['UnconPreEvent'])) {
 				// Copy resume to /app/webroot/resumes
 				if ($attendee['UnconPreEvent']['resume'] !== null) {
@@ -129,7 +134,7 @@ class PreEventsController extends AppController {
 				$Email->replyTo('info@indonesiancareerexpo.org', "Indonesian Career Expo");
 				$Email->to($attendee['UnconPreEvent']['email'], $fullName);
 				$Email->subject('ICarE2015 Pre-Event Registration Confirmed');
-				$Email->send(h("You have been confirmed for attendance to Indonesian Career Expo's Pre-Event!\n\n Details:\n Name: " . $fullName . "\nEmail: " .  $attendee['UnconPreEvent']['email']));
+				$Email->send(h("You have been confirmed for attendance to Start Smart!\n\n Details:\n Name: " . $fullName . "\nEmail: " .  $attendee['UnconPreEvent']['email']));
 			}
 		}
 		$this->set('attendee', $attendee);

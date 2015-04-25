@@ -104,7 +104,7 @@
 				<div class="opaque"></div>
 				<div class="opaque-text normal-width" align="center">
 					<a href="/events/start-smart">
-						<div class="submenu" style="background: url(/img/logo/superstar.jpg); background-size: cover; background-position: center;"></div>
+						<div class="submenu" style="background: url(/img/recap/13.jpg); background-size: cover; background-position: center;"></div>
 						<h5>Start Smart</h5>
 					</a>
 					<a href="/events/premiere">

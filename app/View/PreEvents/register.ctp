@@ -35,13 +35,25 @@
 	<?php echo $this->Form->input('first_name', array('label' => false, 'placeholder' => 'First Name'), ''); ?>
 	<?php echo $this->Form->input('last_name', array('label' => false, 'placeholder' => 'Last Name')); ?>
 	<?php echo $this->Form->input('email', array('label' => false, 'placeholder' => 'Email')); ?>
-	<?php echo $this->Form->input('university', array('label' => false, 'options' => $universities, 'empty' => 'Choose your University'));  ?>
-	<?php echo $this->Form->input('university', array('label' => false, 'options' => $universities, 'empty' => 'Choose your University'));  ?><br>
+	<?php echo $this->Form->input('university', array('label' => false, 'options' => $universities, 'empty' => 'Choose your University'));  ?><br><br>
+	<div align="left">
+		<h3 style="margin: 0px;">Areas of Interest</h3>
+		<input type="checkbox" name="data[UnconPreEvent][int_1]" value="1" style="width: auto;"> Banking and Financial Services<br>
+		<input type="checkbox" name="data[UnconPreEvent][int_2]" value="1" style="width: auto;"> Design and Architecture<br>
+		<input type="checkbox" name="data[UnconPreEvent][int_3]" value="1" style="width: auto;"> Real Estate and Property<br>
+		<input type="checkbox" name="data[UnconPreEvent][int_4]" value="1" style="width: auto;"> Engineering<br>
+		<input type="checkbox" name="data[UnconPreEvent][int_5]" value="1" style="width: auto;"> Information and Communication Technology<br>
+		<input type="checkbox" name="data[UnconPreEvent][int_6]" value="1" style="width: auto;"> Healthcare and Medical<br>
+		<input type="checkbox" name="data[UnconPreEvent][int_7]" value="1" style="width: auto;"> Legal<br>
+		<input type="checkbox" name="data[UnconPreEvent][int_8]" value="1" style="width: auto;"> Science and Technology<br>
+	</div>
+
+	<br><br>
 	<div align="left">
 		<h3 style="margin: 0px;">Resume (optional)</h3>
-		<p>Please upload your CV in PDF fornat, and ensure that it is under 5MB in size.</p>
+		<p>Please upload your CV in PDF fornat, and ensure that it is under 5MB in size. A version of the </p>
 		<?php echo $this->Form->input('resume', array('id' => 'fileinput', 'label' => false, 'type'=>'file', 'accept' => 'application/pdf')); ?>
-	</div><br><br>
+	</div><br><br><br>
 
 	<p>By submitting this registration form, you are acknowledging that you will be automatically subscribed to our newsletter as well as saved in our database.</p>
 	<?php echo $this->Form->end(array('label' => 'submit', 'div' => FALSE)); ?>
