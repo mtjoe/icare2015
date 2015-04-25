@@ -9,16 +9,28 @@
 </style>
 
 <!-- INDEX CONTENT -->
-<div id="featured" class="carousel slide" data-ride="carousel">
+<div id="featured" class="carousel slide" data-ride="carousel" data-interval="4000">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
-			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#featured" data-slide-to="0" class="active"></li>
+			<li data-target="#featured" data-slide-to="1"></li>
+			<li data-target="#featured" data-slide-to="2"></li>
 		</ol>
 
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
-			<div class="item active" align="center" style="background: black;">
+			<a class="item active" style="background: url(/img/pattern/dark.png); background-size: 100px 60px; background-repeat: repeat;">
+				
+				<div class="carousel-caption" style="width: 70%; z-index: 10;top: 50px;left: 15%; background: rgba(255, 255, 255, 0.8); text-align:left; padding: 40px; height: 350px;">
+					<h1 style="font: 20px 'Montserrat'; color: black; margin-top: 0px;">NEXT EVENT COMING UP</h1>
+					<img src="/img/logo/start-smart.png" style="width: 90%;">
+					<p style="margin-top: 150px; text-align: center; font: 40px 'Montserrat'; color: black; text-shadow: none; margin-bottom: 0px;">090515</p>
+					<p style="text-align: center; color: black;">REGISTER NOW! LIMITED SPOTS AVAILABLE</p>
+				</div>
+			</a>
+			<div class="opaque" style="width: 100%; height: 100%; background: rgba(255, 255, 255, 0.5);	"></div>
+
+			<div class="item" align="center" style="background: black;">
 				<div id="player"></div>
 				 <a class="carousel-caption" style="padding: 0px; left: 0px !important; top: 0px; width: 100%; height: 100px; color: #273487 !important;" href="/about/icare2014">
 				<div class="opaque" style="background: white; opacity: 0.5;"></div>
@@ -37,11 +49,12 @@
 						<h2 style="border-bottom: 2px solid #273487; font-size: 30px;">Introducing</h2>
 						<h2 style="font-size: 50px;">The Team</h2>
 					</div>
-			</a>
+				</a>
 			</div>
 	</div>
 
 	<!-- Controls -->
+
 	<a class="left carousel-control" href="#featured" role="button" data-slide="prev">
 		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 			<span class="sr-only">Previous</span>

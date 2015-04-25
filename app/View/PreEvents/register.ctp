@@ -35,6 +35,7 @@
 	<?php echo $this->Form->input('first_name', array('label' => false, 'placeholder' => 'First Name'), ''); ?>
 	<?php echo $this->Form->input('last_name', array('label' => false, 'placeholder' => 'Last Name')); ?>
 	<?php echo $this->Form->input('email', array('label' => false, 'placeholder' => 'Email')); ?>
+	<?php echo $this->Form->input('university', array('label' => false, 'options' => $universities, 'empty' => 'Choose your University'));  ?>
 	<?php echo $this->Form->input('university', array('label' => false, 'options' => $universities, 'empty' => 'Choose your University'));  ?><br>
 	<div align="left">
 		<h3 style="margin: 0px;">Resume (optional)</h3>

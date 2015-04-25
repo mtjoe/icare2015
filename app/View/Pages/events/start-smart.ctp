@@ -10,7 +10,7 @@
 	<div class="normal-width">
 		<div align="center" style="padding: 0px 0px 150px 0px;">
 			<h1 style="font-size: 120px; margin-bottom: 0px;">Start<span style="color: #00A0E4">Smart</span></h1>
-			<p style="vertical-align: middle;"><b>By</b> <img src="/img/logo/superstar.jpg" style="width: 200px;"></p>
+			<p style="vertical-align: middle;"><b>By</b> <img src="/img/logo/superstar.png" style="width: 200px;"></p>
 			<p class="bold" style="margin-bottom: 0px;">Registration closes May 2, 2015</p>
 			<p class="bold">Limited Spots Available</p><br><br>
 			<!-- <a href="/PreEvents/register" class="btn-register" target="blank">Register Now</a> -->
