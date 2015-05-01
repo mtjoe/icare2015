@@ -712,7 +712,7 @@ p, li {
 }
 /* line 74, ../scss/src/events.scss */
 .speaker-wrapper .one_third .prem-speaker-name {
-  top: 230px;
+  top: 200px;
 }
 /* line 76, ../scss/src/events.scss */
 .speaker-wrapper .one_half {
@@ -767,37 +767,39 @@ p, li {
   font-weight: 700;
   background: rgba(0, 0, 0, 0.7);
   padding: 5px;
+  margin-bottom: 0px;
+  display: block;
 }
-/* line 111, ../scss/src/events.scss */
+/* line 113, ../scss/src/events.scss */
 .speaker-wrapper .one_third .prem-speaker-name p:nth-child(2), .speaker-wrapper .one_half .prem-speaker-name p:nth-child(2) {
   display: none;
   text-transform: uppercase;
   font-family: Montserrat;
 }
-/* line 115, ../scss/src/events.scss */
+/* line 117, ../scss/src/events.scss */
 .speaker-wrapper .one_third:hover .opaque, .speaker-wrapper .one_half:hover .opaque {
   background: rgba(0, 0, 0, 0.9);
 }
-/* line 117, ../scss/src/events.scss */
+/* line 119, ../scss/src/events.scss */
 .speaker-wrapper .one_third:hover .prem-speaker-name p:nth-child(1), .speaker-wrapper .one_half:hover .prem-speaker-name p:nth-child(1) {
   display: none;
 }
-/* line 118, ../scss/src/events.scss */
+/* line 120, ../scss/src/events.scss */
 .speaker-wrapper .one_third:hover .prem-speaker-name p:nth-child(2), .speaker-wrapper .one_half:hover .prem-speaker-name p:nth-child(2) {
   display: inline;
 }
 
-/* line 123, ../scss/src/events.scss */
+/* line 125, ../scss/src/events.scss */
 .speaker-wrapper:last-of-type {
   border-bottom: 1px solid black;
 }
 
-/* line 127, ../scss/src/events.scss */
+/* line 129, ../scss/src/events.scss */
 section#cd-timeline {
   background: none;
   margin-top: 0px;
 }
-/* line 131, ../scss/src/events.scss */
+/* line 133, ../scss/src/events.scss */
 section#cd-timeline .ion-ios-circle-filled {
   line-height: 100% !important;
   height: 100% !important;
@@ -807,24 +809,29 @@ section#cd-timeline .ion-ios-circle-filled {
   padding-top: 10px;
   color: #76AA85;
 }
-/* line 141, ../scss/src/events.scss */
+/* line 143, ../scss/src/events.scss */
 section#cd-timeline .cd-date {
   font-family: "Open Sans";
   font-weight: 700;
 }
 
-/* line 148, ../scss/src/events.scss */
+/* line 150, ../scss/src/events.scss */
 .seminar-list .one_half-margin-20 {
   background: #813B4E;
   min-height: 200px;
 }
 
-/* line 154, ../scss/src/events.scss */
+/* line 156, ../scss/src/events.scss */
 .cd-timeline-block {
   margin: 20px 0px;
 }
 
-/* line 158, ../scss/src/events.scss */
+/* line 160, ../scss/src/events.scss */
+.cd-timeline-content p {
+  font-size: 15px;
+}
+
+/* line 164, ../scss/src/events.scss */
 .obj-entry {
   width: 100%;
   padding: 10px;
@@ -833,7 +840,7 @@ section#cd-timeline .cd-date {
   margin-top: 10px;
   border: 5px solid #7794A0;
 }
-/* line 166, ../scss/src/events.scss */
+/* line 172, ../scss/src/events.scss */
 .obj-entry p {
   line-height: 23px;
   margin-bottom: 0px;
@@ -842,12 +849,12 @@ section#cd-timeline .cd-date {
   color: #636363;
 }
 
-/* line 175, ../scss/src/events.scss */
+/* line 181, ../scss/src/events.scss */
 .cd-date {
   font-size: 17px !important;
 }
 
-/* line 179, ../scss/src/events.scss */
+/* line 185, ../scss/src/events.scss */
 .btn-top {
   width: 100% !important;
   height: 100% !important;
@@ -855,7 +862,7 @@ section#cd-timeline .cd-date {
   display: block;
 }
 
-/* line 186, ../scss/src/events.scss */
+/* line 192, ../scss/src/events.scss */
 #cd-timeline {
   margin-bottom: 0px !important;
 }

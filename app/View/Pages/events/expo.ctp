@@ -183,6 +183,7 @@
 					<div class="cd-timeline-img"><span class="ionicons ion-ios-circle-filled"></span></div>
 					<div class="cd-timeline-content">
 						<h2>Panel</h2>
+						<p>Ask questions to all our representatives. They will be on stage to answer all your questions and discuss what differences would you expect to get from different companies.</p>
 						<span class="cd-date">2.00 PM - 2.30 PM</span>
 					</div>
 				</div>
@@ -196,7 +197,8 @@
 				<div class="cd-timeline-block">
 					<div class="cd-timeline-img"><span class="ionicons ion-ios-circle-filled"></span></div>
 					<div class="cd-timeline-content">
-						<h2>Performances</h2>
+						<h2>Performances by Felicia Kok and Friends.</h2>
+						<p></p>
 						<span class="cd-date">3.30 PM - 4.30 PM</span>
 					</div>
 				</div>

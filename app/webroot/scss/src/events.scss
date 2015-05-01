@@ -71,7 +71,7 @@ p, li { line-height: 1.5; }
 	.one_fourth, .three_fifth { margin-bottom: 0px; }
 	.one_third {
 		height: 300px;
-		.prem-speaker-name { top: 230px; }
+		.prem-speaker-name { top: 200px; }
 	}
 	.one_half { 
 		height: 400px;
@@ -107,6 +107,8 @@ p, li { line-height: 1.5; }
 			font-weight: 700;
 			background: rgba(0, 0, 0, 0.7);
 			padding: 5px;
+			margin-bottom: 0px;
+			display: block;
 		}
 		.prem-speaker-name p:nth-child(2) { display: none; text-transform: uppercase; font-family: Montserrat; }
 	}
@@ -153,6 +155,10 @@ section#cd-timeline {
 
 .cd-timeline-block {
 	margin: 20px 0px;
+}
+
+.cd-timeline-content p {
+	font-size: 15px;
 }
 
 .obj-entry {

@@ -128,6 +128,7 @@
 					<div class="cd-timeline-img"><span class="ionicons ion-ios-circle-filled"></span></div>		 
 					<div class="cd-timeline-content">
 						<h2>CV Seminar</h2>
+						<p>An interactive session to gain better knowledge on CV writing dos and don’ts</p>
 						<span class="cd-date">12.15 PM</span>
 					</div>
 				</div>
@@ -136,6 +137,7 @@
 					<div class="cd-timeline-img"><span class="ionicons ion-ios-circle-filled"></span></div>		 
 					<div class="cd-timeline-content">
 						<h2>Interview Stimulation</h2>
+						<p>Learn by example: one-on-one mock interview by representatives to show you how interviews would go</p>
 						<span class="cd-date">1.15 PM</span>
 					</div>
 				</div>
@@ -143,6 +145,7 @@
 					<div class="cd-timeline-img"><span class="ionicons ion-ios-circle-filled"></span></div>		 
 					<div class="cd-timeline-content">
 						<h2>Q&amp;A</h2>
+						<p>Your time to ask and learn from a panel of experts in Human Resource</p>
 						<span class="cd-date">1.45 PM</span>
 					</div>
 				</div>
@@ -151,6 +154,7 @@
 					<div class="cd-timeline-img"><span class="ionicons ion-ios-circle-filled"></span></div>		 
 					<div class="cd-timeline-content">
 						<h2>CV Consultation &amp; Networking Session</h2>
+						<p>Representatives from Superstar Education will be present to go through your CV. Light refreshments will be provided.</p>
 						<span class="cd-date">2.00 PM</span>
 					</div>
 				</div>

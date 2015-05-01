@@ -118,7 +118,7 @@
 					<img class="prem-speaker" src="/img/speakers/samarta.jpg">
 					<div class="opaque"></div>
 					<div class="prem-speaker-name">
-						<p>Samuel Pandu Amarta</p>
+						<p>Samuel Pandu Amarta<br><span style="font: 13px Montserrat;">Employer Branding Strategist, Permata Bank</span></p>
 						<p>Read More</p>
 					</div>
 				</a>
@@ -127,7 +127,7 @@
 					<img class="prem-speaker" src="/img/speakers/ikoes.jpg">
 					<div class="opaque"></div>
 					<div class="prem-speaker-name">
-						<p>Indri K. Hidayat</p>
+						<p>Indri K. Hidayat<br><span style="font: 13px Montserrat;">Director of Human Resource, Permata Bank</span></p>
 						<p>Read More</p>
 					</div>
 				</a>

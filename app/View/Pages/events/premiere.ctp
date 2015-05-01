@@ -85,7 +85,7 @@
 					<img class="prem-speaker" src="/img/speakers/esatar.jpg">
 					<div class="opaque"></div>
 					<div class="prem-speaker-name">
-						<p>Emirsyah Satar</p>
+						<p>Emirsyah Satar<br><span style="font: 9px Montserrat;">Former CEO, Garuda Indonesia</span></p>
 						<p>Read More</p>
 					</div>
 				</a>
@@ -105,7 +105,7 @@
 					<img class="prem-speaker" src="/img/speakers/sdean.jpg">
 					<div class="opaque"></div>
 					<div class="prem-speaker-name">
-						<p>Sri Dean</p>
+						<p>Sri Dean<br><span style="font: 9px Montserrat;">Broadcaster-Journalist, SBS Radio</span></p>
 						<p>Read More</p>
 					</div>
 				</a>
@@ -187,6 +187,7 @@
 					<div class="cd-timeline-img"><span class="ionicons ion-ios-circle-filled"></span></div>
 					<div class="cd-timeline-content">
 						<h2>Speaker 2: Emirsyah Satar</h2>
+						<p>Interactive presentation by Indonesia’s national airlines ex-CEO, Emirsyah Satar, as he will share his knowledge and experience working in Indonesia, as he says “And if Indonesians don’t help this country, who will?”.</p>
 						<span class="cd-date">6.50 PM</span>
 					</div> <!-- cd-timeline-content -->
 				</div>
@@ -194,6 +195,7 @@
 					<div class="cd-timeline-img"><span class="ionicons ion-ios-circle-filled"></span></div>
 					<div class="cd-timeline-content">
 						<h2>Performance by Felicia Lase</h2>
+						<p>The dreamy voice of PPIA Got Talent winner, Felicia Lase</p>
 						<span class="cd-date">7.00 PM</span>
 					</div> <!-- cd-timeline-content -->
 				</div>
@@ -202,6 +204,7 @@
 					<div class="cd-timeline-img"><span class="ionicons ion-ios-circle-filled"></span></div>
 					<div class="cd-timeline-content">
 						<h2>Speaker 3: Maya Hasan &amp; Helen Oglivie</h2>
+						<p>Experience first-hand with Indonesia’s number one Harpist, Maya Hasan, and Batik designer, Helen Oglivie, as they share their works of art.</p>
 						<span class="cd-date">7.10 PM</span>
 					</div> <!-- cd-timeline-content -->
 				</div>
@@ -218,6 +221,7 @@
 					<div class="cd-timeline-img"><span class="ionicons ion-ios-circle-filled"></span></div>
 					<div class="cd-timeline-content">
 						<h2>Talk Show &amp; Q&amp;A </h2>
+						<p>Lead by Sri Dean, SBS Radio Indonesian Program broadcaster-journalist, this session will entice everyone on various values and opinions on our speakers and the audience.</p>
 						<span class="cd-date">7.40 PM</span>
 					</div> <!-- cd-timeline-content -->
 				</div>
@@ -234,7 +238,7 @@
 					<div class="cd-timeline-img"><span class="ionicons ion-ios-circle-filled"></span></div>
 					<div class="cd-timeline-content">
 						<h2>Networking Session</h2>
-						<p>Light refreshments provided.</p>
+						<p>Refreshments will be prepared for you to get to know more people of various industries and show yourself to the working community.</p>
 						<span class="cd-date">9.00 PM</span>
 					</div> <!-- cd-timeline-content -->
 				</div>

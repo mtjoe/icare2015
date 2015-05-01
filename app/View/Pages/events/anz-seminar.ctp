@@ -53,7 +53,7 @@
 			<p style="float: right" class="bold">Seminar 1</p>
 			<div class="clear"></div>
 			<h1 style="font-size: 60px; color: #E33A70; border-top: 5px solid #E33A70; border-bottom: 5px solid #E33A70; margin-top: 0px;">We Connect You to Your World of Opportunity</h1>
-			<p style="vertical-align: middle;"><b>By</b> <img src="/img/logo/anz.png" style="width: 200px;"></p>
+			<p style="vertical-align: middle;"><b>By</b> <img src="/img/logo/ANZ.png" style="width: 200px;"></p>
 			<br>
 		</div>
 	</div>
@@ -114,7 +114,7 @@
 					<img class="prem-speaker" src="/img/speakers/iputra.jpg">
 					<div class="opaque"></div>
 					<div class="prem-speaker-name">
-						<p>Irwan Indra Putra</p>
+						<p>Irwan Indra Putra<br><span style="font: 9px Montserrat;">Head of Recruitment Team, ANZ Bank</span></p>
 						<p>Read More</p>
 					</div>
 				</a>
@@ -123,7 +123,7 @@
 					<img class="prem-speaker" src="/img/speakers/iharjo.jpg">
 					<div class="opaque"></div>
 					<div class="prem-speaker-name">
-						<p>Ilona Harjo</p>
+						<p>Ilona Harjo<br><span style="font: 9px Montserrat;">Recruitment for Operations &amp; Tech, ANZ Bank</span></p>
 						<p>Read More</p>
 					</div>
 				</a>
@@ -132,7 +132,7 @@
 					<img class="prem-speaker" src="/img/speakers/ssugiana.jpg" style="height: 100%;">
 					<div class="opaque"></div>
 					<div class="prem-speaker-name">
-						<p>Samy Sugiana</p>
+						<p>Samy Sugiana<br><span style="font: 9px Montserrat;">HR Project Manager, ANZ Bank</span></p>
 						<p>Read More</p>
 					</div>
 				</a>
