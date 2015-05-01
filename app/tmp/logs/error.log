@@ -9191,3 +9191,348 @@ Stack Trace:
 #3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PreEventsController), Object(CakeRequest))
 #4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2015-05-01 10:44:12 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /events/start-smart
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(103): Model->find('all')
+#8 [internal function]: PagesController->startSmart()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-05-01 10:59:05 Error: [MissingViewException] View file "Pages/events/anz-seminar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/events/anz-seminar.ctp',
+)
+Request URL: /events/anz-seminar
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/View/View.php(470): View->_getViewFileName('events/anz-semi...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(959): View->render('events/anz-semi...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(78): Controller->render('events/anz-semi...')
+#3 [internal function]: PagesController->display('events', 'anz-seminar')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-01 11:24:36 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /events/start-smart
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(103): Model->find('all')
+#8 [internal function]: PagesController->startSmart()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-05-01 11:24:41 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /events/start-smart
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(103): Model->find('all')
+#8 [internal function]: PagesController->startSmart()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-05-01 11:24:56 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /events/start-smart
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(103): Model->find('all')
+#8 [internal function]: PagesController->startSmart()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-05-01 11:25:01 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /events/start-smart
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(103): Model->find('all')
+#8 [internal function]: PagesController->startSmart()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-05-01 11:25:16 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /events/start-smart
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(103): Model->find('all')
+#8 [internal function]: PagesController->startSmart()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-05-01 11:25:21 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /events/start-smart
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(103): Model->find('all')
+#8 [internal function]: PagesController->startSmart()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-05-01 11:25:36 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /events/start-smart
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(103): Model->find('all')
+#8 [internal function]: PagesController->startSmart()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-05-01 11:25:41 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /events/start-smart
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(103): Model->find('all')
+#8 [internal function]: PagesController->startSmart()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-05-01 11:25:57 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /events/start-smart
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(103): Model->find('all')
+#8 [internal function]: PagesController->startSmart()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-05-01 11:26:02 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /events/start-smart
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(103): Model->find('all')
+#8 [internal function]: PagesController->startSmart()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-05-01 11:26:17 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /events/start-smart
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(103): Model->find('all')
+#8 [internal function]: PagesController->startSmart()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-05-01 11:26:22 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /events/start-smart
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(103): Model->find('all')
+#8 [internal function]: PagesController->startSmart()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-05-01 11:26:37 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /events/start-smart
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(103): Model->find('all')
+#8 [internal function]: PagesController->startSmart()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-05-01 11:26:42 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /events/start-smart
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/Controller/PagesController.php(103): Model->find('all')
+#8 [internal function]: PagesController->startSmart()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare-website-3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}

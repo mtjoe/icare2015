@@ -114,7 +114,7 @@
 					
 					<a href="/events/expo">
 						<div class="submenu" style="background: url(/img/recap/7.jpg); background-size: cover; background-position: center;"></div>
-						<h5>The Expo</h5>
+						<h5>The Expo &amp; Seminars</h5>
 					</a>
 					<a href="/events/insight-dinner">
 						<div class="submenu" style="background: url(/img/recap/3.jpg); background-size: cover; background-position: center;"></div>

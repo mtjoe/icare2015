@@ -56,8 +56,8 @@
 			<li><a onclick="goto('comp-anz')">ANZ Bank</a></li>
 			<li><a onclick="goto('comp-permata')">Permata Bank</a></li>
 			<li><a onclick="goto('comp-cl')">Commonwealth Life</a></li>
+			<li><a onclick="goto('comp-axa')">AXA</a></li>
 			<li><a onclick="goto('comp-sctv')" class="disabled">SCTV</a></li>
-			<li><a onclick="goto('comp-axa')" class="disabled">AXA</a></li>
 		</ul>
 	</div>
 
@@ -324,7 +324,53 @@
 								<p>Visit our booth at Indonesian Career Expo on May 16, 2015.</p>
 							</td>
 						</tr>
-						<tr></tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<div id="comp-axa" style="background: white; padding: 50px 0px;" align="left">
+		<div class="normal-width">
+			<div class="one_half">
+				<img src="/img/logo/axa.png" style="width: 100%; float: left;">
+				<a href="http://www.axa.co.id" target="blank"><span class="ionicons ion-link" style="font-size: 50px;"></span></a>
+			</div>
+			<div class="clear"></div>
+			<div class=" column-last">
+				<table>
+					<tbody>
+						<tr>
+							<td>Preferred Majors</td>
+							<td><p>Actuaries</p></td>
+						</tr>
+						<tr>
+							<td>Jobs Available</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Internship Availability</td>
+							<td><p>Yes in some areas esp. actuaries.</p></td>
+						</tr>
+						<tr>
+							<td>Indonesian Only</td>
+							<td><p>Yes</p></td>
+						</tr>
+						<tr>
+							<td>Office Location</td>
+							<td><p>Jakarta, Indonesia</p></td>
+						</tr>
+						<tr>
+							<td>Why Join Us?</td>
+							<td>
+								<p>The AXA Group is one of the largest insurance groups in the world. AXA operates in more than 57 countries throughout Europe, North America, Asia Pacific, Africa and Middle East serving over 96 million customers and managing funds over Euro 1 trillion. Supported by over 216,000 dedicated staff and financial advisers, AXA leads the industry in terms of professionalism, trustworthiness, innovation and reputation. AXA has a multi-distribution model in Indonesia, and due to our rapid growth we are inviting professionals to fill the positions.</p>
+
+								<p>Be part of AXA Indonesia! AXA as preferred company with conducive work environment and ensure each employee in variety of facilities to escalade their competencies in supporting AXA’s employee engagement which bring AXA to get BEST EMPLOYEE AWARD in Indonesia 2011 from AON Hewitt Consulting Asia Pacific.</p>
+								 
+								<p>As Indonesia as part of AXA Global which a world leader, our ambition is to become the company of choice in our sector for our partners, clients and shareholders, and for the society in which we are evolving. But also for our employees. How? By creating a work environment that is conducive to innovation, to a better quality of service and that is open and respectful of our employees, and by offering exciting roles in a stimulating and empowering setting.</p>
+							</td>
+						</tr>
 					</tbody>
 				</table>
 			</div>

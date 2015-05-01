@@ -69,10 +69,16 @@ p, li { line-height: 1.5; }
 	p:last-child { margin-bottom: 0px; }
 
 	.one_fourth, .three_fifth { margin-bottom: 0px; }
-
-	.one_third { 
+	.one_third {
+		height: 300px;
+		.prem-speaker-name { top: 230px; }
+	}
+	.one_half { 
+		height: 400px;
+		.prem-speaker-name { top: 300px; }
+	}
+	.one_third, .one_half { 
 		transition: all 0.3s ease 0s;
-		height: 300px; 
 		overflow: hidden; 
 		position: relative;
 		img.prem-speaker { position: absolute; width: 100%; }
@@ -85,7 +91,6 @@ p, li { line-height: 1.5; }
 		.prem-speaker-name {
 			position: absolute;
 			text-align: center;
-			top: 230px;
 		}
 
 		.opaque { background: rgba(0, 0, 0, 0.2); transition: all 0.3s ease 0s; }
@@ -106,7 +111,7 @@ p, li { line-height: 1.5; }
 		.prem-speaker-name p:nth-child(2) { display: none; text-transform: uppercase; font-family: Montserrat; }
 	}
 
-	.one_third:hover {
+	.one_third:hover, .one_half:hover {
 		.opaque { background: rgba(0, 0, 0, 0.9); }
 
 		.prem-speaker-name p:nth-child(1) { display: none; }
