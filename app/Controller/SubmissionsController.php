@@ -4,7 +4,7 @@ App::uses('AppController', 'Controller');
 App::uses('CakeEmail', 'Network/Email');
 App::uses('Security', 'Utility'); 
 
-class PreEventsController extends AppController {
+class SubmissionsController extends AppController {
 	public $components = array('Paginator');
 	public $helpers = array('Html', 'Form');
 	public $uses = array('UnconPreEvent', 'PreEvent');

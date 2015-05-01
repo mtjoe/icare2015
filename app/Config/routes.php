@@ -38,6 +38,10 @@
 	Router::connect('/PreEvents/:action', array('controller' => 'PreEvents'));
 	Router::connect('/PreEvents/:action/*', array('controller' => 'PreEvents'));
 
+	Router::connect('/Submissions', array('controller' => 'Submissions', 'action' => 'index'));
+	Router::connect('/Submissions/:action', array('controller' => 'Submissions'));
+	Router::connect('/Submissions/:action/*', array('controller' => 'Submissions'));
+
 	Router::connect('/events/start-smart', array('controller' => 'Pages', 'action' => 'startSmart'));	
 
 

@@ -9580,3 +9580,152 @@ Stack Trace:
 #11 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
 #12 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
+2015-05-01 12:13:35 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /events/start-smart
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(103): Model->find('all')
+#8 [internal function]: PagesController->startSmart()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-05-01 12:16:08 Error: [MissingViewException] View file "Pages/Submission/register.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/Submission/register.ctp',
+)
+Request URL: /Submission/register
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('Submission/regi...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('Submission/regi...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('Submission/regi...')
+#3 [internal function]: PagesController->display('Submission', 'register')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-01 12:16:30 Error: [MissingViewException] View file "Pages/Submission/register.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/Submission/register.ctp',
+)
+Request URL: /Submission/register
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('Submission/regi...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('Submission/regi...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('Submission/regi...')
+#3 [internal function]: PagesController->display('Submission', 'register')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-01 12:16:33 Error: [MissingViewException] View file "Pages/Submissions/register.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/Submissions/register.ctp',
+)
+Request URL: /Submissions/register
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('Submissions/reg...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('Submissions/reg...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('Submissions/reg...')
+#3 [internal function]: PagesController->display('Submissions', 'register')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-01 12:16:56 Error: [MissingViewException] View file "Pages/Submissions/register.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/Submissions/register.ctp',
+)
+Request URL: /Submissions/register
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('Submissions/reg...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('Submissions/reg...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('Submissions/reg...')
+#3 [internal function]: PagesController->display('Submissions', 'register')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-01 12:17:24 Error: [MissingViewException] View file "Pages/Submissions/register.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/Submissions/register.ctp',
+)
+Request URL: /Submissions/register
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('Submissions/reg...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('Submissions/reg...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('Submissions/reg...')
+#3 [internal function]: PagesController->display('Submissions', 'register')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-01 12:17:26 Error: [MissingViewException] View file "Pages/Submissions/register.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/Submissions/register.ctp',
+)
+Request URL: /Submissions/register
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('Submissions/reg...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('Submissions/reg...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('Submissions/reg...')
+#3 [internal function]: PagesController->display('Submissions', 'register')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-01 12:17:36 Error: [MissingViewException] View file "Pages/Submissions/register.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/Submissions/register.ctp',
+)
+Request URL: /Submissions/register
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('Submissions/reg...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('Submissions/reg...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('Submissions/reg...')
+#3 [internal function]: PagesController->display('Submissions', 'register')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-01 12:18:43 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'173.254.28.15\' (4)',
+  'enabled' => true,
+)
+Request URL: /Submissions/register
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Model/Model.php(3613): ConnectionManager::getDataSource('default')
+#3 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Model/Model.php(3640): Model->setSource('pre_events')
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Model/Model.php(3018): Model->getDataSource()
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Model/Model.php(2990): Model->_readDataSource('all', Array)
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/SubmissionsController.php(92): Model->find('all')
+#8 [internal function]: SubmissionsController->register()
+#9 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SubmissionsController), Array)
+#10 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SubmissionsController), Object(CakeRequest))
+#12 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}

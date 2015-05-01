@@ -180,6 +180,7 @@
 			<li style="width: 20%;"><img src="/img/logo/medpar/aktivis.png"></li>
 			<li style="width: 20%;"><img src="/img/logo/medpar/cicak2.png"></li>
 			<li style="width: 20%;"><img src="/img/logo/medpar/republika.png"></li>
+			<li style="width: 20%;"><img src="/img/logo/medpar/aiya.png"></li>
 		</ul>
 	</div>
 </div>

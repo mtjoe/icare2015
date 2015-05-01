@@ -1,3 +1,4 @@
 /app/Config/database.php
 /app/Config/core.php
 /plugins/DebugKit
+/app/webroot/scss/*
