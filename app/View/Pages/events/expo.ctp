@@ -176,6 +176,7 @@
 					<div class="cd-timeline-img"><span class="ionicons ion-ios-circle-filled"></span></div>
 					<div class="cd-timeline-content">
 						<h2>Seminar 1 by ANZ Bank - <br>"We Connect You to Your World of Opportunity"</h2>
+						<br><a href="/events/anz-seminar">Read More ></a>
 						<span class="cd-date">12.30 PM - 1.30 PM</span>
 					</div>
 				</div>
@@ -191,6 +192,7 @@
 					<div class="cd-timeline-img"><span class="ionicons ion-ios-circle-filled"></span></div>
 					<div class="cd-timeline-content">
 						<h2>Seminar 2 by Permata Bank - <br>"What's Next?"</h2>
+						<br><a href="/events/permata-seminar">Read More ></a>
 						<span class="cd-date">2.30 PM - 3.30 PM</span>
 					</div>
 				</div>

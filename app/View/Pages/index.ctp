@@ -19,7 +19,7 @@
 
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
-			<a class="item active" style="background: url(/img/pattern/dark.png); background-size: 100px 60px; background-repeat: repeat;">
+			<a href="/events/start-smart" class="item active" style="background: url(/img/pattern/dark.png); background-size: 100px 60px; background-repeat: repeat;">
 				
 				<div class="carousel-caption" style="width: 70%; z-index: 10;top: 50px;left: 15%; background: rgba(255, 255, 255, 0.8); text-align:left; padding: 40px; height: 350px;">
 					<h1 style="font: 20px 'Montserrat'; color: black; margin-top: 0px;">NEXT EVENT COMING UP</h1>

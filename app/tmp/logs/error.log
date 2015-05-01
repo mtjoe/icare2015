@@ -9729,3 +9729,33 @@ Stack Trace:
 #11 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SubmissionsController), Object(CakeRequest))
 #12 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
+2015-05-01 15:37:26 Error: [MissingViewException] View file "Pages/store/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/store/index.ctp',
+)
+Request URL: /store/index
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('store/index')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('store/index', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('store/index')
+#3 [internal function]: PagesController->display('store', 'index')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-01 15:37:44 Error: [MissingViewException] View file "Pages/explore/team.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/explore/team.ctp',
+)
+Request URL: /explore/team
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('explore/team')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('explore/team', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('explore/team')
+#3 [internal function]: PagesController->display('explore', 'team')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
