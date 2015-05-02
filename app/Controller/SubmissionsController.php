@@ -8,28 +8,27 @@ class SubmissionsController extends AppController {
 	public $components = array('Paginator');
 	public $helpers = array('Html', 'Form');
 	public $uses = array('UnconSubmission', 'Submission');
-	public $MAXATTENDEES = 60;
 
 	public $compEmails = array(
 		"comp_1" => array(
 			"name" => "ANZ Bank",
-			"email" => "marisatjoe@gmail.com",//"recruitment.indonesia@anz.com"
+			"email" => "recruitment.indonesia@anz.com"
 		),
 		"comp_2" => array(
 			"name" => "Permata Bank",
-			"email" => "marisatjoe@gmail.com",//"samarta@permatabank.co.id",
+			"email" => "samarta@permatabank.co.id",
 		),
 		"comp_3" => array(
 			"name" => "Commonwealth Life",
-			"email" => "marisatjoe@gmail.com",//"hrd@commlife.co.id",
+			"email" => "hrd@commlife.co.id",
 		),
 		"comp_4" => array(
 			"name" => "AXA Insurance",
-			"email" => "marisatjoe@gmail.com",//"marcella.juanita@axa.co.id",
+			"email" => "marcella.juanita@axa.co.id",
 		),
 		"comp_5" => array(
 			"name" => "SCTV",
-			"email" => "marisatjoe@gmail.com",//"nova.carmeliya@scm.co.id",
+			"email" => "nova.carmeliya@scm.co.id",
 		),
 	);
 
@@ -37,15 +36,6 @@ class SubmissionsController extends AppController {
 		parent::beforeFilter();
         $this->Auth->allow('register', 'thankyou', 'confirm');
     }
-
-	/*public function index() {
-		$this->Paginator->settings = array(
-			'limit' => 100
-		);
-		
-		$data = $this->Paginator->paginate('Submission');
-		$this->set('data', $data);
-	}*/
 
 	public function register() {
 		if ($this->request->is('post')) {
@@ -62,12 +52,6 @@ class SubmissionsController extends AppController {
 	        	$this->set('error', "Spammer alert!");
 	        	return;
 	        }
-
-			// If email is registered in Submission, give out error
-			if (count($this->Submission->find('first', array('conditions' => array('Submission.email' => $this->request->data['UnconSubmission']['email'])))) > 0) {
-				$this->set('error', "The email address has been registered for this event");
-				return;
-			}
 
 			// Set resume field
 
@@ -95,10 +79,9 @@ class SubmissionsController extends AppController {
 					$this->request->data['UnconSubmission']['hash'] = Security::hash($this->request->data['UnconSubmission']['email'], 'sha1', true);
 					$link = "www.indonesiancareerexpo.org/Submissions/confirm/" . $this->request->data['UnconSubmission']['hash'];
 
-
 					// Send email
 					$Email = new CakeEmail('admin');
-					$Email->addHeaders(array('X-MC-Tags' => 'Pre-Event Registration'));
+					$Email->addHeaders(array('X-MC-Tags' => 'ICarE2015 CV Submit'));
 					$Email->from('info@indonesiancareerexpo.org', "Indonesian Career Expo");
 					$Email->replyTo('info@indonesiancareerexpo.org', "Indonesian Career Expo");
 					$Email->to($this->request->data['UnconSubmission']['email'], $fullName);
@@ -126,10 +109,6 @@ class SubmissionsController extends AppController {
 				}
 			}
 		} else {
-			$count = count($this->Submission->find('all'));
-			if ($count >= $this->MAXATTENDEES) {
-				throw new NotFoundException('Start Smart has been fully booked');
-			}
 		}
 	}
 
@@ -139,9 +118,6 @@ class SubmissionsController extends AppController {
 		if ($attendee === null) {
 			throw new NotFoundException();
 		} else {
-			if (count($this->Submission->find('first', array('conditions' => array('Submission.email' => $attendee['UnconSubmission']['email'])))) > 0) {
-				throw new NotFoundException('The email address has been registered for this event');
-			}
 
 			// Resume Location on server	
 			$source = ROOT . DS . 'app' . DS . 'webroot' . DS . $attendee['UnconSubmission']['resume'];
@@ -176,7 +152,7 @@ class SubmissionsController extends AppController {
 						$Email->replyTo('info@indonesiancareerexpo.org', "Indonesian Career Expo");
 						$Email->to($this->compEmails[$comp_name]["email"], $this->compEmails[$comp_name]["name"]);
 						$Email->attachments($dest);
-						$Email->subject('CV Submission from ' . $fullName . " to " . $this->compEmails[$comp_name]["name"] . ".");
+						$Email->subject('ICarE 2015 - CV Submission from ' . $fullName . " to " . $this->compEmails[$comp_name]["name"] . ".");
 						$Email->send(h("A CV has been submitted to " . $this->compEmails[$comp_name]["name"] . "! Please find the CV attached below.\n\n Details:\n Name: " . $fullName . "\nEmail: " .  $attendee['UnconSubmission']['email']));
 					}
 				}
@@ -187,7 +163,7 @@ class SubmissionsController extends AppController {
 				$Email->from('info@indonesiancareerexpo.org', "Indonesian Career Expo");
 				$Email->replyTo('info@indonesiancareerexpo.org', "Indonesian Career Expo");
 				$Email->to($attendee['UnconSubmission']['email'], $fullName);
-				$Email->subject('ICarE2015 Pre-Event Registration Confirmed');
+				$Email->subject('ICarE 2015 Pre-Event Registration Confirmed');
 				$Email->send(h("You have successfully submitted your CV to your companies of choice! \n\n Details:\n Name: " . $fullName . "\nEmail: " .  $attendee['UnconSubmission']['email']));
 
 				$this->set('attendee', $attendee);

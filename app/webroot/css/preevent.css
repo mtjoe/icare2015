@@ -110,8 +110,13 @@ a:hover {
   padding: 50px 0px;
 }
 
+/* line 77, ../scss/src/partials/_base.scss */
+.carousel-caption * {
+  text-shadow: none;
+}
+
 /****** NAVIGARION BAR ******/
-/* line 80, ../scss/src/partials/_base.scss */
+/* line 81, ../scss/src/partials/_base.scss */
 section.navibar-wrapper {
   position: relative;
   background: url(../img/pattern/light.png);
@@ -121,14 +126,14 @@ section.navibar-wrapper {
   padding-top: 10px;
   text-align: center;
 }
-/* line 89, ../scss/src/partials/_base.scss */
+/* line 90, ../scss/src/partials/_base.scss */
 section.navibar-wrapper img#logo {
   margin-top: 1%;
   width: auto;
   height: 100px;
   margin-left: auto;
 }
-/* line 96, ../scss/src/partials/_base.scss */
+/* line 97, ../scss/src/partials/_base.scss */
 section.navibar-wrapper .navibar {
   position: absolute;
   bottom: 0px;
@@ -139,7 +144,7 @@ section.navibar-wrapper .navibar {
   border-bottom: 3px solid #273487;
   margin-bottom: 0px;
 }
-/* line 106, ../scss/src/partials/_base.scss */
+/* line 107, ../scss/src/partials/_base.scss */
 section.navibar-wrapper .navibar li {
   display: inline-block;
   font-family: Montserrat;
@@ -149,37 +154,37 @@ section.navibar-wrapper .navibar li {
   line-height: 45px !important;
   transition: all 0.3s ease 0s;
 }
-/* line 115, ../scss/src/partials/_base.scss */
+/* line 116, ../scss/src/partials/_base.scss */
 section.navibar-wrapper .navibar li a {
   transition: all 0.3s ease 0s;
 }
-/* line 117, ../scss/src/partials/_base.scss */
+/* line 118, ../scss/src/partials/_base.scss */
 section.navibar-wrapper .navibar li a:hover {
   color: #337AB7;
   text-decoration: none;
   border-bottom: 5px solid #808080;
 }
-/* line 122, ../scss/src/partials/_base.scss */
+/* line 123, ../scss/src/partials/_base.scss */
 section.navibar-wrapper .navibar li a.active {
   border-bottom: 5px solid #808080;
 }
-/* line 126, ../scss/src/partials/_base.scss */
+/* line 127, ../scss/src/partials/_base.scss */
 section.navibar-wrapper .navibar li.round {
   margin: 0px 10px;
 }
-/* line 128, ../scss/src/partials/_base.scss */
+/* line 129, ../scss/src/partials/_base.scss */
 section.navibar-wrapper .navibar li.round a:hover {
   border-bottom: none;
 }
-/* line 129, ../scss/src/partials/_base.scss */
+/* line 130, ../scss/src/partials/_base.scss */
 section.navibar-wrapper .navibar li.round span {
   color: #676767;
 }
-/* line 130, ../scss/src/partials/_base.scss */
+/* line 131, ../scss/src/partials/_base.scss */
 section.navibar-wrapper .navibar li.round span:hover {
   color: black;
 }
-/* line 133, ../scss/src/partials/_base.scss */
+/* line 134, ../scss/src/partials/_base.scss */
 section.navibar-wrapper .navibar li.special {
   margin-left: 0px;
   background: #3C92DD;
@@ -189,20 +194,20 @@ section.navibar-wrapper .navibar li.special {
   line-height: 30px !important;
   border-radius: 15px;
 }
-/* line 141, ../scss/src/partials/_base.scss */
+/* line 142, ../scss/src/partials/_base.scss */
 section.navibar-wrapper .navibar li.special a {
   color: white;
   display: block;
 }
-/* line 142, ../scss/src/partials/_base.scss */
+/* line 143, ../scss/src/partials/_base.scss */
 section.navibar-wrapper .navibar li.special a:hover {
   border-bottom: none;
 }
-/* line 144, ../scss/src/partials/_base.scss */
+/* line 145, ../scss/src/partials/_base.scss */
 section.navibar-wrapper .navibar li.special:hover {
   background: #337AB7;
 }
-/* line 147, ../scss/src/partials/_base.scss */
+/* line 148, ../scss/src/partials/_base.scss */
 section.navibar-wrapper .nextPage {
   position: absolute;
   bottom: 130px;
@@ -210,11 +215,11 @@ section.navibar-wrapper .nextPage {
   font-size: 70px;
 }
 
-/* line 155, ../scss/src/partials/_base.scss */
+/* line 156, ../scss/src/partials/_base.scss */
 .subnavbar {
   z-index: -100;
 }
-/* line 159, ../scss/src/partials/_base.scss */
+/* line 160, ../scss/src/partials/_base.scss */
 .subnavbar .subnavbar-entry {
   top: 200px;
   position: absolute;
@@ -222,28 +227,28 @@ section.navibar-wrapper .nextPage {
   z-index: 1000;
   width: 100%;
 }
-/* line 165, ../scss/src/partials/_base.scss */
+/* line 166, ../scss/src/partials/_base.scss */
 .subnavbar .subnavbar-entry .opaque {
   background: #CDCDCD;
   opacity: 0.95;
 }
-/* line 169, ../scss/src/partials/_base.scss */
+/* line 170, ../scss/src/partials/_base.scss */
 .subnavbar .subnavbar-entry .opaque-text {
   padding: 0px 25px;
 }
-/* line 171, ../scss/src/partials/_base.scss */
+/* line 172, ../scss/src/partials/_base.scss */
 .subnavbar .subnavbar-entry h5 {
   font: 12px "Montserrat" !important;
   text-transform: uppercase;
   font-weight: 500;
   color: black;
 }
-/* line 172, ../scss/src/partials/_base.scss */
+/* line 173, ../scss/src/partials/_base.scss */
 .subnavbar .subnavbar-entry a {
   z-index: 2000;
   display: inline-block;
 }
-/* line 176, ../scss/src/partials/_base.scss */
+/* line 177, ../scss/src/partials/_base.scss */
 .subnavbar .subnavbar-entry a .submenu {
   position: relative;
   height: 150px;
@@ -253,38 +258,38 @@ section.navibar-wrapper .nextPage {
   margin: 10px;
   overflow: hidden;
 }
-/* line 184, ../scss/src/partials/_base.scss */
+/* line 185, ../scss/src/partials/_base.scss */
 .subnavbar .subnavbar-entry a .submenu img {
   position: absolute;
   width: 100%;
 }
 
 /****** FOOTER ******/
-/* line 195, ../scss/src/partials/_base.scss */
+/* line 196, ../scss/src/partials/_base.scss */
 .footer {
   padding: 20px;
   background: #263586;
   color: white;
 }
-/* line 199, ../scss/src/partials/_base.scss */
+/* line 200, ../scss/src/partials/_base.scss */
 .footer h3 {
   margin: 0px;
 }
-/* line 200, ../scss/src/partials/_base.scss */
+/* line 201, ../scss/src/partials/_base.scss */
 .footer .social {
   position: absolute;
   top: 40px;
 }
-/* line 205, ../scss/src/partials/_base.scss */
+/* line 206, ../scss/src/partials/_base.scss */
 .footer #mc_embed_signup {
   background: none !important;
 }
-/* line 208, ../scss/src/partials/_base.scss */
+/* line 209, ../scss/src/partials/_base.scss */
 .footer #mc_embed_signup form {
   padding: 0px;
 }
 
-/* line 213, ../scss/src/partials/_base.scss */
+/* line 214, ../scss/src/partials/_base.scss */
 .social a,
 .social-ppia a {
   float: left;
@@ -300,107 +305,107 @@ section.navibar-wrapper .nextPage {
   cursor: pointer;
 }
 
-/* line 227, ../scss/src/partials/_base.scss */
+/* line 228, ../scss/src/partials/_base.scss */
 #web-icon:hover {
   color: white !important;
   border: 2px solid grey;
   background: grey;
 }
 
-/* line 232, ../scss/src/partials/_base.scss */
+/* line 233, ../scss/src/partials/_base.scss */
 #fb-icon:hover {
   color: white !important;
   border: 2px solid #425E9C;
   background: #425E9C;
 }
 
-/* line 237, ../scss/src/partials/_base.scss */
+/* line 238, ../scss/src/partials/_base.scss */
 #instagram-icon:hover {
   color: white !important;
   border: 2px solid #2D6991;
   background: #2D6991;
 }
 
-/* line 242, ../scss/src/partials/_base.scss */
+/* line 243, ../scss/src/partials/_base.scss */
 #twitter-icon:hover {
   color: white !important;
   border: 2px solid #55ACEE;
   background: #55ACEE;
 }
 
-/* line 248, ../scss/src/partials/_base.scss */
+/* line 249, ../scss/src/partials/_base.scss */
 #youtube-icon:hover {
   color: white !important;
   border: 2px solid #CC181E;
   background: #CC181E;
 }
 
-/* line 256, ../scss/src/partials/_base.scss */
+/* line 257, ../scss/src/partials/_base.scss */
 .one_half {
   width: 48%;
 }
 
-/* line 257, ../scss/src/partials/_base.scss */
+/* line 258, ../scss/src/partials/_base.scss */
 .one_third {
   width: 30.5%;
 }
 
-/* line 258, ../scss/src/partials/_base.scss */
+/* line 259, ../scss/src/partials/_base.scss */
 .one_fourth {
   width: 22%;
 }
 
-/* line 259, ../scss/src/partials/_base.scss */
+/* line 260, ../scss/src/partials/_base.scss */
 .one_fifth {
   width: 16.8%;
 }
 
-/* line 260, ../scss/src/partials/_base.scss */
+/* line 261, ../scss/src/partials/_base.scss */
 .one_sixth {
   width: 13.33%;
 }
 
-/* line 261, ../scss/src/partials/_base.scss */
+/* line 262, ../scss/src/partials/_base.scss */
 .two_fifth {
   width: 37.6%;
 }
 
-/* line 262, ../scss/src/partials/_base.scss */
+/* line 263, ../scss/src/partials/_base.scss */
 .two_third {
   width: 65.33%;
 }
 
-/* line 263, ../scss/src/partials/_base.scss */
+/* line 264, ../scss/src/partials/_base.scss */
 .three_fifth {
   width: 58.4%;
 }
 
-/* line 264, ../scss/src/partials/_base.scss */
+/* line 265, ../scss/src/partials/_base.scss */
 .three_fourth {
   width: 74%;
 }
 
-/* line 265, ../scss/src/partials/_base.scss */
+/* line 266, ../scss/src/partials/_base.scss */
 .four_fifth {
   width: 67.2%;
 }
 
-/* line 266, ../scss/src/partials/_base.scss */
+/* line 267, ../scss/src/partials/_base.scss */
 .five_sixth {
   width: 82.67%;
 }
 
-/* line 267, ../scss/src/partials/_base.scss */
+/* line 268, ../scss/src/partials/_base.scss */
 .one_eighth {
   width: 11.8%;
 }
 
-/* line 268, ../scss/src/partials/_base.scss */
+/* line 269, ../scss/src/partials/_base.scss */
 .sevent_eighth {
   width: 84.2%;
 }
 
-/* line 282, ../scss/src/partials/_base.scss */
+/* line 283, ../scss/src/partials/_base.scss */
 .one_half,
 .one_third,
 .two_third,
@@ -420,64 +425,64 @@ section.navibar-wrapper .nextPage {
   float: left;
 }
 
-/* line 288, ../scss/src/partials/_base.scss */
+/* line 289, ../scss/src/partials/_base.scss */
 .column-last {
   margin-right: 0 !important;
   clear: right;
 }
 
 /****** COLUMNS ******/
-/* line 295, ../scss/src/partials/_base.scss */
+/* line 296, ../scss/src/partials/_base.scss */
 .one_half-margin-20 {
   width: calc((100% - 10px)/2);
 }
 
-/* line 296, ../scss/src/partials/_base.scss */
+/* line 297, ../scss/src/partials/_base.scss */
 .one_third-margin-20 {
   width: calc((100% - 20px)/3);
 }
 
-/* line 297, ../scss/src/partials/_base.scss */
+/* line 298, ../scss/src/partials/_base.scss */
 .one_fourth-margin-20 {
   width: calc((100% - 30px)/4);
 }
 
-/* line 298, ../scss/src/partials/_base.scss */
+/* line 299, ../scss/src/partials/_base.scss */
 .one_fifth-margin-20 {
   width: calc((100% - 40px)/5);
 }
 
-/* line 299, ../scss/src/partials/_base.scss */
+/* line 300, ../scss/src/partials/_base.scss */
 .one_sixth-margin-20 {
   width: calc((100% - 50px)/6);
 }
 
-/* line 300, ../scss/src/partials/_base.scss */
+/* line 301, ../scss/src/partials/_base.scss */
 .two_third-margin-20 {
   width: calc((((100% - 20px)/3) * 2) + 10px);
 }
 
-/* line 301, ../scss/src/partials/_base.scss */
+/* line 302, ../scss/src/partials/_base.scss */
 .three_fourth-margin-20 {
   width: calc((((100% - 30px)/4) * 3) + 20px);
 }
 
-/* line 302, ../scss/src/partials/_base.scss */
+/* line 303, ../scss/src/partials/_base.scss */
 .two_fifth-margin-20 {
   width: calc((((100% - 40px)/5) * 2) + 10px);
 }
 
-/* line 303, ../scss/src/partials/_base.scss */
+/* line 304, ../scss/src/partials/_base.scss */
 .three_fifth-margin-20 {
   width: calc((((100% - 40px)/5) * 3) + 20px);
 }
 
-/* line 304, ../scss/src/partials/_base.scss */
+/* line 305, ../scss/src/partials/_base.scss */
 .four_fifth-margin-20 {
   width: calc((((100% - 40px)/5) * 4) + 30px);
 }
 
-/* line 315, ../scss/src/partials/_base.scss */
+/* line 316, ../scss/src/partials/_base.scss */
 .one_half-margin-20,
 .one_third-margin-20,
 .one_fourth-margin-20,
@@ -494,17 +499,17 @@ section.navibar-wrapper .nextPage {
   float: left;
 }
 
-/* line 322, ../scss/src/partials/_base.scss */
+/* line 323, ../scss/src/partials/_base.scss */
 .one_half-margin-10 {
   width: calc((100% - 5px)/2);
 }
 
-/* line 323, ../scss/src/partials/_base.scss */
+/* line 324, ../scss/src/partials/_base.scss */
 .one_fifth-margin-10 {
   width: calc((100% - 20px)/5);
 }
 
-/* line 326, ../scss/src/partials/_base.scss */
+/* line 327, ../scss/src/partials/_base.scss */
 .one_half-margin-10,
 .one_fifth-margin-10 {
   position: relative;
@@ -513,42 +518,42 @@ section.navibar-wrapper .nextPage {
   float: left;
 }
 
-/* line 332, ../scss/src/partials/_base.scss */
+/* line 333, ../scss/src/partials/_base.scss */
 .one_half-no-margin {
   width: calc(100%/2);
 }
 
-/* line 333, ../scss/src/partials/_base.scss */
+/* line 334, ../scss/src/partials/_base.scss */
 .one_third-no-margin {
   width: calc(100%/3);
 }
 
-/* line 334, ../scss/src/partials/_base.scss */
+/* line 335, ../scss/src/partials/_base.scss */
 .two_third-no-margin {
   width: calc((100%/3) * 2);
 }
 
-/* line 335, ../scss/src/partials/_base.scss */
+/* line 336, ../scss/src/partials/_base.scss */
 .one_fourth-no-margin {
   width: calc(100%/4);
 }
 
-/* line 336, ../scss/src/partials/_base.scss */
+/* line 337, ../scss/src/partials/_base.scss */
 .one_fifth-no-margin {
   width: calc(100%/5);
 }
 
-/* line 337, ../scss/src/partials/_base.scss */
+/* line 338, ../scss/src/partials/_base.scss */
 .two_fifth-no-margin {
   width: calc((100%/5) * 2);
 }
 
-/* line 338, ../scss/src/partials/_base.scss */
+/* line 339, ../scss/src/partials/_base.scss */
 .three_fifth-no-margin {
   width: calc((100%/5) * 3);
 }
 
-/* line 347, ../scss/src/partials/_base.scss */
+/* line 348, ../scss/src/partials/_base.scss */
 .one_half-no-margin,
 .one_third-no-margin,
 .two_third-no-margin,
@@ -563,7 +568,7 @@ section.navibar-wrapper .nextPage {
 }
 
 /****** FORMS ******/
-/* line 356, ../scss/src/partials/_base.scss */
+/* line 357, ../scss/src/partials/_base.scss */
 input, textarea {
   padding: 10px;
   color: black;
@@ -573,12 +578,12 @@ input, textarea {
   resize: none;
 }
 
-/* line 364, ../scss/src/partials/_base.scss */
+/* line 365, ../scss/src/partials/_base.scss */
 input[type="file"] {
   background: white;
 }
 
-/* line 368, ../scss/src/partials/_base.scss */
+/* line 369, ../scss/src/partials/_base.scss */
 input[type="submit"] {
   background: #00adee;
   padding: 10px 50px;
@@ -587,12 +592,12 @@ input[type="submit"] {
   margin-top: 30px;
 }
 
-/* line 376, ../scss/src/partials/_base.scss */
+/* line 377, ../scss/src/partials/_base.scss */
 input[type="submit"]:hover {
   background: #0082b6;
 }
 
-/* line 381, ../scss/src/partials/_base.scss */
+/* line 382, ../scss/src/partials/_base.scss */
 .btn-register {
   padding: 20px 50px;
   background: #8DC99B;
@@ -603,7 +608,7 @@ input[type="submit"]:hover {
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 391, ../scss/src/partials/_base.scss */
+/* line 392, ../scss/src/partials/_base.scss */
 .btn-register p {
   font-size: 25px;
   font-family: "Open Sans";
@@ -611,7 +616,7 @@ input[type="submit"]:hover {
   margin: 0px;
 }
 
-/* line 399, ../scss/src/partials/_base.scss */
+/* line 400, ../scss/src/partials/_base.scss */
 .btn-register:hover {
   color: white;
   background: #76AA85;
