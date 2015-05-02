@@ -31526,3 +31526,33 @@ Stack Trace:
 #6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
 #7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2015-05-02 21:00:23 Error: [MissingViewException] View file "Pages/apple-touch-icon-precomposed.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/apple-touch-icon-precomposed.png.ctp',
+)
+Request URL: /apple-touch-icon-precomposed.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('apple-touch-ico...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('apple-touch-ico...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('apple-touch-ico...')
+#3 [internal function]: PagesController->display('apple-touch-ico...')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-02 21:00:23 Error: [MissingViewException] View file "Pages/apple-touch-icon.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/apple-touch-icon.png.ctp',
+)
+Request URL: /apple-touch-icon.png
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('apple-touch-ico...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('apple-touch-ico...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('apple-touch-ico...')
+#3 [internal function]: PagesController->display('apple-touch-ico...')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}

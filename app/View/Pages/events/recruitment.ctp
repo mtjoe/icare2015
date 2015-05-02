@@ -34,7 +34,7 @@
 
 	<div class="synopsis" style="padding: 150px 0px 50px 0px;">
 		<div class="small-width">
-			<p class="bold">Approved candidate will be called for interview and recruitment process by the respective companies.</p>
+			<p class="bold">All our sponsor companies will be involved in recruitment. Approved candidate will be called for interview and recruitment process by the respective companies.</p>
 			<p>NOTE: Recruitment process is not open to public. Those who have been accepted and contacted by company representatives for a one on one recruitment/interview session are expected to come in this session.</p>
 		</div>
 	</div>

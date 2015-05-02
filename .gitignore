@@ -2,3 +2,4 @@
 /app/Config/core.php
 /plugins/DebugKit
 /app/webroot/scss/*
+/app/tmp/
