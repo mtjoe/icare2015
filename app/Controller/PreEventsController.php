@@ -8,7 +8,7 @@ class PreEventsController extends AppController {
 	public $components = array('Paginator');
 	public $helpers = array('Html', 'Form');
 	public $uses = array('UnconPreEvent', 'PreEvent');
-	public $MAXATTENDEES = 50;
+	public $MAXATTENDEES = 60;
 
 	public function beforeFilter() {
 		parent::beforeFilter();

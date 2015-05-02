@@ -71,16 +71,16 @@
 		<div class="speakers">
 			<h2 style="font-size: 40px; margin-bottom: 20px;">Introducing the Speakers</h2>
 			<div class="speaker-wrapper" style="border-bottom: 5px solid #91B876;">
-				<a class="one_third" style="cursor: default">
-					<!-- <img class="prem-speaker" src="/img/speakers/lhermawan.JPG"> -->
+				
+				<a class="one_third" data-toggle="modal" data-target="#desc-lsuroso">
+					<img class="prem-speaker" src="/img/speakers/lsuroso.jpg">
 					<div class="opaque"></div>
 					<div class="prem-speaker-name">
-						<p>Coming Soon</p>
-						<!-- <p>Coming Soon</p>
-						<p>Dr. Lie Dharmawan</p>
-						<p>Read More</p> -->
+						<p>Lisa Suroso<br><span style="font: 9px Montserrat;">Co-Founder, doctorSHARE</span></p>
+						<p>Read More</p>
 					</div>
 				</a>
+
 				<a class="one_third" data-toggle="modal" data-target="#desc-satar">
 					<img class="prem-speaker" src="/img/speakers/esatar.jpg">
 					<div class="opaque"></div>
@@ -112,6 +112,18 @@
 				<div class="clear"></div>
 			</div>
 			
+		</div>
+	</div>
+
+	<div class="modal fade" id="desc-lsuroso" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<h2 style="font-size: 30px;">Lisa Suroso</h2><br><br>
+					<p>Lisa Suroso is a co-founder of doctorSHARE with dr. Lie Dharmawan and an avid activist in providing Indonesian communities with no access to medical facilities. Along with other non-profit organizations, doctorSHARE is active in contributing with humanitarian aid since the tsunami, earthquakes and various other natural disasters that battered Indonesia between 2003 and 2010. doctorSHARE is established in 2009 with a focus in providing medical access and nutritional support to communities with limited medical access. This mission is carried out through various programs such as Rumah Sakit Apung (Floating Hospital), Flying Doctors and many more. Lisa’s work focuses on the pilot project of the ‘Floating Hospital’ in Kei Island in the province of Southeast Maluku, Indonesia and ‘Local Sources Empowerment’ for areas in eastern Indonesia. Lisa has always been active in seeking social equality since her days in university and is previously a contributor to an Indonesian publication.</p>
+					<p>Graduated from Tarumanagara University (1999), Lisa also pursued multiple degrees such as narrative journalism at George Washington University, USA (2008), volunteer management at Humber College, Canada (2011), social media at Ontario College of Art &amp; Design University, Canada (2013) and certificate in international development at University of British Columbia, Canada (2015). Lisa trusts that all of her educational degrees will aid her in her pursuit of social equality.</p>
+				</div>
+			</div>
 		</div>
 	</div>
 
