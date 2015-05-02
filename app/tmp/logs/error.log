@@ -31496,3 +31496,33 @@ Stack Trace:
 #3 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PreEventsController), Object(CakeRequest))
 #4 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2015-05-02 17:52:39 Error: [MissingViewException] View file "Pages/classes.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/classes.ctp',
+)
+Request URL: /classes
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('classes')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('classes', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('classes')
+#3 [internal function]: PagesController->display('classes')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-02 17:52:41 Error: [MissingViewException] View file "Pages/subjects/chemistry.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/subjects/chemistry.ctp',
+)
+Request URL: /subjects/chemistry
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('subjects/chemis...')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('subjects/chemis...', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('subjects/chemis...')
+#3 [internal function]: PagesController->display('subjects', 'chemistry')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}

@@ -13,23 +13,23 @@ class SubmissionsController extends AppController {
 	public $compEmails = array(
 		"comp_1" => array(
 			"name" => "ANZ Bank",
-			"email" => "marisatjoe@gmail.com"
+			"email" => "marisatjoe@gmail.com",//"recruitment.indonesia@anz.com"
 		),
 		"comp_2" => array(
 			"name" => "Permata Bank",
-			"email" => "marisa@connecteducation.com.au",
+			"email" => "marisatjoe@gmail.com",//"samarta@permatabank.co.id",
 		),
 		"comp_3" => array(
 			"name" => "Commonwealth Life",
-			"email" => "marisa_tjoe3@hotmail.com",
+			"email" => "marisatjoe@gmail.com",//"hrd@commlife.co.id",
 		),
 		"comp_4" => array(
 			"name" => "AXA Insurance",
-			"email" => "marisatjoe@gmail.com",
+			"email" => "marisatjoe@gmail.com",//"marcella.juanita@axa.co.id",
 		),
 		"comp_5" => array(
 			"name" => "SCTV",
-			"email" => "marisatjoe@gmail.com",
+			"email" => "marisatjoe@gmail.com",//"nova.carmeliya@scm.co.id",
 		),
 	);
 
@@ -75,7 +75,10 @@ class SubmissionsController extends AppController {
 			$filename = $this->request->data['UnconSubmission']['email'] . '.' . pathinfo($this->request->data['UnconSubmission']['resume']['name'], PATHINFO_EXTENSION);
 			$dest = ROOT . DS . 'app' . DS . 'webroot' . DS . 'uncon-sub-resumes' . DS;
 
-			if ($this->request->data['UnconSubmission']['resume']['size'] === 0) $this->request->data['UnconSubmission']['resume'] = null;
+			if ($this->request->data['UnconSubmission']['resume']['size'] === 0) {
+				$this->set('error', "Please attach your CV!");
+	        	return;
+			}
 			else $this->request->data['UnconSubmission']['resume'] = 'uncon-sub-resumes' . DS . $filename;
 			
 			// Set hash value
