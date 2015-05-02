@@ -32,7 +32,7 @@
 				
 				<div class="carousel-caption" style="width: 70%; z-index: 10;top: 50px;left: 15%;  text-align:center; padding: 40px; height: 350px;">
 					<h1 style="font: 80px 'Open Sans'; color: #24307E; margin-top: 20px; font-weight: 600;">CV SUBMISSION</h1>
-					<p style="margin-top: 10px; font: 35px 'Montserrat'; color: black; text-shadow: none; margin-bottom: 0px;">Submit your CV to companies of your choice!</p><br>
+					<p style="margin-top: 10px; font: 30px 'Montserrat'; color: black; text-shadow: none; margin-bottom: 0px;">Submit your CV to companies of your choice!</p><br><br>
 					<p style="padding: 10px 30px; font: 20px 'Montserrat'; background: #3C93DD; width: 300px; border-radius: 20px; text-shadow: none; margin-left: 250px;">SUBMIT NOW</p>
 				</div>
 			</a>
@@ -54,11 +54,11 @@
 
 	<a class="left carousel-control" href="#featured" role="button" data-slide="prev">
 		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
+		<span class="sr-only">Previous</span>
 	</a>
 	<a class="right carousel-control" href="#featured" role="button" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
 	</a>
 </div>
 
