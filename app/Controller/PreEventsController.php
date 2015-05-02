@@ -17,6 +17,7 @@ class PreEventsController extends AppController {
 
 	public function index() {
 		$this->Paginator->settings = array(
+			'limit' => 100,
 			);
 		
 		$data = $this->Paginator->paginate('PreEvent');
