@@ -9,7 +9,7 @@
 </style>
 
 <!-- INDEX CONTENT -->
-<div id="featured" class="carousel slide" data-ride="carousel" data-interval="4000">
+<div id="featured" class="carousel slide" data-ride="carousel" data-interval="8000">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
 			<li data-target="#featured" data-slide-to="0" class="active"></li>
@@ -28,7 +28,14 @@
 					<p style="text-align: center; color: black;">REGISTER NOW! LIMITED SPOTS AVAILABLE</p>
 				</div>
 			</a>
-			<div class="opaque" style="width: 100%; height: 100%; background: rgba(255, 255, 255, 0.5);	"></div>
+			<a href="/Submission/register" class="item" style="background: url(/img/pattern/light2.png); background-size: 100px 60px; background-repeat: repeat; border-bottom: 5px solid #337AB7;">
+				
+				<div class="carousel-caption" style="width: 70%; z-index: 10;top: 50px;left: 15%;  text-align:center; padding: 40px; height: 350px;">
+					<h1 style="font: 80px 'Open Sans'; color: #24307E; margin-top: 20px; font-weight: 600;">CV SUBMISSION</h1>
+					<p style="margin-top: 10px; font: 35px 'Montserrat'; color: black; text-shadow: none; margin-bottom: 0px;">Submit your CV to companies of your choice!</p><br>
+					<p style="padding: 10px 30px; font: 20px 'Montserrat'; background: #3C93DD; width: 300px; border-radius: 20px; text-shadow: none; margin-left: 250px;">SUBMIT NOW</p>
+				</div>
+			</a>
 
 			<div class="item" align="center" style="background: black;">
 				<div id="player"></div>
@@ -40,16 +47,6 @@
 			</a>
 				<!-- <img src="/img/index-1.jpg" alt="Melbourne" style="margin-top: -130px;">
 				 -->
-			</div>
-			<div class="item" >
-				<img src="/img/team/all.jpg" alt="corp" style="margin-top: -130px;" href="/about/committee">
-				<a class="carousel-caption" style="bottom: -100px;  width: 500px; margin-left: 125px; height: 330px; color: #273487 !important;" href="/about/index#team"  align="center">
-					<div class="opaque" style="background: white; opacity: 0.6;"></div>
-					<div class="opaque-text" style="padding: 10px;">
-						<h2 style="border-bottom: 2px solid #273487; font-size: 30px;">Introducing</h2>
-						<h2 style="font-size: 50px;">The Team</h2>
-					</div>
-				</a>
 			</div>
 	</div>
 

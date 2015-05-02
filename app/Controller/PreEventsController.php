@@ -18,7 +18,7 @@ class PreEventsController extends AppController {
 	public function index() {
 		$this->Paginator->settings = array(
 			'limit' => 100,
-			);
+		);
 		
 		$data = $this->Paginator->paginate('PreEvent');
 		$this->set('data', $data);
@@ -66,7 +66,7 @@ class PreEventsController extends AppController {
 					$Email->replyTo('info@indonesiancareerexpo.org', "Indonesian Career Expo");
 					$Email->to($this->request->data['UnconPreEvent']['email'], $fullName);
 					$Email->subject('ICarE2015 Pre-Event Registration Confirmation');
-					$Email->send(h("Thank you for Registering for our Pre-Event\n\nTo confirm you attendance, click on the following link:\n" . $link));
+					$Email->send(h("Thank you for Registering for our Pre-Event\n\nTo confirm your attendance, click on the following link:\n" . $link));
 				}
 				return $this->redirect('/PreEvents/thankyou');
 			} else {
@@ -84,7 +84,7 @@ class PreEventsController extends AppController {
 					$Email->replyTo('info@indonesiancareerexpo.org', "Indonesian Career Expo");
 					$Email->to($this->request->data['UnconPreEvent']['email'], $fullName);
 					$Email->subject('ICarE2015 Pre-Event Registration Confirmation');
-					$Email->send(h("Thank you for Registering for Start Smart\n\nTo confirm you attendance, click on the following link:\n" . $link));
+					$Email->send(h("Thank you for Registering for Start Smart\n\nTo confirm your attendance, click on the following link:\n" . $link));
 
 					return $this->redirect('/PreEvents/thankyou');
 				}
@@ -118,14 +118,14 @@ class PreEventsController extends AppController {
 			unset($attendee['UnconPreEvent']['id']);
 
 			if ($this->PreEvent->save($attendee['UnconPreEvent'])) {
-				// Copy resume to /app/webroot/resumes
+				
 				if ($attendee['UnconPreEvent']['resume'] !== null) {
+					// Copy resume to /app/webroot/resumes and delete uncon files
 					copy($source, $dest);
-
-					// Delete uncon files
 					unlink($source);
 				}
-				$this->UnconPreEvent->delete($this->request->data($id));
+				
+				$this->UnconSubmission->delete($id);
 
 				// Send an email to notify confirmation
 				$fullName = $attendee['UnconPreEvent']['first_name'] . ' ' . $attendee['UnconPreEvent']['last_name'];

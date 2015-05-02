@@ -7,55 +7,90 @@ App::uses('Security', 'Utility');
 class SubmissionsController extends AppController {
 	public $components = array('Paginator');
 	public $helpers = array('Html', 'Form');
-	public $uses = array('UnconPreEvent', 'PreEvent');
+	public $uses = array('UnconSubmission', 'Submission');
 	public $MAXATTENDEES = 60;
+
+	public $compEmails = array(
+		"comp_1" => array(
+			"name" => "ANZ Bank",
+			"email" => "marisatjoe@gmail.com"
+		),
+		"comp_2" => array(
+			"name" => "Permata Bank",
+			"email" => "marisa@connecteducation.com.au",
+		),
+		"comp_3" => array(
+			"name" => "Commonwealth Life",
+			"email" => "marisa_tjoe3@hotmail.com",
+		),
+		"comp_4" => array(
+			"name" => "AXA Insurance",
+			"email" => "marisatjoe@gmail.com",
+		),
+		"comp_5" => array(
+			"name" => "SCTV",
+			"email" => "marisatjoe@gmail.com",
+		),
+	);
 
 	public function beforeFilter() {
 		parent::beforeFilter();
         $this->Auth->allow('register', 'thankyou', 'confirm');
     }
 
-	public function index() {
+	/*public function index() {
 		$this->Paginator->settings = array(
-			);
+			'limit' => 100
+		);
 		
-		$data = $this->Paginator->paginate('PreEvent');
+		$data = $this->Paginator->paginate('Submission');
 		$this->set('data', $data);
-	}
+	}*/
 
 	public function register() {
-
-
-		$hasResume = false;
 		if ($this->request->is('post')) {
+			/* CAPTCHA HANDLER */
+			if(isset($this->request->data['g-recaptcha-response'])){
+				$captcha = $this->request->data['g-recaptcha-response'];
+	        }
+			if(!$captcha){
+	        	$this->set('error', "Please fill in the CAPTCHA form.");
+	        	return;
+	        }
+	        $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6Lf5OAYTAAAAAD92wp6oFa9XWDfrqP4QeFEcVyvJ&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']);
+	        if (is_array($response) && $response['success'] == false) {
+	        	$this->set('error', "Spammer alert!");
+	        	return;
+	        }
 
-			// If email is registered in PreEvent
-			if (count($this->PreEvent->find('first', array('conditions' => array('PreEvent.email' => $this->request->data['UnconPreEvent']['email'])))) > 0) {
+			// If email is registered in Submission, give out error
+			if (count($this->Submission->find('first', array('conditions' => array('Submission.email' => $this->request->data['UnconSubmission']['email'])))) > 0) {
 				$this->set('error', "The email address has been registered for this event");
 				return;
 			}
 
 			// Set resume field
-			if ($this->request->data['UnconPreEvent']['resume']['size'] !== 0) {
-				$source = $this->request->data['UnconPreEvent']['resume']['tmp_name'];
-				$filename = $this->request->data['UnconPreEvent']['email'] . '.' . pathinfo($this->request->data['UnconPreEvent']['resume']['name'], PATHINFO_EXTENSION);
-				$dest = ROOT . DS . 'app' . DS . 'webroot' . DS . 'uncon-resumes' . DS;
-				$this->request->data['UnconPreEvent']['resume'] = 'uncon-resumes' . DS . $filename;
-				$hasResume = true;
-			} else {
-				$this->request->data['UnconPreEvent']['resume'] = null;
-			}
 
-			$this->request->data['UnconPreEvent']['hash'] = Security::hash($this->request->data['UnconPreEvent']['email'], 'sha1', true);
-			$attendee = $this->UnconPreEvent->find('first', array('conditions' => array('UnconPreEvent.email' => $this->request->data['UnconPreEvent']['email'])));
+			$source = $this->request->data['UnconSubmission']['resume']['tmp_name'];
+			$filename = $this->request->data['UnconSubmission']['email'] . '.' . pathinfo($this->request->data['UnconSubmission']['resume']['name'], PATHINFO_EXTENSION);
+			$dest = ROOT . DS . 'app' . DS . 'webroot' . DS . 'uncon-sub-resumes' . DS;
+
+			if ($this->request->data['UnconSubmission']['resume']['size'] === 0) $this->request->data['UnconSubmission']['resume'] = null;
+			else $this->request->data['UnconSubmission']['resume'] = 'uncon-sub-resumes' . DS . $filename;
+			
+			// Set hash value
+			$this->request->data['UnconSubmission']['hash'] = Security::hash($this->request->data['UnconSubmission']['email'], 'sha1', true);
+
+			$attendee = $this->UnconSubmission->find('first', array('conditions' => array('UnconSubmission.email' => $this->request->data['UnconSubmission']['email'])));
+
 			if (count($attendee) > 0) {
-				// If email is registered in UnconPreEvent
-				$this->UnconPreEvent->read(null, $attendee['UnconPreEvent']['id']);
-				$this->UnconPreEvent->set($this->request->data);
-				if ($this->UnconPreEvent->save()) {
-					$fullName = $this->request->data['UnconPreEvent']['first_name'] . ' ' . $this->request->data['UnconPreEvent']['last_name'];
-					$this->request->data['UnconPreEvent']['hash'] = Security::hash($this->request->data['UnconPreEvent']['email'], 'sha1', true);
-					$link = "www.indonesiancareerexpo.org/PreEvents/confirm/" . $this->request->data['UnconPreEvent']['hash'];
+				// If email is registered in UnconSubmission
+				$this->UnconSubmission->read(null, $attendee['UnconSubmission']['id']);
+				$this->UnconSubmission->set($this->request->data);
+				if ($this->UnconSubmission->save()) {
+					$fullName = $this->request->data['UnconSubmission']['first_name'] . ' ' . $this->request->data['UnconSubmission']['last_name'];
+					$this->request->data['UnconSubmission']['hash'] = Security::hash($this->request->data['UnconSubmission']['email'], 'sha1', true);
+					$link = "www.indonesiancareerexpo.org/Submissions/confirm/" . $this->request->data['UnconSubmission']['hash'];
 
 
 					// Send email
@@ -63,33 +98,32 @@ class SubmissionsController extends AppController {
 					$Email->addHeaders(array('X-MC-Tags' => 'Pre-Event Registration'));
 					$Email->from('info@indonesiancareerexpo.org', "Indonesian Career Expo");
 					$Email->replyTo('info@indonesiancareerexpo.org', "Indonesian Career Expo");
-					$Email->to($this->request->data['UnconPreEvent']['email'], $fullName);
-					$Email->subject('ICarE2015 Pre-Event Registration Confirmation');
-					$Email->send(h("Thank you for Registering for our Pre-Event\n\nTo confirm you attendance, click on the following link:\n" . $link));
+					$Email->to($this->request->data['UnconSubmission']['email'], $fullName);
+					$Email->subject('ICarE2015 CV Submit Confirmation');
+					$Email->send(h("Thank you for submitting your CV.\n\nTo confirm your submission, click on the following link:\n" . $link));
 				}
-				return $this->redirect('/PreEvents/thankyou');
+				return $this->redirect('/Submissions/thankyou');
 			} else {
-				if ($this->UnconPreEvent->save($this->request->data)) {
-					if ($hasResume) {
-						move_uploaded_file($source, $dest . $filename);
-					}
-					$fullName = $this->request->data['UnconPreEvent']['first_name'] . ' ' . $this->request->data['UnconPreEvent']['last_name'];
-					$link = $_SERVER['SERVER_NAME'] . "/PreEvents/confirm/" . $this->request->data['UnconPreEvent']['hash'];
+				// If email is NOT registered in UnconSubmission, create a new UnconSubmission entry
+				if ($this->UnconSubmission->save($this->request->data)) {
+					move_uploaded_file($source, $dest . $filename);
+					$fullName = $this->request->data['UnconSubmission']['first_name'] . ' ' . $this->request->data['UnconSubmission']['last_name'];
+					$link = $_SERVER['SERVER_NAME'] . "/Submissions/confirm/" . $this->request->data['UnconSubmission']['hash'];
 
 					// Send email
 					$Email = new CakeEmail('admin');
-					$Email->addHeaders(array('X-MC-Tags' => 'Pre-Event Registration'));
+					$Email->addHeaders(array('X-MC-Tags' => 'ICarE 2015 CV Submission'));
 					$Email->from('info@indonesiancareerexpo.org', "Indonesian Career Expo");
 					$Email->replyTo('info@indonesiancareerexpo.org', "Indonesian Career Expo");
-					$Email->to($this->request->data['UnconPreEvent']['email'], $fullName);
-					$Email->subject('ICarE2015 Pre-Event Registration Confirmation');
-					$Email->send(h("Thank you for Registering for Start Smart\n\nTo confirm you attendance, click on the following link:\n" . $link));
+					$Email->to($this->request->data['UnconSubmission']['email'], $fullName);
+					$Email->subject('ICarE 2015 CV Submission Confirmation');
+					$Email->send(h("Thank you for submitting your CV.\n\nTo confirm your submission, click on the following link:\n" . $link));
 
-					return $this->redirect('/PreEvents/thankyou');
+					return $this->redirect('/Submissions/thankyou');
 				}
 			}
 		} else {
-			$count = count($this->PreEvent->find('all'));
+			$count = count($this->Submission->find('all'));
 			if ($count >= $this->MAXATTENDEES) {
 				throw new NotFoundException('Start Smart has been fully booked');
 			}
@@ -98,58 +132,79 @@ class SubmissionsController extends AppController {
 
 	public function confirm($hash) {
 
-		$attendee = $this->UnconPreEvent->find('first', array('conditions' => array('UnconPreEvent.hash' => $hash)));
+		$attendee = $this->UnconSubmission->find('first', array('conditions' => array('UnconSubmission.hash' => $hash)));
 		if ($attendee === null) {
 			throw new NotFoundException();
 		} else {
-
-			if (count($this->PreEvent->find('first', array('conditions' => array('PreEvent.email' => $attendee['UnconPreEvent']['email'])))) > 0) {
+			if (count($this->Submission->find('first', array('conditions' => array('Submission.email' => $attendee['UnconSubmission']['email'])))) > 0) {
 				throw new NotFoundException('The email address has been registered for this event');
 			}
 
-			if ($attendee['UnconPreEvent']['resume'] !== null) {
-				$source = ROOT . DS . 'app' . DS . 'webroot' . DS . $attendee['UnconPreEvent']['resume'];
-				$filename = $attendee['UnconPreEvent']['email'] . '.' . pathinfo($attendee['UnconPreEvent']['resume'], PATHINFO_EXTENSION);
-				$dest = ROOT . DS . 'app' . DS . 'webroot' . DS . 'resumes' . DS . $filename;
-				$attendee['UnconPreEvent']['resume'] = 'resumes' . DS . $filename;
-			}
-			$id = $attendee['UnconPreEvent']['id'];
-			unset($attendee['UnconPreEvent']['id']);
+			// Resume Location on server	
+			$source = ROOT . DS . 'app' . DS . 'webroot' . DS . $attendee['UnconSubmission']['resume'];
+			$filename = $attendee['UnconSubmission']['email'] . '.' . pathinfo($attendee['UnconSubmission']['resume'], PATHINFO_EXTENSION);
+			$dest = ROOT . DS . 'app' . DS . 'webroot' . DS . 'sub-resumes' . DS . $filename;
+			$attendee['UnconSubmission']['resume'] = 'sub-resumes' . DS . $filename;
+			
+			$id = $attendee['UnconSubmission']['id'];
+			unset($attendee['UnconSubmission']['id']);
 
-			if ($this->PreEvent->save($attendee['UnconPreEvent'])) {
+			$comps = array(
+				"comp_1" => $attendee['UnconSubmission']['comp_1'],
+				"comp_2" => $attendee['UnconSubmission']['comp_2'],
+				"comp_3" => $attendee['UnconSubmission']['comp_3'],
+				"comp_4" => $attendee['UnconSubmission']['comp_4'],
+				"comp_5" => $attendee['UnconSubmission']['comp_5'],
+			);
+
+			if ($this->Submission->save($attendee['UnconSubmission'])) {
 				// Copy resume to /app/webroot/resumes
-				if ($attendee['UnconPreEvent']['resume'] !== null) {
-					copy($source, $dest);
+				copy($source, $dest);
+				unlink($source);
+				$this->UnconSubmission->delete($id);
+				$fullName = $attendee['UnconSubmission']['first_name'] . ' ' . $attendee['UnconSubmission']['last_name'];
 
-					// Delete uncon files
-					unlink($source);
+				// Send email to each Company rep
+				foreach ($comps as $comp_name => $comp_int) {
+					if ($comp_int) {
+						$Email = new CakeEmail('admin');
+						$Email->addHeaders(array('X-MC-Tags' => 'ICarE 2015 CV Submission'));
+						$Email->from('info@indonesiancareerexpo.org', "Indonesian Career Expo");
+						$Email->replyTo('info@indonesiancareerexpo.org', "Indonesian Career Expo");
+						$Email->to($this->compEmails[$comp_name]["email"], $this->compEmails[$comp_name]["name"]);
+						$Email->attachments($dest);
+						$Email->subject('CV Submission from ' . $fullName . " to " . $this->compEmails[$comp_name]["name"] . ".");
+						$Email->send(h("A CV has been submitted to " . $this->compEmails[$comp_name]["name"] . "! Please find the CV attached below.\n\n Details:\n Name: " . $fullName . "\nEmail: " .  $attendee['UnconSubmission']['email']));
+					}
 				}
-				$this->UnconPreEvent->delete($this->request->data($id));
 
 				// Send an email to notify confirmation
-				$fullName = $attendee['UnconPreEvent']['first_name'] . ' ' . $attendee['UnconPreEvent']['last_name'];
 				$Email = new CakeEmail('admin');
 				$Email->addHeaders(array('X-MC-Tags' => 'Pre-Event Registration'));
 				$Email->from('info@indonesiancareerexpo.org', "Indonesian Career Expo");
 				$Email->replyTo('info@indonesiancareerexpo.org', "Indonesian Career Expo");
-				$Email->to($attendee['UnconPreEvent']['email'], $fullName);
+				$Email->to($attendee['UnconSubmission']['email'], $fullName);
 				$Email->subject('ICarE2015 Pre-Event Registration Confirmed');
-				$Email->send(h("You have been confirmed for attendance to Start Smart!\n\n Details:\n Name: " . $fullName . "\nEmail: " .  $attendee['UnconPreEvent']['email']));
+				$Email->send(h("You have successfully submitted your CV to your companies of choice! \n\n Details:\n Name: " . $fullName . "\nEmail: " .  $attendee['UnconSubmission']['email']));
+
+				$this->set('attendee', $attendee);
+			} else {
+				throw new Exception('Failed');
 			}
 		}
-		$this->set('attendee', $attendee);
+		
 	}
 
 	public function resumes($hash) {
 
-		$attendee = $this->PreEvent->find('first', array('conditions' => array('PreEvent.hash' => $hash)));
-		$resume = $attendee['PreEvent']['resume'];
+		$attendee = $this->Submission->find('first', array('conditions' => array('Submission.hash' => $hash)));
+		$resume = $attendee['Submission']['resume'];
 
 		
         $this->viewClass = 'Media';
         $params = array(
             'id'        => $resume,
-            'name'      => $attendee['PreEvent']['email'],
+            'name'      => $attendee['Submission']['email'],
             'download'  => false,
             'extension' => pathinfo($resume, PATHINFO_EXTENSION),
             'path'      => 'webroot' . DS

@@ -5,5 +5,6 @@
 ?>
 
 <div class="content-container normal-width" align="center">
-	<h1>You've been confirmed for the Pre-Event!</h1>
+	<h1 style="font-family: 'Open Sans'; font-weight: 600;">Your CV submission has been confirmed!</h1>
+	<p>Representatives of your companies of choice have received your CV.</p>
 </div>

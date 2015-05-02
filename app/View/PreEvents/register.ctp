@@ -1,6 +1,6 @@
 <?php 
 	$this->assign('name', 'reg-preevent');
-	$this->assign('title', 'Pre-Event Registration');
+	$this->assign('title', 'Start Smart Registration');
 	$this->Html->css("preevent", array('inline' => false));
 ?>
 
@@ -51,7 +51,7 @@
 	<br><br>
 	<div align="left">
 		<h3 style="margin: 0px;">Resume (optional)</h3>
-		<p>Please upload your CV in PDF fornat, and ensure that it is under 5MB in size. A version of the </p>
+		<p>Please upload your CV in PDF format, and ensure that it is under 5MB in size.</p>
 		<?php echo $this->Form->input('resume', array('id' => 'fileinput', 'label' => false, 'type'=>'file', 'accept' => 'application/pdf')); ?>
 	</div><br><br><br>
 

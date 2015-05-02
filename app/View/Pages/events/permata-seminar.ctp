@@ -69,7 +69,8 @@
 
 			<!-- LOCATION -->
 			<div class="loc" style="width: 45%; float: left; padding-left: 20px; border-left: 1px solid #D1CEDB;">
-				<p class="bold">2.30 PM - 3.30 PM</p><br>
+				<p class="bold">2.30 PM - 3.30 PM</p>
+				<p style="font-size: 13px; margin-bottom: 10px;">Note: This event is a part of <a href="/events/expo">The Expo</a></p>
  				<p>Seminar Room 1, <a href="https://www.google.com.au/maps/place/State+Library+of+Victoria/@-37.809809,144.96519,17z/data=!3m1!4b1!4m2!3m1!1s0x6ad642cb954b1ce9:0xf187674ba9830e78" target="blank">State Library of Victoria</a></p>
 				<p>328 Swanston Street</p>
 			</div>

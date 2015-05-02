@@ -22,6 +22,7 @@
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript" src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<?php 
 			echo $this->Html->script("base");
@@ -29,15 +30,9 @@
 			echo $this->fetch('css');
 			echo $this->Html->meta('description', 'Indonesian Career Expo (ICarE) is an event held by Melbourne University Indonesian Student Association (MUISA) which aims to bridge the gap between Indonesian companies and Indonesian students studying in Melbourne. Following the grand success of the first Indonesian Career Expo, MUISA will hold its second Indonesian Career Expo in 2015.'); 
 			echo $this->Html->meta(
-			    'favicon.ico',
-			    '/favicon.ico',
-			    array('type' => 'icon')
-			);
-			echo $this->Html->meta(
 			    'keywords',
 			    'Indonesian Career Expo, Indonesian Career Expo 2015, ICarE, Melbourne, State Library, Events, 2015'
 			);
-
 		?>
 
 	</head>
@@ -68,6 +63,7 @@
 					<li id="navi-exhibitors"><a href="/exhibitors/list">EXHIBITORS</a></li>
 					<li id="navi-media"><a href="/media">MEDIA RELEASE</a></li>
 					<li id="navi-contact"><a href="/contact">CONTACT US</a></li>
+					<li id="navi-cvsubmit" class="special"><a href="/Submissions/register">CV SUBMIT</a></li>
 					<!-- <li class="round"><a href="/contact"><span class="ionicons ion-ios-telephone"></span></a></li>
 					<li class="round"><a href=""><span class="ionicons ion-help-circled"></span></a></li> -->
 				</ul>

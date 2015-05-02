@@ -110,6 +110,9 @@ section.navibar-wrapper {
 			margin: 0px 20px;
 			font-size: 15px;
 			line-height: 45px !important;
+			transition: all 0.3s ease 0s;
+
+			a { transition: all 0.3s ease 0s; }
 			
 			a:hover {
 				color: #337AB7;
@@ -126,6 +129,19 @@ section.navibar-wrapper {
 			span 		{ color: #676767; }
 			span:hover 	{ color: black; }
 		}
+
+		li.special {
+			margin-left: 0px;
+			background: #3C92DD;
+			margin-top: 0px;
+			padding: 0px 20px;
+			height: 30px;
+			line-height: 30px !important;
+			border-radius: 15px;
+			a { color: white; display: block; }
+			a:hover { border-bottom: none; }
+		}
+		li.special:hover { background: #337AB7; }
 	}
 
 	.nextPage {

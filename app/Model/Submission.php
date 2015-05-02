@@ -28,7 +28,14 @@ class Submission extends AppModel {
 				'rule' => 'alphanumeric',
 				'allowEmpty' => 'false'
 			)
-		)
+		),
+		'resume' => array(
+			'required' => array(
+                'rule' => array('minLength', 1),
+                'allowEmpty' => false,
+                'message' => 'Please upload your resume.'
+            )
+        )
 	);
 }
 
