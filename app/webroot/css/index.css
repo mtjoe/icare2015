@@ -623,6 +623,13 @@ input[type="submit"]:hover {
   text-decoration: none;
 }
 
+/* line 407, ../scss/src/partials/_base.scss */
+.btn-register.disabled,
+.btn-register.disabled:hover {
+  background: #909090;
+  cursor: default;
+}
+
 /* line 4, ../scss/src/index.scss */
 section.uncomp {
   padding-top: 5%;
@@ -731,34 +738,39 @@ img#logo.uncomp {
   text-decoration: none;
   background: #3A4165;
 }
-/* line 100, ../scss/src/index.scss */
+/* line 99, ../scss/src/index.scss */
+.event-list .event-book.disabled, .event-list .event-book.disabled:hover {
+  background: #909090;
+  cursor: default;
+}
+/* line 105, ../scss/src/index.scss */
 .event-list .event-entry:hover .opaque {
   background: rgba(0, 0, 100, 0.95);
   display: inline;
 }
-/* line 104, ../scss/src/index.scss */
+/* line 109, ../scss/src/index.scss */
 .event-list .event-entry:hover .opaque p {
   display: block;
 }
 
-/* line 110, ../scss/src/index.scss */
+/* line 115, ../scss/src/index.scss */
 .platinum-sponsors h2, .gold-sponsors h2, .medpar h2 {
   font: 50px "Open Sans";
   text-transform: uppercase;
   font-weight: 600;
   color: #515151;
 }
-/* line 117, ../scss/src/index.scss */
+/* line 122, ../scss/src/index.scss */
 .platinum-sponsors ul, .gold-sponsors ul, .medpar ul {
   margin-top: 50px;
 }
-/* line 119, ../scss/src/index.scss */
+/* line 124, ../scss/src/index.scss */
 .platinum-sponsors ul li, .gold-sponsors ul li, .medpar ul li {
   width: 48%;
   display: inline-block;
   margin-bottom: 20px;
 }
-/* line 124, ../scss/src/index.scss */
+/* line 129, ../scss/src/index.scss */
 .platinum-sponsors ul li img, .gold-sponsors ul li img, .medpar ul li img {
   width: 80%;
 }

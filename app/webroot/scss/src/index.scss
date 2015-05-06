@@ -96,6 +96,11 @@ img#logo.uncomp  {
 		background: #3A4165;
 	}
 
+	.event-book.disabled, .event-book.disabled:hover {
+		background: #909090;
+		cursor: default;
+	}
+
 	.event-entry:hover {
 		.opaque {
 			background: rgba(0,0,100,0.95);

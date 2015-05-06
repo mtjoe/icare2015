@@ -23,7 +23,7 @@ class PreEventsController extends AppController {
 		$data = $this->Paginator->paginate('PreEvent');
 		$this->set('data', $data);
 	}
-
+/*
 	public function register() {
 
 
@@ -139,7 +139,7 @@ class PreEventsController extends AppController {
 			}
 		}
 		$this->set('attendee', $attendee);
-	}
+	}*/
 
 	public function resumes($hash) {
 

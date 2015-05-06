@@ -623,6 +623,13 @@ input[type="submit"]:hover {
   text-decoration: none;
 }
 
+/* line 407, ../scss/src/partials/_base.scss */
+.btn-register.disabled,
+.btn-register.disabled:hover {
+  background: #909090;
+  cursor: default;
+}
+
 /* line 3, ../scss/src/committee.scss */
 .committee-content {
   padding: 50px 0px;

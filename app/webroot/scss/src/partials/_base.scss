@@ -402,3 +402,9 @@ input[type="submit"]:hover {
 	background: #76AA85;
 	text-decoration: none;
 }
+
+.btn-register.disabled,
+.btn-register.disabled:hover {
+	background: #909090;
+	cursor: default;
+}

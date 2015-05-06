@@ -623,6 +623,13 @@ input[type="submit"]:hover {
   text-decoration: none;
 }
 
+/* line 407, ../scss/src/partials/_base.scss */
+.btn-register.disabled,
+.btn-register.disabled:hover {
+  background: #909090;
+  cursor: default;
+}
+
 @-webkit-keyframes blink {
   /* line 4, ../scss/src/about.scss */
   0% {

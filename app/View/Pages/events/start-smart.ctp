@@ -11,8 +11,7 @@
 		<div align="center" style="padding: 0px 0px 150px 0px;">
 			<h1 style="font-size: 120px; margin-bottom: 0px;">Start<span style="color: #00A0E4">Smart</span></h1>
 			<p style="vertical-align: middle;"><b>By</b> <img src="/img/logo/superstar.png" style="width: 200px;"></p>
-			<p class="bold" style="margin-bottom: 0px;">Registration closes 11.59 PM, May 3, 2015</p>
-			<p class="bold">Limited Spots Available</p><br><br>
+			<p class="bold" style="margin-bottom: 0px;">Registration has closed.</p><br><br>
 			<!-- <a href="/PreEvents/register" class="btn-register" target="blank">Register Now</a> -->
 		</div>
 	</div>
@@ -33,9 +32,9 @@
 					<p>The University of Melbourne</p>
 			</div>
 			<div style="width: 20%; float: left;">
-				<a href="/PreEvents/register" target="blank" class="btn-register btn-top" style="padding: 25px 10px !important;">
+				<a class="btn-register btn-top disabled" style="padding: 25px 10px !important;">
 					<p style="line-height: 25px;">REGISTER</p>
-					<p style="font-size: 15px;">+ CV SUBMIT</p>
+					<p style="font-size: 15px;">CLOSED</p>
 				</a>
 			</div>
 			<div class="clear"></div>

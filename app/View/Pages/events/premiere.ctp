@@ -190,7 +190,7 @@
 				<div class="cd-timeline-block">
 					<div class="cd-timeline-img"><span class="ionicons ion-ios-circle-filled"></span></div>
 					<div class="cd-timeline-content">
-						<h2>Speaker 1: Coming Soon</h2>
+						<h2>Speaker 1: Lisa Suroso</h2>
 						<span class="cd-date">6.40 PM</span>
 					</div> <!-- cd-timeline-content -->
 				</div>

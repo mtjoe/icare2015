@@ -25,7 +25,7 @@
 					<h1 style="font: 20px 'Montserrat'; color: black; margin-top: 0px;">NEXT EVENT COMING UP</h1>
 					<img src="/img/logo/start-smart.png" style="width: 90%;">
 					<p style="margin-top: 150px; text-align: center; font: 40px 'Montserrat'; color: black; text-shadow: none; margin-bottom: 0px;">090515</p>
-					<p style="text-align: center; color: black;">REGISTER NOW! LIMITED SPOTS AVAILABLE</p>
+					<p style="text-align: center; color: black;">REGISTRATION CLOSED</p>
 				</div>
 			</a>
 			<a href="/Submission/register" class="item" style="background: url(/img/pattern/light2.png); background-size: 100px 60px; background-repeat: repeat; border-bottom: 5px solid #337AB7;">
@@ -115,7 +115,7 @@
 			</div>
 		</a>
 		<div class="clear"></div>
-		<a href="/PreEvents/register" target="blank" class="one_half-margin-20 event-book">Book Now</a>
+		<a class="one_half-margin-20 event-book disabled">Registration Closed</a>
 		<a href="https://www.eventbrite.com/e/the-premiere-indonesian-career-expo-2015-tickets-16533323616" target="blank" class="one_half-margin-20 event-book column-last">Book Now</a>
 		<a href="/events/expo" class="one_half-margin-20 event-entry">
 			<img src="/img/logo/expo.png" style="width: 90%; padding-top: 50px; left: 5%;">
@@ -181,6 +181,15 @@
 		</ul>
 	</div>
 </div>
+
+
+<div class="platinum-sponsors" style="padding: 70px 0px; border-bottom: 5px solid #ECECEC;">
+	<div class="normal-width" align="center">
+		<h2 style="">Supporting Partner</h2>
+		<img src="/img/logo/aic.jpg" style="width: 50%;">
+	</div>
+</div>
+
 
 <script>
 	// 2. This code loads the IFrame Player API code asynchronously.

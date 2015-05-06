@@ -31556,3 +31556,59 @@ Stack Trace:
 #6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
 #7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2015-05-07 02:31:23 Error: [MissingViewException] View file "Pages/classes.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/classes.ctp',
+)
+Request URL: /classes
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('classes')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('classes', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('classes')
+#3 [internal function]: PagesController->display('classes')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-07 02:34:49 Error: [MissingViewException] View file "Pages/classes.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/classes.ctp',
+)
+Request URL: /classes
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('classes')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('classes', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('classes')
+#3 [internal function]: PagesController->display('classes')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-07 02:36:13 Error: [MissingViewException] View file "Pages/classes.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/classes.ctp',
+)
+Request URL: /classes
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('classes')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('classes', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('classes')
+#3 [internal function]: PagesController->display('classes')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-07 02:41:03 Error: [MissingActionException] Action PreEventsController::register() could not be found.
+Exception Attributes: array (
+  'controller' => 'PreEventsController',
+  'action' => 'register',
+)
+Request URL: /PreEvents/register
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PreEventsController), Object(CakeRequest))
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
