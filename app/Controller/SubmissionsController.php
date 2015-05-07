@@ -159,11 +159,11 @@ class SubmissionsController extends AppController {
 
 				// Send an email to notify confirmation
 				$Email = new CakeEmail('admin');
-				$Email->addHeaders(array('X-MC-Tags' => 'Pre-Event Registration'));
+				$Email->addHeaders(array('X-MC-Tags' => 'CV Submission Confirmed'));
 				$Email->from('info@indonesiancareerexpo.org', "Indonesian Career Expo");
 				$Email->replyTo('info@indonesiancareerexpo.org', "Indonesian Career Expo");
 				$Email->to($attendee['UnconSubmission']['email'], $fullName);
-				$Email->subject('ICarE 2015 Pre-Event Registration Confirmed');
+				$Email->subject('ICarE 2015 CV Submission Confirmed');
 				$Email->send(h("You have successfully submitted your CV to your companies of choice! \n\n Details:\n Name: " . $fullName . "\nEmail: " .  $attendee['UnconSubmission']['email']));
 
 				$this->set('attendee', $attendee);
