@@ -72,7 +72,7 @@
 	<div class="one_fourth-no-margin">
 
 		<h5>MAY 16</h5>
-		<a href="/events/premiere" class="entry expo">
+		<a href="/events/expo" class="entry expo">
 			<h6>Expo &amp; Seminars</h6>
 			<p>10.30 AM - 5.00 PM</p>
 		</a>
@@ -85,7 +85,7 @@
 	<div class="one_fourth-no-margin">
 
 		<h5>MAY 17</h5>
-		<a href="/events/premiere" class="entry recr">
+		<a href="/events/recruitment" class="entry recr">
 			<h6>Recruitment</h6>
 			<p>10.00 AM – 4.00 PM</p>
 		</a>
