@@ -16,16 +16,14 @@
 	.sem {
 		background: #E33A70;
 		padding: 30px;
-		min-height: 350px;
+		height: 350px;
 	}
 	.sem h1, .sem h4, .sem p {
 		color: white;
 		margin: 0px;
 	}
 
-	.sem p {
-		font-size: 15px;
-	}
+	.sem p { font-size: 15px; }
 
 	.setting.fixed {
 		position: fixed;
@@ -60,18 +58,22 @@
 		<div align="center" style="padding: 0px 0px 550px 0px;">
 			<h1 style="font: 140px Syncopate; padding: 20px 10px 0px 10px; line-height: 120px; display:inline-block; border: 10px solid #273486; margin-bottom: 40px;" align="left">THE EXPO</h1>
 			<div style="width: 904px;">
-				<div class="one_fifth">
-					<h1 style="font-size: 150px;">+</h1>
+				<div class="one_third-margin-20 sem" align="left" style="height: 300px !important; background: #5BD4A8;">
+					<p style="position: absolute; right: 5px; top: 5px;">Panel</p>
+					<h1 style="font-size: 20px;">The Indonesian Working Culture: What’s current?</h1>
+					<p class="bold">2.00 PM - 2.30 PM</p><br>
+					<p style="background: #4D93D4; font-weight: 600; font-family: 'Open Sans'; text-align: center; padding: 10px 0px;">CHANCE TO WIN 1 GARUDA INDONESIA RETURN TICKET!</p>
+					<a onclick="goto('panel')" class="btn-sem" style="background: #A3F2CB;">READ MORE</a>
 				</div>
-				<div class="two_fifth sem" align="left">
+				<div class="one_third-margin-20 sem" align="left">
 					<p style="position: absolute; right: 5px; top: 5px;">Seminar 1</p>
-					<h1 style="font-size: 30px;">We Connect You to Your World of Opportunity</h1>
+					<h1 style="font-size: 25px;">We Connect You to Your World of Opportunity</h1>
 					<h4><i>By ANZ Bank</i></h4><br>
 					<p>Seminar Room 1, State Library of Victoria</p>
 					<p class="bold">12.30 PM - 1.30 PM</p>
 					<a href="/events/anz-seminar" class="btn-sem">READ MORE</a>
 				</div>
-				<div class="two_fifth column-last sem" align="left">
+				<div class="one_third-margin-20 column-last sem" align="left">
 					<p style="position: absolute; right: 5px; top: 5px;">Seminar 2</p>
 					<h1 style="font-size: 30px;">What's Next?</h1>
 					<h4><i>By Permata Bank</i></h4><br>
@@ -149,7 +151,6 @@
 		<div class="clear"></div>
 	</div>
 
-
 	<!-- TIMELINE -->
 	<div style="background: #E9F0F5;"> 
 		<div style="width: 100%; background: #F6C8CD; padding: 30px 0px;" align="center">
@@ -180,11 +181,12 @@
 						<span class="cd-date">12.30 PM - 1.30 PM</span>
 					</div>
 				</div>
-				<div class="cd-timeline-block">
+				<div class="cd-timeline-block" id="panel">
 					<div class="cd-timeline-img"><span class="ionicons ion-ios-circle-filled"></span></div>
 					<div class="cd-timeline-content">
-						<h2>Panel</h2>
-						<p>Ask questions to all our representatives. They will be on stage to answer all your questions and discuss what differences would you expect to get from different companies.</p>
+						<h2>Panel: The Indonesian Working Culture: What’s current?</h2>
+						<p>Ask questions directly to participating company representatives! They will be on stage to answer all your questions from different point of views. What is it like to work in Indonesia today? What are the most effective pathways to succeed in an Indonesian Firm? What can I expect form my major? Is my major going to be my career? Get your curiosity answered!</p>
+						<p style="background: #D45166; font-weight: 600; font-family: 'Open Sans'; text-align: center; padding: 10px 20px; color: white;">CHANCE TO WIN 1 GARUDA INDONESIA <br>RETURN TICKET!</p>
 						<span class="cd-date">2.00 PM - 2.30 PM</span>
 					</div>
 				</div>
@@ -225,7 +227,7 @@
 prevFixed = false;
 
 function goto(id) {
-	$("html, body").animate({ 'scrollTop': $("#" + id).offset().top }, 500);
+	$("html, body").animate({ 'scrollTop': $("#" + id).offset().top - 50 }, 500);
 	updatePosition(false);
 }
 

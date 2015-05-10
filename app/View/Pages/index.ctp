@@ -19,18 +19,18 @@
 
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
-			<a href="/events/start-smart" class="item active" style="background: url(/img/pattern/dark.png); background-size: 100px 60px; background-repeat: repeat;">
+			<a href="/events/premiere" class="item active" style="background: url(/img/pattern/light2.png); background-size: 100px 60px; background-repeat: repeat; border-bottom: 5px solid #273486;">
 				
-				<div class="carousel-caption" style="width: 70%; z-index: 10;top: 50px;left: 15%; background: rgba(255, 255, 255, 0.8); text-align:left; padding: 40px; height: 350px;">
-					<h1 style="font: 20px 'Montserrat'; color: black; margin-top: 0px;">NEXT EVENT COMING UP</h1>
-					<img src="/img/logo/start-smart.png" style="width: 90%;">
-					<p style="margin-top: 150px; text-align: center; font: 40px 'Montserrat'; color: black; text-shadow: none; margin-bottom: 0px;">090515</p>
-					<p style="text-align: center; color: black;">REGISTRATION CLOSED</p>
+				<div class="carousel-caption" style="width: 70%; z-index: 10;top: 50px;left: 15%; text-align:left; padding: 40px; height: 350px;">
+					<h1 style="font: 20px 'Montserrat'; color: black; margin-top: 0px;">NEXT EVENT COMING UP</h1><br>
+					<img src="/img/logo/premiere.png" style="width: 90%;"><br><br>
+					<p style="margin-top: 150px; text-align: center; font: 40px 'Montserrat'; color: black; text-shadow: none; margin-bottom: 0px;">150515</p>
+					<p style="text-align: center; color: black;">REGISTER NOW!</p>
 				</div>
 			</a>
-			<a href="/Submission/register" class="item" style="background: url(/img/pattern/light2.png); background-size: 100px 60px; background-repeat: repeat; border-bottom: 5px solid #337AB7;">
+			<a href="/Submission/register" class="item" style="background: url(/img/pattern/dark.png); background-size: 100px 60px; background-repeat: repeat;">
 				
-				<div class="carousel-caption" style="width: 70%; z-index: 10;top: 50px;left: 15%;  text-align:center; padding: 40px; height: 350px;">
+				<div class="carousel-caption" style="width: 70%; z-index: 10;top: 50px;left: 15%; background: rgba(255, 255, 255, 0.8); text-align:center; padding: 40px; height: 350px;">
 					<h1 style="font: 80px 'Open Sans'; color: #24307E; margin-top: 20px; font-weight: 600;">CV SUBMISSION</h1>
 					<p style="margin-top: 10px; font: 30px 'Montserrat'; color: black; text-shadow: none; margin-bottom: 0px;">Submit your CV to companies of your choice!</p><br><br>
 					<p style="padding: 10px 30px; font: 20px 'Montserrat'; background: #3C93DD; width: 300px; border-radius: 20px; text-shadow: none; margin-left: 250px;">SUBMIT NOW</p>
