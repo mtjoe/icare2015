@@ -31867,3 +31867,738 @@ Stack Trace:
 #6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
 #7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2015-05-14 01:30:29 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:29 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:33 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:33 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:35 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:36 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:37 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:38 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:39 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:40 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:41 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:42 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:43 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:44 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:45 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:46 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:47 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:50 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:50 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:52 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:52 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:54 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:54 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:56 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:56 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:58 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:30:59 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:00 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:01 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:01 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:02 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:03 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:04 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:05 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:06 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:07 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:08 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:09 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:10 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:10 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:11 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:12 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:13 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:14 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:15 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:16 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:17 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:19 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-14 01:31:19 Error: [MissingViewException] View file "Pages/lectures.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/lectures.ctp',
+)
+Request URL: /lectures
+Stack Trace:
+#0 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/View/View.php(470): View->_getViewFileName('lectures')
+#1 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(959): View->render('lectures', NULL)
+#2 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/Controller/PagesController.php(78): Controller->render('lectures')
+#3 [internal function]: PagesController->display('lectures')
+#4 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/marisatjoe/Code/WebDev Projects/icare2015/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/marisatjoe/Code/WebDev Projects/icare2015/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}

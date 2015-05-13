@@ -44,8 +44,34 @@
 		background: #CEEBFF;
 		font-size: 20px;
 	}
+	.video { 
+		border-top: 1px solid #FFFFFF;
+		border-bottom: 1px solid #FFFFFF;
+		padding: 0px 20px 20px 20px;
+	}
+	.video .one_third-margin-20 {
+		padding: 20px;
+		background: rgba(255, 255, 255, 0.5);
+	}
 
+	.video .ion-play {
+		font-size: 40px;
+		padding: 10px 8px 10px 12px;
+		width: 60px;
+		height: 60px;
+		border-radius: 30px;
+		text-align: center;
+		background: rgba(0,0,0, 0.1);
+	}
 
+	.video .ion-play:hover {
+		background: rgba(0,0,0, 0.4);
+	}
+
+	.video .one_third-margin-20 h3 {
+		font: 30px Roboto-Lt;
+	}
+	.video .one_third-margin-20 a { color: black; }
 
 	table td p:last-child { margin-bottom: 0px; }
 </style>
@@ -202,6 +228,22 @@
 				<a href="http://www.commlife.co.id/career/employee" target="blank"><span class="ionicons ion-link" style="font-size: 50px;"></span></a>
 			</div>
 			<div class="clear"></div>
+			<div class="video">
+				<h2>Employee Value Proposition [VIDEOS]</h2><br>
+				<div class="one_third-margin-20" align="center">
+					<h3>My First Days in Commlife</h3><br>
+					<a target="blank" href="https://www.youtube.com/watch?v=-5G2jngovPo"><span class="ionicons ion-play"></span></a>
+				</div>
+				<div class="one_third-margin-20" align="center">
+					<h3>People are our investment</h3><br>
+					<a target="blank" href="https://www.youtube.com/watch?v=89MRJtv-_jQ"><span class="ionicons ion-play"></span></a>
+				</div>
+				<div class="one_third-margin-20 column-last" align="center">
+					<h3>Commlife In One Word</h3><br>
+					<a target="blank" href="https://www.youtube.com/watch?v=sRJdQuITcGA"><span class="ionicons ion-play"></span></a>
+				</div>
+				<div class="clear"></div>
+			</div><br><br>
 			<div class=" column-last">
 				<table>
 					<tbody>

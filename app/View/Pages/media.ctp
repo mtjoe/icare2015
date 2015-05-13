@@ -18,10 +18,10 @@
 		position: absolute;
 		font-family: 'Open Sans';
 		background: rgba(255, 255, 255, 0.2);
-		padding: 5px;
+		padding: 10px;
 		text-transform: uppercase;
-		right: 10px;
-		top: 10px;
+		right: 0px;
+		top: 0px;
 		color: white;
 		opacity: 0.7;
 		margin: 0px;
@@ -48,28 +48,28 @@
 <div class="content-container normal-width">
 	<h1 align="center">Media Release</h1><br><br>
 
-	<div class="one_third">
+	<div class="one_third-margin-20">
 		<div class="media-entry" style="background: #13C7A6">
 			<h4 class="mag">Kopitoebruk</h4>
 			<br><h2>Indonesian Career Expo hadir di tahun keduanya</h2><br><br>
-			<a class="btn-read-more" href="http://www.kopitoebruk.com/index.php/event/231-indonesian-career-expo-hadir-di-tahun-keduanya">READ MORE</a><br>
+			<a class="btn-read-more" target="blank" href="http://www.kopitoebruk.com/index.php/event/231-indonesian-career-expo-hadir-di-tahun-keduanya">READ MORE</a><br>
 		</div>
 
 	</div>
-	<div class="one_third">
+	<div class="one_third-margin-20">
 		<div class="media-entry" style="background: #C7366D">
 			<h4 class="mag">Cicak2</h4>
 			<br><h2>Indonesian Career Expo hadir di tahun keduanya (Melbourne)</h2><br><br>
-			<a class="btn-read-more" href="http://www.cicak2.com.au/index.php?r=article/view&id=1782">READ MORE</a><br>
+			<a class="btn-read-more" target="blank" href="http://www.cicak2.com.au/index.php?r=article/view&id=1782">READ MORE</a><br>
 		</div>
 
 	</div>
-	<div class="one_third column-last">
+	<div class="one_third-margin-20 column-last">
 		<div class="media-entry" style="background: #6C5BC7">
 			<h4 class="mag">Majalah aktivis</h4>
 			<br><h2>ICarE is Back for its Second Year</h2>
 			<p>Page 142</p><br><br>
-			<a class="btn-read-more" href="http://issuu.com/aktivis/docs/aktivis_2">READ MORE</a><br>
+			<a class="btn-read-more" target="blank" href="http://issuu.com/aktivis/docs/aktivis_2">READ MORE</a><br>
 		</div>
 
 	</div>
