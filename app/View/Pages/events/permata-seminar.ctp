@@ -44,6 +44,31 @@
 		text-decoration: none;
 		background: #769DC4;
 	}
+
+	.article { 
+		border-top: 3px solid #FFFFFF;
+		border-bottom: 3px solid #FFFFFF;
+		padding: 0px 20px 20px 20px;
+	}
+	.article .one_half-no-margin, .article .one_third-no-margin, .article .two_third-no-margin {
+		border: 10px solid #F2F2F2;
+		padding: 20px;
+	}
+
+	.article .ionicons {
+		font-size: 40px;
+		padding: 10px 8px 10px 12px;
+		width: 60px;
+		height: 60px;
+		border-radius: 30px;
+		color: black;
+		text-align: center;
+		background: rgba(0,0,0, 0.1);
+	}
+
+	.article .ionicons:hover {
+		background: rgba(0,0,0, 0.4);
+	}
 </style>
 
 <div class="content-container">
@@ -135,6 +160,16 @@
 				<div class="clear"></div>
 			</div>
 		</div>
+		<div class="article" style="padding: 30px 0px;">
+			<div class="one_third-no-margin" style="height: 203px; background: #F2F2F2;" align="center">
+				<h3 style="margin-top: 40px; font-family: Montserrat;">An Article By<br>Samuel Amarta</h3>
+			</div>
+			<div class="two_third-no-margin column-last article-link" align="center">
+				<h2>When X-Men work with Aliens</h2><br>
+				<a href="/x-men-aliens" target="blank"><span class="ionicons ion-android-list"></span></a>
+			</div>
+			<div class="clear"></div>
+		</div>
 	</div>
 
 	<div class="modal fade" id="desc-samarta" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -158,5 +193,4 @@
 			</div>
 		</div>
 	</div>
-
 </div>

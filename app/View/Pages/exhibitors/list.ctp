@@ -45,8 +45,8 @@
 		font-size: 20px;
 	}
 	.video { 
-		border-top: 1px solid #FFFFFF;
-		border-bottom: 1px solid #FFFFFF;
+		border-top: 3px solid #FFFFFF;
+		border-bottom: 3px solid #FFFFFF;
 		padding: 0px 20px 20px 20px;
 	}
 	.video .one_third-margin-20 {
