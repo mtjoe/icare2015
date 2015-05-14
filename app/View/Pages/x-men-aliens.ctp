@@ -33,6 +33,8 @@
 	<h1 align="center">When X-Men work with Aliens</h1>
 	<p align="center"><i>By Samuel Amarta</i></p><br>
 
+	<p><b><i>DISCLAIMER: This article was previously featured in Perspektif magazine Vol. 2.</i></b></p>
+
 	<p>After I completed my degree in university four years ago, I started my career path as a recruiter in one of the biggest banks in Indonesia. My job requires me to hire approximately 400 graduates every year. Given this opportunity, I was able to interact with many fresh graduates, not only from the universities in Indonesia, but also those who studied abroad.  Moreover, I had to work closely with HR practitioners regarding fresh graduate career preferences. From this experience, I noticed a small fact: older generation and baby boomers (born between 1946-1979), which will be referred as Gen X, have diverse perceptions about the younger generation (born between 1980-2000), called Gen Y or millennials. To illustrate, some consider Gen Y as a generation with huge potential, while others might see Gen Y as threatening ‘Aliens’ with weird idealism and unusual ways of interaction. With the increasing need of working with the younger generation, Gen Y’s lifestyle and working potentials are often discussed by various sources.</p>
 
 	<div class="quotes">
