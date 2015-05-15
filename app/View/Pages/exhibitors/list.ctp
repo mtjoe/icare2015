@@ -83,7 +83,7 @@
 			<li><a onclick="goto('comp-permata')">Permata Bank</a></li>
 			<li><a onclick="goto('comp-cl')">Commonwealth Life</a></li>
 			<li><a onclick="goto('comp-axa')">AXA</a></li>
-			<li><a onclick="goto('comp-sctv')" class="disabled">SCTV</a></li>
+			<li><a onclick="goto('comp-sctv')">SCTV</a></li>
 		</ul>
 	</div>
 
@@ -411,6 +411,151 @@
 								<p>Be part of AXA Indonesia! AXA as preferred company with conducive work environment and ensure each employee in variety of facilities to escalade their competencies in supporting AXA’s employee engagement which bring AXA to get BEST EMPLOYEE AWARD in Indonesia 2011 from AON Hewitt Consulting Asia Pacific.</p>
 								 
 								<p>As Indonesia as part of AXA Global which a world leader, our ambition is to become the company of choice in our sector for our partners, clients and shareholders, and for the society in which we are evolving. But also for our employees. How? By creating a work environment that is conducive to innovation, to a better quality of service and that is open and respectful of our employees, and by offering exciting roles in a stimulating and empowering setting.</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<div id="comp-sctv" style="background: #DBD5D9; padding: 50px 0px;" align="left">
+		<div class="normal-width">
+			<div class="one_half">
+				<img src="/img/logo/sctv.png" style="width: 100%; float: left;">
+				<a href="http://www.sctv.co.id" target="blank"><span class="ionicons ion-link" style="font-size: 50px;"></span></a>
+			</div>
+			<div class="clear"></div>
+			<div class=" column-last">
+				<table>
+					<tbody>
+						<tr>
+							<td>Brief Description</td>
+							<td><p>PT Surya Citra Televisi, Tbk – (known as SCTV) is a national television company since 24 August 1990 Officially airs as a local station in Surabaya and surrounding areas. In 24 August 1993 Officially broadcasts with national coverage. In 2013 SCTV as subsidiary of Emtek Group became its core production outfit, It has leading the TV production in the country. Most of the high-rating programs have been the pride of the company. To date we have 42 transmitters in various parts of Indonesia, and reaches more than 197 million potential viewers in Indonesia or more than 80% of the population. In 2014 we are achieving the 1st  highest number of  audience share.</p></td>
+						</tr>
+						<tr>
+							<td>Preferred Majors</td>
+							<td><p>Any majors</p></td>
+						</tr>
+						<tr>
+							<td rowspan="13">Jobs Available</td>
+							<td>
+								<p><b>General Requirements</b></p>
+								<ul>
+									<li>Bachelor degree from any major with GPA min 3.00</li>
+									<li>Max age 26 years old</li>
+									<li>Have strong interest in Media Industry</li>
+									<li>Good Team Player , Achievement Orientation</li>
+									<li>Energetic and Willing to Work in Flexible Long Hours</li>
+									<li>Good interpersonal and Communication Skill</li>
+								</ul>
+							</td>
+						</tr>
+						<tr><td class="position-title">Digital Marketing Executive</td></tr>
+						<tr><td>
+							<p><b>Position Summary</b></p>
+							<p>Digital Marketing Executive oversees day to day marketing activities for the Digital Marketing Department.Responsible for creating concepts and strategies related to the brand (or client needs)   for  digital activity /campaign. Prepare marketing package , collaborate with internal marketing team (SCM Group) to prepare the marketing package, present the package to client  and  manage timelines - ensure deadlines are met even when multiple projects happen concurrently.</p>
+
+							<p><b>Requirements</b></p>
+							<ul>
+								<li>Have good networking in media sales (TV/Advertising Agency)</li>
+								<li>Energetic and willing to work in flexible long Hhours</li>
+								<li>Minimum 2 year experiences in media sales area (fresh graduates are welcomed to apply)</li>
+
+							</ul>
+						</td></tr>
+
+						<tr><td class="position-title">Set Designer</td></tr>
+						<tr><td>
+							<p><b>Position Summary</b></p>
+							<p>Responsible for designing the sets on  music and productions. Collaborates with producer/director and interprets rundown/scripts to visualize set. Works with set builders to bring vision to life on stage.</p>
+
+							<p><b>Requirements</b></p>
+							<ul>
+								<li>Interior Design /Architecture Bachelor degree </li>
+								<li>A strength in concept design</li>
+								<li>Excellent skills in CAD and 3D are essential</li>
+								<li>Demonstrated capability to meet required project time frames</li>
+								<li>Fresh graduates are welcome to apply ( experiences will be an advantage)</li>
+							</ul>
+						</td></tr>
+
+						<tr><td class="position-title">Production Assistant</td></tr>
+						<tr><td>
+							<p><b>Position Summary</b></p>
+							<p>Have strong interest and ability in : Scriptwriting/ Directing/ Production/ Videographer/ Art Directing/ Sound Design/ Editing (should mentioned in the CV as: Ability &amp; Interest)</p>
+
+							<p><b>Requirements</b></p>
+							<ul>
+								<li>Have strong interest and ability in : Scriptwriting/ Directing/ Production/ Videographer/ Art Directing/ Sound Design/ Editing (should mentioned in the CV as: Ability &amp; Interest)</li>
+								<li>Interest in production and post production works as creative team (Writing, Dubbing, video editing, etc)</li>
+							</ul>
+							<p>Interest in production and post production works as creative team (Writing, Dubbing, video editing, etc).</p>
+						</td></tr>
+
+						<tr><td class="position-title">Web Designer</td></tr>
+						<tr><td>
+							<p><b>Position Summary</b></p>
+							<p>Responsible for  creating  the look, layout and features of company’s website.  Working alongside web developer or managers for keeping the site up-to-date and prioritizing needs, among other tasks. Scope of duties include : Writing and editing content , Designing webpage layout , Determining technical requirements, Updating websites ,Creating back up files and Solving code problems . This role involves understanding both graphic design and computer programming.</p>
+
+							<p><b>Requirements</b></p>
+							<ul>
+								<li>A bachelor's degree program in multimedia or web design</li>
+								<li>Have strong interest in Graphic design as well as excellent skills in using online software and packagers such as HTML, Dreamweaver and Content Management Systems.</li>
+								<li>The ability of web developers with a web-based program such as php, framework, mysql, ajax, jquery, javascript, etc. would be an advantage.</li>
+
+							</ul>
+						</td></tr>
+
+						<tr><td class="position-title">Graphic Designer</td></tr>
+						<tr><td>
+							<p><b>Position Summary</b></p>
+							<p>The Graphic designer is responsible for designing a wide range of different graphics for company’s need (News/Production/Marketing/Promotion Department).</p>
+
+							<p><b>Requirements</b></p>
+							<ul>
+								<li>Experience as Graphic Designer ideally in a similar industry would be a strong advantage.</li>
+								<li>The ability to produce creative material to sometimes short deadlines is essential. </li>
+								<li>Experience using graphic design software packages such as In Design, Photoshop and Adobe Illustrator.</li>
+								<li>An up to date portfolio of your work </li>
+							</ul>
+						</td></tr>
+						<tr><td class="position-title">Reporter/Presenter</td></tr>
+						<tr><td>
+							<p><b>Position Summary</b></p>
+							<p>Responsible for covering all aspect of reporting the news ,  get the latest news from the actual sources , presenting  news to the audience in accordance with the directives of the producer.</p>
+
+							<p><b>Requirements</b></p>
+							<ul>
+								<li>Camera face,  at least 160 cm tall and interested in journalistic.</li>
+								<li>Minimum 1 year experience as a reporter (but fresh graduate are welcomed to apply).</li>
+							</ul>
+						</td></tr>
+						<tr>
+							<td>Indonesian Only</td>
+							<td><p>Yes</p></td>
+						</tr>
+						<tr>
+							<td>Office Location</td>
+							<td><p>SCTV Tower - Senayan City Jl. Asia Afrika Lot 19, Jakarta 10270</p></td>
+						</tr>
+						<tr>
+							<td>Why Join Us?</td>
+							<td>
+								<p>SCTV has been able to improve its performance throughout 2014 so as to increase the share of audience  from 16.6% to 16.9%, which is the highest audience share of all TV stations in Indonesia. We are  grateful and proud of the achievements of SCTV as  a No. 1 audience share TV in Indonesia.</p>
+
+								<p>We are looking for professional and highly motivated people to join our team  and our endeavor  to be the first choice in quality content providers, to entertain, educate, and provide information for Indonesia. Through this achievement we will create a sustainable profitable business for our stakeholders.</p>
+								 
+								<p>As Indonesia as part of AXA Global which a world leader, our ambition is to become the company of choice in our sector for our partners, clients and shareholders, and for the society in which we are evolving. But also for our employees. How? By creating a work environment that is conducive to innovation, to a better quality of service and that is open and respectful of our employees, and by offering exciting roles in a stimulating and empowering setting.</p>
+							</td>
+						</tr>
+						<tr>
+							<td>How to apply? </td>
+							<td align="center">
+								<p>Candidates can send their CV to <a href="mailto:recruit@sctv.co.id">recruit@sctv.co.id</a> with subject “I CarE”</p>
+								<p class="bold" style="font-size: 25px;">OR</p>
+								<p>Visit our booth at Indonesian Career Expo on May 16, 2015.</p>
 							</td>
 						</tr>
 					</tbody>
