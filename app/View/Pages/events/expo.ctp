@@ -82,7 +82,6 @@
 					<a href="/events/permata-seminar" class="btn-sem">READ MORE</a>
 				</div>
 			</div>
-
 			<br>
 		</div>
 	</div>
@@ -103,7 +102,7 @@
 				<p>328 Swanston Street</p>
 			</div>
 			<div style="width: 35%; float: left;">
-				<div style="width: 98%; background: #3C403F; padding: 5px 10px; margin-bottom: 10px;" align="center"><p style="line-height: 25px; font-size: 20px; color: white; margin: 0px;">REGISTRATION</p></div>
+				<!-- <div style="width: 98%; background: #3C403F; padding: 5px 10px; margin-bottom: 10px;" align="center"><p style="line-height: 25px; font-size: 20px; color: white; margin: 0px;">REGISTRATION</p></div>
 				<a href="https://www.eventbrite.com/e/the-expo-indonesian-career-expo-2015-tickets-16183652741" target="blank" class="btn-register btn-top one_third-no-margin" style="padding: 15px 10px !important; width: 32% !important; margin-right: 1%;">
 					<p style="font-size: 15px;">EXPO</p>
 				</a>
@@ -112,6 +111,10 @@
 				</a>
 				<a href="https://www.eventbrite.com/e/seminar-by-permata-bank-whats-next-indonesian-career-expo-2015-tickets-16614064113" target="blank" class="btn-register btn-top one_third-no-margin" style="padding: 15px 10px !important; width: 32% !important; margin-right: 1%;">
 					<p style="font-size: 15px;">Seminar 2</p>
+				</a> -->
+				<a class="btn-register btn-top disabled" style="padding: 25px 10px !important;">
+					<p style="line-height: 25px;">REGISTER</p>
+					<p style="font-size: 15px;">CLOSED</p>
 				</a>
 			</div>
 			<div class="clear"></div>

@@ -30,8 +30,9 @@
 					<p>The University of Melbourne</p>
 			</div>
 			<div style="width: 20%; float: left;">
-				<a href="https://www.eventbrite.com/e/the-premiere-indonesian-career-expo-2015-tickets-16533323616" target="blank" class="btn-register btn-top" style="padding: 40px 10px !important;">
+				<a class="btn-register btn-top disabled" style="padding: 25px 10px !important;">
 					<p style="line-height: 25px;">REGISTER</p>
+					<p style="font-size: 15px;">CLOSED</p>
 				</a>
 			</div>
 			<div class="clear"></div>

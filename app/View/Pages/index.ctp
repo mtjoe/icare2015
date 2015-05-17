@@ -19,24 +19,14 @@
 
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
-			<a href="/events/premiere" class="item active" style="background: url(/img/pattern/light2.png); background-size: 100px 60px; background-repeat: repeat; border-bottom: 5px solid #273486;">
+			<div href="/events/premiere" class="item active" style="background: url(/img/pattern/light2.png); background-size: 100px 60px; background-repeat: repeat; border-bottom: 5px solid #273486;">
 				
-				<div class="carousel-caption" style="width: 70%; z-index: 10;top: 50px;left: 15%; text-align:left; padding: 40px; height: 350px;">
-					<h1 style="font: 20px 'Montserrat'; color: black; margin-top: 0px;">NEXT EVENT COMING UP</h1><br>
-					<img src="/img/logo/premiere.png" style="width: 90%;"><br><br>
-					<p style="margin-top: 150px; text-align: center; font: 40px 'Montserrat'; color: black; text-shadow: none; margin-bottom: 0px;">150515</p>
-					<p style="text-align: center; color: black;">REGISTER NOW!</p>
+				<div class="carousel-caption" style="width: 70%; z-index: 10;top: 50px;left: 15%; text-align:left; padding: 40px; height: 350px;" align="center">
+					<h1 style="font: 20px 'Montserrat'; color: #273487; margin-top: 0px;">ICARE 2015 HAS ENDED</h1><br>
+					<h1 style="font: 100px 'Montserrat'; color: black; margin-top: 0px;" align="center">THANK YOU!</h1>
+					<h4 style="font: 30px 'Montserrat'; color: #3C93DD; margin-top: 0px;" align="center">FOR YOUR SUPPORT THROUGHOUT<br>THE INDONESIAN CAREER EXPO 2015</h4>
 				</div>
-			</a>
-			<a href="/Submission/register" class="item" style="background: url(/img/pattern/dark.png); background-size: 100px 60px; background-repeat: repeat;">
-				
-				<div class="carousel-caption" style="width: 70%; z-index: 10;top: 50px;left: 15%; background: rgba(255, 255, 255, 0.8); text-align:center; padding: 40px; height: 350px;">
-					<h1 style="font: 80px 'Open Sans'; color: #24307E; margin-top: 20px; font-weight: 600;">CV SUBMISSION</h1>
-					<p style="margin-top: 10px; font: 30px 'Montserrat'; color: black; text-shadow: none; margin-bottom: 0px;">Submit your CV to companies of your choice!</p><br><br>
-					<p style="padding: 10px 30px; font: 20px 'Montserrat'; background: #3C93DD; width: 300px; border-radius: 20px; text-shadow: none; margin-left: 250px;">SUBMIT NOW</p>
-				</div>
-			</a>
-
+			</div>
 			<div class="item" align="center" style="background: black;">
 				<div id="player"></div>
 				 <a class="carousel-caption" style="padding: 0px; left: 0px !important; top: 0px; width: 100%; height: 100px; color: #273487 !important;" href="/about/icare2014">
@@ -115,8 +105,10 @@
 			</div>
 		</a>
 		<div class="clear"></div>
+
 		<a class="one_half-margin-20 event-book disabled">Registration Closed</a>
-		<a href="https://www.eventbrite.com/e/the-premiere-indonesian-career-expo-2015-tickets-16533323616" target="blank" class="one_half-margin-20 event-book column-last">Book Now</a>
+		<a class="one_half-margin-20 event-book column-last disabled">Registration Closed</a>
+
 		<a href="/events/expo" class="one_half-margin-20 event-entry">
 			<img src="/img/logo/expo.png" style="width: 90%; padding-top: 50px; left: 5%;">
 			<div class="opaque" style="padding: 30px; left: 0px;">
@@ -136,9 +128,11 @@
 			</div>
 		</a>
 		<div class="clear"></div>
-		<a href="https://www.eventbrite.com/e/the-expo-indonesian-career-expo-2015-tickets-16183652741" target="blank" class="one_half-margin-20 event-book">Book Now</a>
-		<a href="https://www.eventbrite.com/e/insight-dinner-indonesian-career-expo-2015-tickets-16533356715" target="blank" class="one_half-margin-20 event-book column-last">Buy Ticket $15</a>
+
+		<a class="one_half-margin-20 event-book disabled">Registration Closed</a>
+		<a class="one_half-margin-20 event-book column-last disabled">Registration Closed</a>
 		<div class="clear"></div>
+
 	</div>
 </div>
 

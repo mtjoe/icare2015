@@ -34,7 +34,8 @@ class SubmissionsController extends AppController {
 
 	public function beforeFilter() {
 		parent::beforeFilter();
-        $this->Auth->allow('register', 'thankyou', 'confirm');
+		$this->Auth->allow('closed');
+        // $this->Auth->allow('register', 'thankyou', 'confirm');
     }
 
 	public function register() {
@@ -192,5 +193,6 @@ class SubmissionsController extends AppController {
 	}
 
 	public function thankyou() {}
+	public function closed() {}
 }
 ?>

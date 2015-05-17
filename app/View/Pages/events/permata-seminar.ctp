@@ -100,8 +100,12 @@
 				<p>328 Swanston Street</p>
 			</div>
 			<div style="width: 25%; float: left;">
-				<a href="https://www.eventbrite.com/e/seminar-by-permata-bank-whats-next-indonesian-career-expo-2015-tickets-16614064113" target="blank" class="btn-register btn-top" style="padding: 35px 10px !important;">
+				<!-- <a href="https://www.eventbrite.com/e/seminar-by-permata-bank-whats-next-indonesian-career-expo-2015-tickets-16614064113" target="blank" class="btn-register btn-top" style="padding: 35px 10px !important;">
 					<p style="line-height: 25px;">REGISTER</p>
+				</a> -->
+				<a class="btn-register btn-top disabled" style="padding: 25px 10px !important;">
+					<p style="line-height: 25px;">REGISTER</p>
+					<p style="font-size: 15px;">CLOSED</p>
 				</a>
 			</div>
 			<div class="clear"></div>

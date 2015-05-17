@@ -29,8 +29,12 @@
 					<p>480 Collins St</p>
 			</div>
 			<div style="width: 25%; float: left;">
-				<a href="https://www.eventbrite.com/e/insight-dinner-indonesian-career-expo-2015-tickets-16533356715" target="blank" class="btn-register btn-top" style="padding: 35px 10px !important;">
+				<!-- <a href="https://www.eventbrite.com/e/insight-dinner-indonesian-career-expo-2015-tickets-16533356715" target="blank" class="btn-register btn-top" style="padding: 35px 10px !important;">
 					<p style="line-height: 25px;">BUY TICKET $15</p>
+				</a> -->
+				<a class="btn-register btn-top disabled" style="padding: 25px 10px !important;">
+					<p style="line-height: 25px;">REGISTER</p>
+					<p style="font-size: 15px;">CLOSED</p>
 				</a>
 			</div>
 			<div class="clear"></div>
