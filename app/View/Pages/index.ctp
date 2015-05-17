@@ -79,7 +79,7 @@
 
 	<div class="registration" align="center" style="margin-top: 50px;">
 		<a href="/events/expo" class="btn-register btn-blue" style="background: #00A0E4;">Read More</a>
-		<a href="https://www.eventbrite.com/e/the-expo-indonesian-career-expo-2015-tickets-16183652741" target="blank" class="btn-register">Register on Eventbrite</a>
+		<a class="btn-register disabled">Registration Closed</a>
 	</div>
 </div>
 
@@ -108,6 +108,7 @@
 
 		<a class="one_half-margin-20 event-book disabled">Registration Closed</a>
 		<a class="one_half-margin-20 event-book column-last disabled">Registration Closed</a>
+		<div class="clear"></div>
 
 		<a href="/events/expo" class="one_half-margin-20 event-entry">
 			<img src="/img/logo/expo.png" style="width: 90%; padding-top: 50px; left: 5%;">
@@ -136,6 +137,7 @@
 	</div>
 </div>
 
+<!-- PLATINUM SPONSORS -->
 <div class="platinum-sponsors" style="padding: 70px 0px; border-bottom: 5px solid #ECECEC;">
 	<div class="normal-width" align="center">
 		<h2 style="">Platinum Sponsors</h2>
@@ -145,6 +147,9 @@
 		</ul>
 	</div>
 </div>
+<!-- END: PLATINUM SPONSORS -->
+
+<!-- GOLD SPONSORS -->
 <div class="gold-sponsors" style="padding: 70px 0px;">
 	<div class="normal-width" align="center">
 		<h2>Gold Sponsors</h2>
@@ -155,7 +160,9 @@
 		</ul>
 	</div>
 </div>
+<!-- END: GOLD SPONSORS -->
 
+<!-- MEDIA PARTNER -->
 <div class="medpar" style="padding: 70px 0px; background: #F4F1F6;">
 	<div class="normal-width" align="center">
 		<h2>Media Partners</h2>
@@ -175,14 +182,17 @@
 		</ul>
 	</div>
 </div>
+<!-- END: MEDIA PARTNER -->
 
 
+<!-- SUPPORTING PARTNER -->
 <div class="platinum-sponsors" style="padding: 70px 0px; border-bottom: 5px solid #ECECEC;">
 	<div class="normal-width" align="center">
 		<h2 style="">Supporting Partner</h2>
 		<img src="/img/logo/aic.jpg" style="width: 50%;">
 	</div>
 </div>
+<!-- END: SUPPORTING PARTNER -->
 
 
 <script>
